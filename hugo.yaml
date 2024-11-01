@@ -1,0 +1,61 @@
+baseURL: https://finops-jp.github.io/
+title: FinOps Foundation Japan Chapter
+languageCode: ja-jp
+defaultContentLanguage: "en"
+
+theme: universal
+
+
+menu:
+  main:
+    - identifier: menu.home
+      name: "home"
+      url: "/"
+      weight: 1
+    - identifier: menu.events
+      name: "Events"
+      url: "/events/"
+      weight: 2
+    - identifier: menu.about
+      name: "About"
+      url: "/about/"
+      weight: 3
+    - identifier: menu.about.mission
+      name: "Mission"
+      url: "/about/"
+      weight: 1
+      parent: menu.about
+      post: 1
+    - identifier: menu.about.organizers
+      name: "Organizers"
+      url: "/about/organizers/"
+      weight: 2
+      parent: menu.about
+
+params:
+  # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+  style: "turquoise"
+
+  # Logo options: true (show), false (hide)
+  disabled_logo: true
+  logo_text: "FinOps Foundation Japan Chapter"
+
+  # Carousel
+
+  # Features
+  features:
+    enable: true
+    cols: 3
+    link_url: "#"
+    link_text: "Check other homepages"
+
+  # Footer
+  about_us: "<p></p>"
+
+  footer:
+    recent_posts:
+      enable: true
+
+  contact_url: "/contact"
+
+  copyright: "© FinOps Foundation Japan Chapter. 2024. All rights reserved."
