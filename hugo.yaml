@@ -4,7 +4,7 @@ languageCode: ja-jp
 defaultContentLanguage: "en"
 
 theme: universal
-
+summaryLength: 150
 
 menu:
   main:
@@ -20,42 +20,58 @@ menu:
       name: "About"
       url: "/about/"
       weight: 3
-    - identifier: menu.about.mission
-      name: "Mission"
-      url: "/about/"
-      weight: 1
-      parent: menu.about
-      post: 1
-    - identifier: menu.about.organizers
-      name: "Organizers"
-      url: "/about/organizers/"
-      weight: 2
-      parent: menu.about
 
 params:
   # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-  style: "turquoise"
+  style: "turquoise" # FinOps Foundationのアイコンがグリーンなので、、、
 
-  # Logo options: true (show), false (hide)
+  # Logo
   disabled_logo: true
   logo_text: "FinOps Foundation Japan Chapter"
 
+  # Menu behavior
+  dropdown_mouse_over: true
+
   # Carousel
+  carouselHomepage:
+    enable: true
+    auto_play: true
 
   # Features
   features:
     enable: true
     cols: 3
-    link_url: "#"
-    link_text: "Check other homepages"
+
+  # Events
+  recent_posts:
+    enable: true
+    title: "最新のイベント"
+    hide_summary: false
+
+  # See more
+  see_more:
+    enable: true
+    icon: "fas fa-comments"
+    subtitle: "FinOpsのスキルアップを目指し、実践者や専門家の集まるコミュニティの一員になりませんか？"
+    link_url: "https://www.finops.org/join/"
+    link_text: "Join the Community"
+
+  # Widgets
+  widgets:
+    search: true
+    categories: true
+    tags: true
 
   # Footer
-  about_us: "<p></p>"
+  about_us: "<p>FinOps Foundation Japan Chapterのメンバー有志で運営するサイトです</p>"
 
   footer:
     recent_posts:
       enable: true
 
-  contact_url: "/contact"
-
   copyright: "© FinOps Foundation Japan Chapter. 2024. All rights reserved."
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  author: "authors"
