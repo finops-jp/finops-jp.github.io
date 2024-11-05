@@ -14,11 +14,11 @@ menu:
       weight: 1
     - identifier: menu.events
       name: "Events"
-      url: "/events/"
+      url: "/categories/イベント"
       weight: 2
     - identifier: menu.news
       name: "News"
-      url: "/news/"
+      url: "/categories/ニュース"
       weight: 3
     - identifier: menu.about
       name: "About"
