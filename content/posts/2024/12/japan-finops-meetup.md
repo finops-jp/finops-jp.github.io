@@ -1,7 +1,7 @@
 ---
 title: "【イベント】Japan FinOps Meetup#3"
 date: 2024-11-03T17:00:00+09:00
-publishDate: 2024-11-15T17:00:00+09:00
+publishDate: 2024-11-15T09:00:00+09:00
 tags: ["ミートアップ"]
 categories: ["イベント"]
 banner: "img/banners/meetup-featured-japan.png"
