@@ -9,19 +9,19 @@ summaryLength: 0
 menu:
   main:
     - identifier: menu.home
-      name: "home"
+      name: "HOME"
       url: "/"
       weight: 1
     - identifier: menu.events
-      name: "Events"
+      name: "EVENTS"
       url: "/categories/イベント"
       weight: 2
     - identifier: menu.news
-      name: "News"
+      name: "NEWS"
       url: "/categories/ニュース"
       weight: 3
     - identifier: menu.about
-      name: "About"
+      name: "ABOUT"
       url: "/about/"
       weight: 4
 
@@ -46,6 +46,17 @@ params:
     enable: true
     cols: 3
 
+  # Testimonials
+  testimonials:
+    enable: false
+    title: "設立コミュニティリーダーによるコメント"
+
+  CarouselTestimonials:
+    items: 3
+    auto_play: true
+    slide_speed: 5000
+    pagination_speed: 1000
+
   # Events
   recent_posts:
     enable: true
@@ -56,9 +67,13 @@ params:
   see_more:
     enable: true
     icon: "fas fa-comments"
-    subtitle: "FinOpsのスキルアップを目指し、実践者や専門家の集まるコミュニティの一員になりませんか？"
+    title: "FinOpsのスキルアップを目指し、実践者や専門家の集まるコミュニティの一員になりませんか？"
     link_url: "https://www.finops.org/join/"
     link_text: "Join the Community"
+
+  # Contents
+  viewMorePostLink: "/posts/"
+  mainSections: ["posts"]
 
   # Widgets
   widgets:
@@ -81,3 +96,6 @@ taxonomies:
   category: "categories"
   tag: "tags"
   author: "authors"
+
+permalinks:
+  posts: "/posts/:year/:month/:filename/"

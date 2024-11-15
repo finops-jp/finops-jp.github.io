@@ -1,6 +1,8 @@
 name: github pages
 
 on:
+  schedule:
+    - cron: "* */6 * * *"
   push:
     branches:
       - main  # Set a branch to deploy
