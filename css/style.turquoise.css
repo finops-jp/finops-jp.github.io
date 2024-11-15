@@ -77,7 +77,8 @@ button {
   color: var(--primary-accent);
 }
 .text-uppercase {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  text-transform: none;
   letter-spacing: 0.08em;
 }
 @media (max-width: 991px) {
@@ -112,7 +113,7 @@ div.section {
   margin-bottom: 0;
   padding-bottom: 10px;
   vertical-align: middle;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.06em;
 }
 .heading h1 i[class^="fa"],
@@ -187,7 +188,7 @@ ul.list-style-none {
 }
 .pages-listing .item h3 {
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 20px;
   letter-spacing: 0.08em;
 }
@@ -294,7 +295,7 @@ ul.list-style-none {
   color: #eeeeee;
   margin-right: 15px;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   letter-spacing: 0.10em;
 }
@@ -315,7 +316,7 @@ ul.list-style-none {
   border: none;
 }
 .navbar ul.nav > li > a {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-decoration: underline;
   font-weight: bold;
   letter-spacing: 0.08em;
@@ -361,7 +362,7 @@ ul.list-style-none {
 .navbar ul.dropdown-menu li {
   list-style-type: none;
   border-bottom: solid 1px #eeeeee;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   padding: 4px 0;
 }
@@ -391,7 +392,7 @@ ul.list-style-none {
 }
 .navbar .yamm-content h3 {
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding-bottom: 10px;
   margin-top: 5px;
   border-bottom: dotted 1px #555555;
@@ -403,7 +404,7 @@ ul.list-style-none {
   }
 }
 .navbar .yamm-content h5 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding-bottom: 10px;
   border-bottom: dotted 1px #555555;
   letter-spacing: 0.08em;
@@ -415,7 +416,7 @@ ul.list-style-none {
 .navbar .yamm-content ul li {
   list-style-type: none;
   border-bottom: solid 1px #eeeeee;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 4px 0;
 }
 .navbar .yamm-content ul li a {
@@ -507,7 +508,7 @@ ul.list-style-none {
   overflow: hidden;
 }
 #login-modal .modal-header h4 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #login-modal form {
   margin-bottom: 20px;
@@ -524,7 +525,7 @@ ul.list-style-none {
 .btn {
   font-weight: 700;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   padding: 6px 12px;
   font-size: 13px;
@@ -752,7 +753,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 100%;
 }
 #intro .item h1 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 50px;
   color: #fff;
   margin-bottom: 40px;
@@ -828,7 +829,7 @@ fieldset[disabled] .btn-template-primary.active {
 .jumbotron h2,
 .jumbotron h3 {
   color: #ffffff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 .jumbotron p {
@@ -868,22 +869,25 @@ fieldset[disabled] .btn-template-primary.active {
   background: #f7f7f7;
   margin: 0;
   border-bottom: solid 1px #eeeeee;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 .panel.sidebar-menu h3 {
-  padding: 5px 0;
+  /*padding: 5px 0;*/
+  padding: 0 0;
   margin: 0;
 }
 .panel.sidebar-menu {
-  background: #fff;
-  margin: 0 0 20px;
+  /*background: #fff;*/
+  background: rgba(0, 0, 0, 0);
+  /*margin: 0 0 20px;*/
+  margin: 10px 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .panel.sidebar-menu .panel-heading {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 10px;
   background: none;
   padding: 0;
@@ -941,7 +945,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .panel.sidebar-menu ul.nav.category-menu {
   margin-bottom: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   letter-spacing: 0.08em;
 }
@@ -984,8 +988,9 @@ fieldset[disabled] .btn-template-primary.active {
   border: solid 1px #eeeeee;
   border-radius: 0;
   color: var(--primary-accent);
+  background: #ffffff; /* 追加 */
   margin: 5px 5px 5px 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   font-weight: 700;
   font-size: 12px;
@@ -1206,7 +1211,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h1 {
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 46px;
   letter-spacing: 0.08em;
 }
@@ -1217,7 +1222,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h2 {
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 40px;
   letter-spacing: 0.08em;
 }
@@ -1226,7 +1231,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   font-weight: 700;
   padding: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
@@ -1325,7 +1330,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .testimonials .item .testimonial .name-picture h5 {
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
@@ -1345,7 +1350,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .team-member h3 {
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 5px;
   letter-spacing: 0.08em;
 }
@@ -1355,7 +1360,7 @@ fieldset[disabled] .btn-template-primary.active {
 .team-member p.role {
   color: #999999;
   font-size: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.06em;
 }
 .team-member .social {
@@ -1458,7 +1463,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-simple h3 {
   font-weight: normal;
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 1.5;
   color: #555555;
   font-weight: 800;
@@ -1544,7 +1549,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image .name h3 {
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 18px;
   letter-spacing: 0.08em;
 }
@@ -1622,7 +1627,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image-text .top .name h3 {
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 18px;
   letter-spacing: 0.08em;
 }
@@ -1647,7 +1652,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image-text .content h3,
 .box-image-text .content h4 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 1.5;
   color: #555555;
   font-weight: 800;
@@ -1691,7 +1696,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: -20px 0 20px;
   padding: 20px;
   border-bottom: solid 1px #eeeeee;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 .box .box-header:before,
@@ -1750,7 +1755,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #heading-breadcrumbs h1 {
   color: #333333;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -1831,7 +1836,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .portfolio-project .project-more h4 {
   color: #555555;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 0;
   text-align: left;
   font-size: 14px;
@@ -1847,7 +1852,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 15px 0 60px;
 }
 .portfolio-showcase h3 a {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 1.5;
   letter-spacing: 0.08em;
 }
@@ -1885,7 +1890,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .showcase .item h4 {
   color: #555555;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   line-height: 1.5;
   font-size: 16px;
@@ -1911,7 +1916,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .packages .package .package-header h5 {
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   line-height: 57px;
   margin: 0;
@@ -1969,7 +1974,7 @@ fieldset[disabled] .btn-template-primary.active {
 .packages .best-value .package .package-header h5 {
   font-weight: bold;
   line-height: 29px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 .packages .best-value .package .package-header .meta-text {
@@ -1991,7 +1996,7 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-homepage .post h2,
 #blog-listing-big .post h4,
 #blog-homepage .post h4 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 #blog-listing-big .post h2 a,
@@ -2009,7 +2014,7 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-listing-big .post .author-category,
 #blog-homepage .post .author-category {
   color: #999999;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 300;
   letter-spacing: 0.08em;
 }
@@ -2065,7 +2070,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 60px;
 }
 #blog-listing-medium .post h2 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 0 0 10px;
   font-size: 24px;
   letter-spacing: 0.08em;
@@ -2079,7 +2084,7 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-listing-medium .post .author-category {
   float: left;
   color: #999999;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 300;
   font-size: 12px;
   letter-spacing: 0.08em;
@@ -2156,7 +2161,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image-text.blog .author-category {
   color: #999999;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   font-weight: 300;
   font-size: 12px;
@@ -2283,7 +2288,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 14px;
   font-weight: 700;
   height: 39.6px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 .product .text h3 a {
@@ -2352,7 +2357,7 @@ fieldset[disabled] .btn-template-primary.active {
 #productMain .sizes h3 {
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 40px;
 }
 #productMain .sizes a {
@@ -2483,7 +2488,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .shipping-method h4,
 .payment-method h4 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 #customer-orders table tr th,
@@ -2518,7 +2523,7 @@ fieldset[disabled] .btn-template-primary.active {
 #get-it h5,
 #get-it h6 {
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   margin: 0 0 20px;
 }
@@ -2541,7 +2546,7 @@ fieldset[disabled] .btn-template-primary.active {
 #footer h4 {
   font-size: 14px;
   font-weight: 800;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 #footer ul {
@@ -2598,7 +2603,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer .blog-entries .item .name h5 {
   margin: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   font-size: 12px;
 }
@@ -2672,7 +2677,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* breadcrumbs */
 .breadcrumb {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   background-color: none;
   letter-spacing: 0.08em;
 }
@@ -3255,7 +3260,7 @@ hr {
 .label {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
 /* forms.less */
@@ -3281,7 +3286,7 @@ label {
   margin: 20px 0;
   border-top: solid 1px #eeeeee;
   padding-top: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
@@ -3476,7 +3481,7 @@ address {
 .panel-heading {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
   padding: 15px 15px;
 }
