@@ -40,6 +40,8 @@ params:
   carouselHomepage:
     enable: true
     auto_play: true
+    slide_speed: 10000
+    pagination_speed: 1000
 
   # Features
   features:
@@ -54,7 +56,7 @@ params:
   CarouselTestimonials:
     items: 3
     auto_play: true
-    slide_speed: 12000
+    slide_speed: 30000
     pagination_speed: 4000
 
   # Events
