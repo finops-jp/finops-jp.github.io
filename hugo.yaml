@@ -49,13 +49,13 @@ params:
   # Testimonials
   testimonials:
     enable: false
-    title: "設立コミュニティリーダーによるコメント"
+    title: "コミュニティへの期待の声"
 
   CarouselTestimonials:
     items: 3
     auto_play: true
-    slide_speed: 5000
-    pagination_speed: 1000
+    slide_speed: 12000
+    pagination_speed: 4000
 
   # Events
   recent_posts:
