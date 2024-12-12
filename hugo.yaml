@@ -12,18 +12,22 @@ menu:
       name: "HOME"
       url: "/"
       weight: 1
+    - identifier: menu.docs
+      name: "DOCS"
+      url: "/docs"
+      weight: 20
     - identifier: menu.events
       name: "EVENTS"
       url: "/categories/イベント"
-      weight: 2
+      weight: 20
     - identifier: menu.news
       name: "NEWS"
       url: "/categories/ニュース"
-      weight: 3
+      weight: 30
     - identifier: menu.about
       name: "ABOUT"
       url: "/about/"
-      weight: 4
+      weight: 90
 
 params:
   # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
