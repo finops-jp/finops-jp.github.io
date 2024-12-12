@@ -14,7 +14,7 @@ menu:
       weight: 1
     - identifier: menu.docs
       name: "Documents"
-      url: "/docs"
+      url: "/ja"
       weight: 10
     - identifier: menu.events
       name: "Events"
