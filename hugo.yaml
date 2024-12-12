@@ -1,7 +1,7 @@
 baseURL: https://finops-jp.github.io/
 title: FinOps Foundation Japan Chapter
 languageCode: ja-jp
-defaultContentLanguage: "en"
+defaultContentLanguage: "ja"
 
 theme: universal
 summaryLength: 0
@@ -9,23 +9,23 @@ summaryLength: 0
 menu:
   main:
     - identifier: menu.home
-      name: "HOME"
+      name: "Home"
       url: "/"
       weight: 1
     - identifier: menu.docs
-      name: "DOCS"
+      name: "Documents"
       url: "/docs"
-      weight: 20
+      weight: 10
     - identifier: menu.events
-      name: "EVENTS"
+      name: "Events"
       url: "/categories/イベント"
-      weight: 20
+      weight: 70
     - identifier: menu.news
-      name: "NEWS"
+      name: "News"
       url: "/categories/ニュース"
-      weight: 30
+      weight: 80
     - identifier: menu.about
-      name: "ABOUT"
+      name: "About"
       url: "/about/"
       weight: 90
 
