@@ -19,7 +19,7 @@ FinOps Foundation Japan Chapter設立記念としてミートアップを下記�
 
 #### 会場
 
-[ソニー・インタラクティブエンタテインメント](https://maps.app.goo.gl/xsfd5L8fw3mRGkaz6)（芝浦クリスタル品川港南 17階）
+ソニー・インタラクティブエンタテインメント（芝浦クリスタル品川港南 17階）
 
 #### 内容
 
