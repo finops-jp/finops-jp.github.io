@@ -18,7 +18,7 @@ menu:
       weight: 10
     - identifier: menu.events
       name: "Events"
-      url: "/categories/イベント"
+      url: "https://finops.connpass.com/"
       weight: 70
     - identifier: menu.news
       name: "News"
