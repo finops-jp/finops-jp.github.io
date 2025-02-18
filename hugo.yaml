@@ -20,10 +20,6 @@ menu:
       name: "Events"
       url: "https://finops.connpass.com/"
       weight: 70
-    - identifier: menu.news
-      name: "News"
-      url: "/categories/ニュース"
-      weight: 80
     - identifier: menu.about
       name: "About"
       url: "/about"
@@ -65,7 +61,7 @@ params:
 
   # Events
   recent_posts:
-    enable: true
+    enable: false
     title: "最新のお知らせ"
     hide_summary: false
 
@@ -92,7 +88,7 @@ params:
 
   footer:
     recent_posts:
-      enable: true
+      enable: false
 
   copyright: "© FinOps Foundation Japan Chapter. 2024. All rights reserved."
 

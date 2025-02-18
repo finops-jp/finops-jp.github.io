@@ -2,17 +2,15 @@ weight: 4
 title: "Japan FinOps Meetup#4"
 description: >
   <p>
-    【2025年3月頃開催予定】
+    【2025年3月14日(金)開催】
   </p>
-  <!--
   <p>
-    日本で4回目の開催となるFinOps Meetupでは、11月にスペインで開催されたFinOps X Europeのリキャップ、国内FinOps事例の紹介をします
+    日本で4回目となるミートアップを開催します<br>FinOpsに関する基調講演やパネルディスカッション、ネットワーキングを予定しています<br>#JapanFinOps
   </p>
   <p>
     <div style="padding: 10px; margin-bottom: 10px; border-radius: 10px; background-color: #ffffff; text-align: center; width: 90%; position: absolute; right: 0;">
       イベントの詳細はこちら
     </div>
   </p>
-  -->
 image: "img/carousel/meetup-featured-japan.png"
-#href: "posts/2024/11/japan-finops-meetup-3"
+href: "https://finops.connpass.com/event/346147/"
