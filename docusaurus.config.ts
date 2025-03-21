@@ -103,8 +103,18 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    announcementBar: {
+      id: 'announcementBar-',
+      content: '<a target="_blank" href="https://www.finops.org">FinOps Framework and Foundation Content</a> by <a target="_blank" href="https://www.finops.org">FinOps Foundation</a> <b>(CC BY 4.0)</b>',
+      textColor: '#FFF',
+      backgroundColor: '#4AAD78',
+      isCloseable: false,
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'FinOps Foundation Japan Chapter',
       // logo: {
@@ -124,7 +134,7 @@ const config: Config = {
         //  position: 'left',
         //},
         {
-          to: '/ja/docs/',
+          to: '/docs/introduction/what-is-finops',
           label: 'Documents',
           position: 'left',
         },
@@ -156,15 +166,15 @@ const config: Config = {
           items: [
             {
               label: 'FinOpsとは',
-              to: '/ja/docs/introduction/what-is-finops',
+              to: '/docs/introduction/what-is-finops',
             },
             {
               label: 'フレームワーク概要',
-              to: '/ja/docs/framework',
+              to: '/docs/framework',
             },
             {
               label: 'FinOps用語',
-              to: '/ja/docs/assets/terminology',
+              to: '/docs/assets/terminology',
             },
           ],
         },
@@ -173,31 +183,31 @@ const config: Config = {
           items: [
             {
               label: '原則',
-              to: '/ja/docs/framework/principles',
+              to: '/docs/framework/principles',
             },
             {
               label: 'ペルソナ',
-              to: '/ja/docs/framework/personas',
+              to: '/docs/framework/personas',
             },
             {
               label: 'フェーズ',
-              to: '/ja/docs/framework/phases',
+              to: '/docs/framework/phases',
             },
             {
               label: '成熟度',
-              to: '/ja/docs/framework/maturity-model',
+              to: '/docs/framework/maturity-model',
             },
             {
               label: 'ドメイン',
-              to: '/ja/docs/framework/domains',
+              to: '/docs/framework/domains',
             },
             {
               label: 'ケイパビリティ',
-              to: '/ja/docs/framework/capabilities',
+              to: '/docs/framework/capabilities',
             },
             {
               label: 'スコープ',
-              to: '/ja/docs/framework/scopes',
+              to: '/docs/framework/scopes',
             },
           ],
         },

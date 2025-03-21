@@ -34,7 +34,7 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/docs/about">
             <Translate>Japan Chapterについて</Translate>
           </Link>
-          <Link className="button button--secondary button--lg" to="https://finops-jp.github.io/ja/docs/introduction/what-is-finops">
+          <Link className="button button--secondary button--lg" to="/docs/introduction/what-is-finops">
             <Translate>FinOpsとは？ - 約8分 ⏱️</Translate>
           </Link>
           <span className={styles.indexCtasGitHubButtonWrapper}>
