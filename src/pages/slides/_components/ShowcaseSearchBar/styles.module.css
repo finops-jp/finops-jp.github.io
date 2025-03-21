@@ -1,0 +1,18 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.searchBar {
+  margin-left: auto;
+}
+
+.searchBar input {
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+}

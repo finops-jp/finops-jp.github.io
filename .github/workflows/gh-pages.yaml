@@ -2,33 +2,52 @@ name: github pages
 
 on:
   schedule:
-    - cron: "* */6 * * *"
+    - cron: "* */12 * * *"
   push:
     branches:
       - main  # Set a branch to deploy
   pull_request:
 
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
+  build:
+    name: Build Docusaurus
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
         with:
-          hugo-version: '0.139.4'
-          # extended: true
+          node-version: 20
+          cache: npm
 
-      - name: Build
-        run: hugo --minify
+      - name: Install dependencies
+        run: npm ci
+      - name: Build website
+        run: npm run build
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          path: build
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: ${{ github.event_name != 'pull_request' }}
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
