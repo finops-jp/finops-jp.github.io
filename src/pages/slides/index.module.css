@@ -1,0 +1,64 @@
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.slideFavorite {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.slideCardImage {
+  overflow: hidden;
+  height: 180px;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.slideCardHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.slideCardTitle {
+  margin-bottom: 0;
+  flex: 1 1 auto;
+}
+
+.slideCardTitle a {
+  text-decoration: none;
+  background: linear-gradient(
+      var(--ifm-color-primary),
+      var(--ifm-color-primary)
+    )
+    0% 100% / 0% 1px no-repeat;
+  transition: background-size ease-out 200ms;
+}
+
+.slideCardTitle a:not(:focus):hover {
+  background-size: 100% 1px;
+}
+
+.slideCardTitle,
+.slideCardHeader {
+  margin-right: 0.25rem;
+}
+
+.cardFooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchBar {
+  margin-left: auto;
+}
+
+.searchBar input {
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+}

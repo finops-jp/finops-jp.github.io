@@ -1,14 +1,5 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/* eslint-disable global-require */
-
 import {translate} from '@docusaurus/Translate';
-import {sortBy} from '@site/src/utils/jsUtils';
+import {sortBy, sortByDesc} from '@site/src/utils/jsUtils';
 
 // LIST OF AVAILABLE TAGS
 export type TagType =
@@ -25,31 +16,40 @@ export type TagType =
 // prettier-ignore
 const Slides: Slide[] = [
   {
-    github: 'chacco38',
-    title: 'FinOpsの実践アプローチの紹介',
-    description: '#cndw2024',
+    name: 'Satoshi Matsuzawa',
+    icon: 'https://github.com/chacco38.png',
+    title: 'エンジニアのためのFinOps実践アプローチの紹介 #cncw2024',
     preview: 'https://files.speakerdeck.com/presentations/86a162c1f75e4a4c945ffb356d053d29/slide_0.jpg',
     url: 'https://speakerdeck.com/chacco38/finopsshi-jian-apurotinoshao-jie-v20241129',
-    date: 'November 29, 2024',
-    tags: ['favorite','introduction','framework'],
+    date: '2024-11-29',
+    tags: [],
   },
   {
-    github: 'chacco38',
+    name: 'Satoshi Matsuzawa',
+    icon: 'https://github.com/chacco38.png',
     title: 'AWSコスト削減ポイント紹介',
-    description: '#三大クラウドコスト削減術',
     url: 'https://speakerdeck.com/chacco38/awskosutoxue-jian-pointoshao-jie-v20241205',
     preview: 'https://files.speakerdeck.com/presentations/72dc4eea925d415bbf9e0257931dc328/slide_0.jpg',
-    date: 'December 05, 2024',
-    tags: ['aws'],
+    date: '2024-12-05',
+    tags: [],
   },
   {
-    github: 'chacco38',
-    title: 'FinOpsスキルの効率的な上げ方',
-    description: '#ochacafe',
+    name: 'Satoshi Matsuzawa',
+    icon: 'https://github.com/chacco38.png',
+    title: 'FinOpsスキルの効率的な上げ方 #ochacafe',
     url: 'https://speakerdeck.com/chacco38/finopssukirunoxiao-lu-de-nashang-gefang-v20250305',
     preview: 'https://files.speakerdeck.com/presentations/1f44e7e0789c4a46a0bc8087435249ff/slide_0.jpg',
-    date: 'March 05, 2025',
-    tags: ['favorite','introduction', 'aws'],
+    date: '2025-03-05',
+    tags: [],
+  },
+  {
+    name: 'Satoshi Matsuzawa',
+    icon: 'https://github.com/chacco38.png',
+    title: 'FinOps実践によるビジネス価値の最大化へとシフトせよ #ITmediaDXSummit23',
+    url: 'https://speakerdeck.com/chacco38/kuraudo-slash-sheng-cheng-aino-dan-naruli-yong-kara-bu-xian-he-finopsshi-jian-niyorubizinesujia-zhi-nozui-da-hua-hetosihutoseyo',
+    preview: 'https://files.speakerdeck.com/presentations/3939e698a024402ebb85e6fc031799f1/slide_0.jpg',
+    date: '2025-02-28',
+    tags: [],
   },
 
   /*
@@ -59,9 +59,9 @@ const Slides: Slide[] = [
 ];
 
 export type Slide = {
-  github: string;
+  name: string;
+  icon: string | null;
   title: string;
-  description: string;
   url: string;
   preview: string | null; // null = use our serverless screenshot service
   date: string,
@@ -153,7 +153,7 @@ export const TagList = Object.keys(Tags) as TagType[];
 function sortSlides() {
   let result = Slides;
   // Sort by slide name
-  result = sortBy(result, (slide) => slide.title.toLowerCase());
+  result = sortByDesc(result, (slide) => slide.date.toUpperCase());
   // Sort by favorite tag, favorites first
   result = sortBy(result, (slide) => !slide.tags.includes('favorite'));
   return result;

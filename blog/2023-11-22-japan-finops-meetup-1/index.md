@@ -1,7 +1,6 @@
 ---
 slug: "japan-finops-meetup-1"
-title: "Japan FinOps Meetup#1を開催します"
-authors: [matt]
+title: "Japan FinOps Meetup#1を開催します。"
 tags: ["meetup"]
 ---
 

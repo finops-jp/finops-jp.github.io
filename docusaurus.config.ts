@@ -123,35 +123,18 @@ const config: Config = {
       // },
       items: [
         {
-          to: '/',
-          label: 'Home',
-          position: 'left'
-        },
-        //{to: 'docs', label: 'Documents', position: 'left'},
-        //{
-        //  href: 'https://finops-jp.github.io/ja/docs/',
-        //  label: 'Documents',
-        //  position: 'left',
-        //},
-        {
           to: '/docs/introduction/what-is-finops',
-          label: 'Documents',
+          label: 'ドキュメント',
           position: 'left',
         },
         {
           href: 'https://finops.connpass.com/event/',
-          label: 'Events',
+          label: 'イベント',
           position: 'left',
         },
         //{to: 'blog', label: 'Blog', position: 'left'},
-        //{to: 'slides', label: 'Slides', position: 'left'},
+        {to: 'slides', label: '資料集', position: 'left'},
         {
-          type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
-          label: 'About',
-          position: 'left',
-        },
-      {
           href: 'https://github.com/finops-jp/finops-jp.github.io',
           label: 'GitHub',
           position: 'right',

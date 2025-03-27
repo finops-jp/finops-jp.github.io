@@ -22,12 +22,16 @@
 
 .heroProjectTagline {
   color: #fff;
-  font-size: 60px;
-  margin: 0;
+  font-size: 48px;
 }
 
-.heroTitleTextHtml b {
+.heroTitle b {
   color: var(--ifm-color-primary);
+}
+
+.heroSubtitle {
+  color: #fff;
+  font-size: 24px;
 }
 
 .heroLogo {
@@ -57,15 +61,13 @@
   flex-wrap: wrap;
   align-items: center;
   margin-top: 24px;
+  justify-content: center;
 }
 
 .indexCtas a,
 .indexCtas a:hover {
   color: black;
-}
-
-.indexCtas a:last-of-type {
-  margin: 20px 36px;
+  margin: 20px 20px;
 }
 
 .indexCtasGitHubButtonWrapper {
@@ -153,4 +155,74 @@ html[data-theme='dark'] .topBannerTitleText {
 .featureHeading {
   font-size: var(--ifm-h3-font-size);
   padding-top: 1rem;
+}
+
+/* Events部分 */
+.section {
+  padding: 40px 0;
+}
+
+.sectionAlt {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.sectionInner {
+  margin: 0 auto;
+}
+
+.eventCardImage {
+  overflow: hidden;
+  height: 170px;
+}
+
+.eventCardHeader {
+  display: flex;
+  align-items: flex-start;
+  height: 64px;
+}
+
+.eventCardTitle {
+  margin-bottom: 0;
+  flex: 1 1 auto;
+}
+
+.eventCardTitle a {
+  text-decoration: none;
+  background: linear-gradient(
+      var(--ifm-color-primary),
+      var(--ifm-color-primary)
+    )
+    0% 100% / 0% 1px no-repeat;
+  transition: background-size ease-out 200ms;
+}
+
+.eventCardTitle a:not(:focus):hover {
+  background-size: 100% 1px;
+}
+
+.eventCardTitle,
+.eventCardHeader {
+  margin-right: 0.25rem;
+}
+
+.eventCardBody {
+  font-size: smaller;
+  line-height: 1.66;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  align-items: center;
+}
+
+/* JoinCommunity部分 */
+.joinCommunityTagline {
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }

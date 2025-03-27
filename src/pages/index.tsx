@@ -5,8 +5,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import Translate, {translate} from '@docusaurus/Translate';
+import Image from '@theme/IdealImage';
 import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import Features, {type FeatureItem} from '@site/src/data/features';
+import Events, {type EventItem} from '@site/src/data/events';
 
 import styles from './index.module.css';
 
@@ -23,12 +25,14 @@ function HomepageHeader() {
             src={useBaseUrl('/img/AdobeStock_262128399.jpeg')}
             width="480"
           />
-          <p className="hero__title">
+          <div className={styles.heroTitle}>
             {siteConfig.tagline}
-          </p>
+          </div>
         </Heading>
-        <div className="hero__subtitle">
-          FinOps Foundation（F2）の各種コンテンツのローカライズ、国内でのミートアップ運営などを通じてFinOpsの国内普及を促進するとともに、FinOpsに携わる国内エンジニアが成長しあう場所を提供します
+        <div className={styles.heroSubtitle}>
+          <Translate>
+            FinOps Foundation（F2）の各種コンテンツのローカライズ、国内でのミートアップ運営などを通じてFinOpsの国内普及を促進するとともに、FinOpsに携わる国内エンジニアが成長しあう場所を提供します
+          </Translate>
         </div>
         <div className={styles.indexCtas}>
           <Link className="button button--secondary button--lg" to="/docs/about">
@@ -95,9 +99,63 @@ function HomepageFeatures() {
   );
 }
 
-function HomepageEvents() {
+// ホームページのイベント
+function Event({event, className,}: {
+  event: EventItem;
+  className?: string;
+}) {
   return (
-    <div></div>
+    <li key={event.title} className="card shadow--md">
+      <div className={clsx('card__image', styles.eventCardImage)}>
+        <Image img={event.image} alt={event.title} />
+      </div>
+      <div className="card__body">
+        <div className={clsx(styles.eventCardHeader)}>
+          <Heading as="h3" className={styles.eventCardTitle}>
+            <Link to={event.link} className={styles.eventCardLink}>
+              {event.title}
+            </Link>
+          </Heading>
+        </div>
+        <div className={styles.eventCardBody}>
+          {event.date}
+        </div>
+      </div>
+    </li>
+  );
+}
+
+function HomepageEvents() {
+  const firstRow = Events.slice(0, 4);
+  return (
+    <div className={clsx(styles.section, styles.sectionAlt)}>
+      <div className="container">
+        <Heading as="h2" className={clsx('margin-bottom--lg', 'text--center')}>
+          <Translate>最新のイベント情報</Translate>
+        </Heading>
+        <div className="container text--center">
+          <ul className={clsx('clean-list', styles.cardList)}>
+            {firstRow.map((event, idx) => (
+              <Event event={event} key={idx} />
+            ))}
+          </ul>
+        </div>
+        <div className="container">
+        <div className={styles.indexCtas}>
+          <Link
+            className="button button--primary button--lg"
+            to="https://finops.connpass.com/">
+            <Translate>日本のイベント一覧を見る</Translate>
+          </Link>
+          <Link
+            className="button button--primary button--lg button--outline"
+            to="https://www.finops.org/community/events/">
+            <Translate>グローバルのイベント一覧を見る</Translate>
+          </Link>
+        </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -106,14 +164,14 @@ function HomepageJoinCommunity() {
   return (
     <div className={clsx('hero hero--primary', styles.hero)} data-theme="dark">
       <div className="container">
-        <Heading as="h2" className={styles.buttons}>
-          FinOpsのスキルアップを目指し、実践者や専門家のあつまるコミュニティの一員になりませんか？
+        <Heading as="h2" className={styles.joinCommunityTagline}>
+          FinOpsのスキルアップを目指し、実践者や専門家のあつまるコミュニティーの一員になりませんか？
         </Heading>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="https://www.finops.org/join/">
-            FinOps Foundationコミュニティに参加する
+            FinOps Foundationコミュニティーに参加する
           </Link>
         </div>
       </div>
