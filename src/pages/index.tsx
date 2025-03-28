@@ -106,9 +106,11 @@ function Event({event, className,}: {
 }) {
   return (
     <li key={event.title} className="card shadow--md">
-      <div className={clsx('card__image', styles.eventCardImage)}>
-        <Image img={event.image} alt={event.title} />
-      </div>
+      <Link to={event.link} className={styles.eventCardLink}>
+        <div className={clsx('card__image', styles.eventCardImage)}>
+          <Image img={event.image} alt={event.title} />
+        </div>
+      </Link>
       <div className="card__body">
         <div className={clsx(styles.eventCardHeader)}>
           <Heading as="h3" className={styles.eventCardTitle}>

@@ -6,21 +6,20 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import Translate from '@docusaurus/Translate';
 import Image from '@theme/IdealImage';
+import SearchIcon from '@mui/icons-material/Search';
 
 import {sortedSlides, type Slide} from '@site/src/data/slides';
 import {useFilteredSlides, useSearchName} from './_utils';
 import styles from './index.module.css';
 
-const TITLE = 'FinOpsに関するスライド一覧';
-const DESCRIPTION = '';
-const SUBMIT_URL = 'https://github.com/finops-jp/finops-jp.github.io/discussions/9';
-
+/* ヘッダー */
 function SlideHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">{TITLE}</Heading>
-      <p>{DESCRIPTION}</p>
-      <Link className="button button--primary" to={SUBMIT_URL}>
+      <Heading as="h1">FinOpsに関するスライド</Heading>
+      <Link
+        className="button button--primary"
+        to='https://github.com/finops-jp/finops-jp.github.io/discussions/9'>
         🙏 Please add your slides
       </Link>
     </section>
@@ -31,15 +30,18 @@ function SlideHeader() {
 function SlideSearchBar(): ReactNode {
   const [searchName, setSearchName] = useSearchName();
   return (
-    <div className={styles.searchBar}>
-      <input
-        placeholder='ドキュメント名で検索...'
-        type='search'
-        value={searchName}
-        onInput={(e) => {
-          setSearchName(e.currentTarget.value);
-        }}
-      />
+    <div className={styles.search}>
+      <div className={styles.searchBar}>
+        <SearchIcon />
+        <input
+          placeholder='ドキュメント名で検索'
+          type='search'
+          value={searchName}
+          onInput={(e) => {
+            setSearchName(e.currentTarget.value);
+          }}
+        />
+      </div>
     </div>
   );
 }
@@ -90,9 +92,11 @@ function SlideCard({slide}: {slide: Slide}) {
 
   return (
     <li key={slide.title} className="card shadow--md">
-      <div className={clsx('card__image', styles.slideCardImage)}>
-        <Image img={image} alt={slide.title} />
-      </div>
+      <Link to={slide.url}>
+        <div className={clsx('card__image', styles.slideCardImage)}>
+          <Image img={image} alt={slide.title} />
+        </div>
+      </Link>
       <div className="card__body">
         <div className={clsx(styles.slideCardHeader)}>
           <Heading as="h4" className={styles.slideCardTitle}>
@@ -145,11 +149,7 @@ function SlideCards() {
   return (
     <section className="margin-top--lg margin-bottom--xl">
       {filteredSlides.length === sortedSlides.length ? (
-        <>
-          <div className="margin-top--lg">
-            <CardList items={allSlides} />
-          </div>
-        </>
+        <CardList items={allSlides} />
       ) : (
         <CardList items={filteredSlides} />
       )}

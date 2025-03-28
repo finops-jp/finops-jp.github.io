@@ -125,15 +125,15 @@ const config: Config = {
         {
           to: '/docs/introduction/what-is-finops',
           label: 'ドキュメント',
-          position: 'left',
+          position: 'right',
         },
+        {to: 'resources', label: '資料集', position: 'right'},
         {
-          href: 'https://finops.connpass.com/event/',
+          href: 'https://finops.connpass.com/',
           label: 'イベント',
-          position: 'left',
+          position: 'right',
         },
-        //{to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'slides', label: '資料集', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/finops-jp/finops-jp.github.io',
           label: 'GitHub',

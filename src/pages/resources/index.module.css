@@ -51,14 +51,27 @@
   flex-wrap: wrap;
 }
 
+.search{
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .searchBar {
   margin-left: auto;
+  display: flex;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 36px;
+  background-color: #f0f2f5;
 }
 
 .searchBar input {
-  width: 240px;
-  height: 40px;
-  border-radius: 20px;
-  padding: 15px;
-  border: 1px solid gray;
+  border: none !important;
+  background-color: #f0f2f5;
+  width: 300px;
+}
+
+.searchBar input:focus {
+  outline-width: 0;
 }
