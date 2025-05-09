@@ -4,9 +4,13 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import Translate from '@docusaurus/Translate';
 import Image from '@theme/IdealImage';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Translate, {translate} from '@docusaurus/Translate';
+import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
+
 import SearchIcon from '@mui/icons-material/Search';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 import {sortedSlides, type Slide} from '@site/src/data/slides';
 import {useFilteredSlides, useSearchName} from './_utils';
@@ -14,15 +18,34 @@ import styles from './index.module.css';
 
 /* ヘッダー */
 function SlideHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
-    <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">FinOpsに関するスライド</Heading>
-      <Link
-        className="button button--primary"
-        to='https://github.com/finops-jp/finops-jp.github.io/discussions/9'>
-        🙏 Please add your slides
-      </Link>
-    </section>
+    <header className={clsx('hero hero--primary', styles.hero)} data-theme="dark">
+      <div className="container">
+        <Heading as="h1" className={styles.heroProjectTagline}>
+          <img
+            alt={translate({message: 'FinOps Foundation Japan Chapter'})}
+            className={styles.heroLogo}
+            src={useBaseUrl('/img/AdobeStock_542603874.jpeg')}
+            width="480"
+          />
+          <div className={styles.slidePageTitle}>
+            日本のFinOps実践者が集う、知識共有の場へようこそ
+          </div>
+        </Heading>
+        <div className={styles.slidePageSubtitle}>
+          このページでは、国内の実践者たちが作成したFinOps関連のスライドを閲覧できます。具体的な事例やノウハウを学び、FinOps実践を加速させましょう。さらに、あなたがこれまでに作成したFinOpsの知見が詰まったスライドを共有することで、日本のFinOpsコミュニティ全体の成長に貢献できます。ぜひ、あなたのスライドも共有してみませんか？
+        </div>
+        <div className={styles.addSlideButton}>
+          <Link
+            className="button button--secondary"
+            to='https://github.com/finops-jp/finops-jp.github.io/discussions/9'>
+            スライドの共有方法、スライドに対する要件について
+            <OpenInNewIcon />
+          </Link>
+        </div>
+      </div>
+    </header>
   );
 }
 
@@ -30,17 +53,21 @@ function SlideHeader() {
 function SlideSearchBar(): ReactNode {
   const [searchName, setSearchName] = useSearchName();
   return (
-    <div className={styles.search}>
-      <div className={styles.searchBar}>
-        <SearchIcon />
-        <input
-          placeholder='ドキュメント名で検索'
-          type='search'
-          value={searchName}
-          onInput={(e) => {
-            setSearchName(e.currentTarget.value);
-          }}
-        />
+    <div className="row margin-top--lg margin-bottom--lg">
+      <div className="container">
+        <div className={styles.search}>
+          <div className={styles.searchBar}>
+            <SearchIcon />
+            <input
+              placeholder='ドキュメント名で検索'
+              type='search'
+              value={searchName}
+              onInput={(e) => {
+                setSearchName(e.currentTarget.value);
+              }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -180,13 +207,12 @@ function FavoriteSlideCards() {
 }
 
 export default function Slide(): ReactNode {
+  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout>
-      <main className="margin-vert--lg">
+      <main>
         <SlideHeader />
-        <div className="container">
-          <SlideSearchBar />
-        </div>
+        <SlideSearchBar />
         <SlideCards />
       </main>
     </Layout>
