@@ -26,7 +26,7 @@ function HomepageHeader() {
             width="480"
           />
           <div className={styles.heroTitle}>
-            {siteConfig.tagline}
+            {siteConfig.title}
           </div>
         </Heading>
         <div className={styles.heroSubtitle}>
@@ -185,7 +185,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="${siteConfig.title} website">
+      description="FinOps Foundation Japan Chapter website">
       <main>
         <HomepageHeader />
         <HomepageFeatures />

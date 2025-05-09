@@ -75,6 +75,7 @@ const config: Config = {
       {
         fromExtensions: ['html'],
         redirects: [
+          // かつて存在したパスへのリンク切れを防ぐために追加
           {
             from: ['/posts/2023/11/japan-finops-meetup-1'],
             to: '/blog/japan-finops-meetup-1',
@@ -86,6 +87,10 @@ const config: Config = {
           {
             from: ['/posts/2023/11/japan-finops-meetup-3'],
             to: '/blog/japan-finops-meetup-3',
+          },
+          {
+            from: ['/ja'],
+            to: '/docs/introduction/what-is-finops',
           },
         ],
       } satisfies ClientRedirectsOptions,
@@ -103,6 +108,7 @@ const config: Config = {
   ],
 
   themeConfig: {
+    image: 'img/F2-Logo-GreenDarkGrey.svg',
     announcementBar: {
       id: 'announcementBar-',
       content: '<a target="_blank" href="https://www.finops.org">FinOps Framework and Foundation Content</a> by <a target="_blank" href="https://www.finops.org">FinOps Foundation</a> <b>(CC BY 4.0)</b>',
@@ -116,24 +122,25 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'FinOps Foundation Japan Chapter',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
+      //title: 'FinOps Foundation Japan Chapter',
+      logo: {
+        alt: 'FinOps Foundation Japan Chapter',
+        src: 'img/F2-Logo-GreenDarkGrey.svg',
+      },
       items: [
-        {
-          to: '/docs/introduction/what-is-finops',
-          label: 'ドキュメント',
-          position: 'right',
-        },
-        {to: 'resources', label: '資料集', position: 'right'},
         {
           href: 'https://finops.connpass.com/',
           label: 'イベント',
           position: 'right',
         },
-        //{to: 'blog', label: 'Blog', position: 'right'},
+        {
+          to: '/docs/introduction/what-is-finops',
+          label: 'ドキュメント',
+          position: 'right',
+        },
+        {to: 'slides', label: 'スライド資料', position: 'right'},
+        {to: 'press', label: 'メディア記事', position: 'right'},
+        //{to: 'blog', label: 'ブログ', position: 'right'},
         {
           href: 'https://github.com/finops-jp/finops-jp.github.io',
           label: 'GitHub',
