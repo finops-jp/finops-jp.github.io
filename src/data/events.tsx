@@ -11,7 +11,7 @@ const Events: EventItem[] = [
   {
     title: 'Japan FinOps Meetup#5',
     date: "次回: 2025年10月16日(木)",
-    link: '    link: 'https://finops.connpass.com/event/368385/',
+    link: 'https://finops.connpass.com/event/368385/',
     image: 'https://media.connpass.com/thumbs/3d/7d/3d7da2ba261173b058991c10b7e43a2b.png',
   },
   {
