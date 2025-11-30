@@ -1,11 +1,11 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import type {Options as IdealImageOptions} from '@docusaurus/plugin-ideal-image';
-import type {Options as DocsOptions} from '@docusaurus/plugin-content-docs';
-import type {Options as BlogOptions} from '@docusaurus/plugin-content-blog';
-import type {Options as PageOptions} from '@docusaurus/plugin-content-pages';
-import type {Options as ClientRedirectsOptions} from '@docusaurus/plugin-client-redirects';
+import type { Options as IdealImageOptions } from '@docusaurus/plugin-ideal-image';
+import type { Options as DocsOptions } from '@docusaurus/plugin-content-docs';
+import type { Options as BlogOptions } from '@docusaurus/plugin-content-blog';
+import type { Options as PageOptions } from '@docusaurus/plugin-content-pages';
+import type { Options as ClientRedirectsOptions } from '@docusaurus/plugin-client-redirects';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-          'https://github.com/finops-jp/finops-jp.github.io/tree/main/',
+            'https://github.com/finops-jp/finops-jp.github.io/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -56,7 +56,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-          'https://github.com/finops-jp/finops-jp.github.io/tree/main/',
+            'https://github.com/finops-jp/finops-jp.github.io/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -138,8 +138,8 @@ const config: Config = {
           label: 'ドキュメント',
           position: 'right',
         },
-        {to: 'slides', label: 'スライド資料', position: 'right'},
-        {to: 'press', label: 'メディア記事', position: 'right'},
+        { to: 'slides', label: 'スライド資料', position: 'right' },
+        { to: 'press', label: 'メディア記事', position: 'right' },
         //{to: 'blog', label: 'ブログ', position: 'right'},
         {
           href: 'https://github.com/finops-jp/finops-jp.github.io',
