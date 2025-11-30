@@ -1,0 +1,41 @@
+name: Check Updates
+
+on:
+  workflow_dispatch:  # 手動トリガー
+  schedule:
+    - cron: '0 0 * * 0'  # 毎週日曜日0時(UTC)
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+      
+      - name: Check for updates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update-detector.py
+      
+      - name: Commit updated status
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .translation-status.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update translation status [skip ci]"
+          git push

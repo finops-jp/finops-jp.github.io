@@ -1,0 +1,38 @@
+name: Check Translation Status
+
+on:
+  workflow_dispatch:  # 手動トリガー
+  schedule:
+    - cron: '0 0 * * 1'  # 毎週月曜日0時(UTC)
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+      
+      - name: Check translation status
+        run: |
+          python scripts/translation-tracker.py
+      
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-status-report
+          path: .translation-status.json
+          if-no-files-found: ignore

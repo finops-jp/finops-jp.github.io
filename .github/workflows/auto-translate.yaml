@@ -1,0 +1,66 @@
+name: Auto Translate
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: 'FinOps.org URL to translate (e.g., https://www.finops.org/framework/principles/)'
+        required: true
+        type: string
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+      
+      - name: Translate document
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/ai-translator.py --url "${{ inputs.source_url }}"
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "翻訳: ${{ inputs.source_url }}"
+          title: "🌐 翻訳: ${{ inputs.source_url }}"
+          body: |
+            ## 自動翻訳
+            
+            - **ソースURL**: ${{ inputs.source_url }}
+            - **翻訳エンジン**: GitHub Models (GPT-4o)
+            - **生成日時**: ${{ github.event.head_commit.timestamp }}
+            
+            ### レビューポイント
+            
+            - [ ] 翻訳品質の確認
+            - [ ] Markdown構造の確認
+            - [ ] 専門用語の確認
+            - [ ] リンクの確認
+            
+            ### 注意事項
+            
+            この翻訳は機械翻訳により生成されています。
+            内容を確認の上、必要に応じて修正してください。
+          branch: translate/${{ github.run_number }}
+          delete-branch: true
+          labels: |
+            translation
+            automated
