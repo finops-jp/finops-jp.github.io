@@ -12,7 +12,7 @@ pagination_next: "framework/index"
 FinOps Foundation[技術諮問委員会](https://www.finops.org/about/technical-advisory-council/)  
 更新日: 2023年12月
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/VDrcgEne6lU?si=3DrgxMX89Tmcj5rO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Y-c_xw9bHFw?si=RkICG2DVIq2gMZ1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
