@@ -1,8 +1,8 @@
-# Requirement Verification Questions (Run 3)
+# Requirement Verification Questions (Run 2)
 
 ## Intent Analysis
-- **User Request**: 脆弱性対策（3回目の実行）
-- **Request Type**: Upgrade + Testing
+- **User Request**: 脆弱性対策（Visual Regression Extension含む）
+- **Request Type**: Upgrade + Testing Infrastructure
 - **Scope Estimate**: Single Component + Testing
 - **Complexity Estimate**: Moderate
 
@@ -10,14 +10,13 @@
 
 ## Question 1: 対応する深刻度レベル
 
-現在23件の脆弱性が残っています（High: 1, Moderate: 22）。今回の対応範囲は？
+現在23件の脆弱性が残っています（前回のnpm audit fixで30件修正済み）。追加で対応しますか？
 
-A) 現状維持 — これ以上の対応は行わない（残存Highはビルド時のみ、Moderateはスコープ外）
-B) Moderateも可能な限り対応する — npm audit fix を再試行
-C) 全て対応 — --force含む（Docusaurusダウングレードのリスクあり）
+A) 現状維持 — 前回のnpm audit fixの結果で十分（High: 1件はビルド時のみ）
+B) Moderateも対応する — npm audit fix --force を含め追加対応を試みる
 X) Other (please describe after [Answer]: tag below)
 
-[Answer]:B
+[Answer]: B
 
 ---
 
@@ -25,11 +24,11 @@ X) Other (please describe after [Answer]: tag below)
 
 Should visual regression testing (screenshot comparison) be set up for this project?
 
-A) Yes — create baseline screenshots before changes, then compare after changes
-B) No — skip visual regression testing
+A) Yes — create baseline screenshots before changes, then compare after changes (recommended for UI-impacting updates)
+B) No — skip visual regression testing (suitable for backend-only or non-visual changes)
 X) Other (please describe after [Answer]: tag below)
 
-[Answer]:X 前回の脆弱性対策の実行前のスクリーンショットを理想状態としてください
+[Answer]: A
 
 ---
 
