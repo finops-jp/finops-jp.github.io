@@ -1,23 +1,12 @@
-# Execution Plan
+# Execution Plan (Run 2)
 
-## Detailed Analysis Summary
-
-### Transformation Scope
-- **Transformation Type**: Single component（依存パッケージ更新）
-- **Primary Changes**: package.json / package-lock.json の更新、Dependabot設定追加
-- **Related Components**: GitHub Actions workflows（影響確認のみ）
+## Analysis Summary
 
 ### Change Impact Assessment
-- **User-facing changes**: No — 静的サイトの表示に影響なし
-- **Structural changes**: No — アーキテクチャ変更なし
-- **Data model changes**: No
-- **API changes**: No
-- **NFR impact**: No — パフォーマンス等への影響なし
-
-### Risk Assessment
-- **Risk Level**: Low（非破壊的変更のみ、ロールバック容易）
-- **Rollback Complexity**: Easy（git revertで即時復旧可能）
-- **Testing Complexity**: Simple（npm run buildの成功確認のみ）
+- **User-facing changes**: Possible — --force によるDocusaurusダウングレードで見た目が変わる可能性
+- **Structural changes**: No
+- **Risk Level**: Medium（破壊的変更あり、ただしVisual Regression Testで検証）
+- **Rollback Complexity**: Easy（git revert）
 
 ---
 
@@ -25,50 +14,39 @@
 
 ### 🔵 INCEPTION PHASE
 - [x] Workspace Detection (COMPLETED)
-- [x] Reverse Engineering (COMPLETED)
+- [x] Reverse Engineering - **SKIP** (前回Run 1の成果物が有効)
 - [x] Requirements Analysis (COMPLETED)
-- [x] User Stories - **SKIP**
-  - **Rationale**: ユーザー向け新機能ではなく、内部の依存パッケージ更新のため
+- [x] User Stories - **SKIP** (ユーザー向け機能ではない)
 - [x] Workflow Planning (IN PROGRESS)
-- [ ] Application Design - **SKIP**
-  - **Rationale**: 新コンポーネントの追加なし
-- [ ] Units Generation - **SKIP**
-  - **Rationale**: 単一の作業単位で完結
+- [ ] Application Design - **SKIP** (新コンポーネントなし)
+- [ ] Units Generation - **SKIP** (単一作業単位)
 
 ### 🟢 CONSTRUCTION PHASE
-- [ ] Functional Design - **SKIP**
-  - **Rationale**: 新しいビジネスロジックなし
-- [ ] NFR Requirements - **SKIP**
-  - **Rationale**: 既存のNFR構成に変更なし
-- [ ] NFR Design - **SKIP**
-  - **Rationale**: NFR Requirementsをスキップするため
-- [ ] Infrastructure Design - **SKIP**
-  - **Rationale**: インフラ変更なし
+- [ ] Functional Design - **SKIP** (ビジネスロジック変更なし)
+- [ ] NFR Requirements / Design - **SKIP** (NFR変更なし)
+- [ ] Infrastructure Design - **SKIP** (インフラ変更なし)
 - [ ] Code Generation - **EXECUTE**
-  - **Rationale**: npm audit fix実行、Dependabot設定ファイル作成
+  - **Rationale**: Playwright install、ベースライン撮影、npm audit fix --force、比較テスト
 - [ ] Build and Test - **EXECUTE**
-  - **Rationale**: ビルド成功確認、残存脆弱性の文書化
-
-### 🟡 OPERATIONS PHASE
-- [ ] Operations - PLACEHOLDER
+  - **Rationale**: ビルド確認、Visual Regression結果、SECURITY-10確認
 
 ---
 
-## Execution Summary
+## Code Generation ステップ詳細（Visual Regression対応）
 
-| 項目 | 値 |
-|---|---|
-| 実行ステージ数 | 2（Code Generation, Build and Test） |
-| スキップステージ数 | 6 |
-| 推定所要時間 | 短時間（パッケージ更新＋ビルド確認） |
-| リスクレベル | Low |
+今回のCode Generationは以下の順序で実行されます：
+
+1. **Playwrightインストール** — ブラウザ環境を準備
+2. **ビルド（変更前）** — 現在の状態でnpm run build
+3. **ベースラインスクリーンショット撮影** — 変更前の見た目を記録
+4. **npm audit fix --force 実行** — 破壊的変更を含む脆弱性修正
+5. **ビルド（変更後）** — 更新後にビルドが通るか確認
+6. **Visual Regression Test実行** — ベースラインと比較
+7. **結果判定** — 差分が閾値以内ならPass、超えていれば報告
+
+---
 
 ## Success Criteria
-- **Primary Goal**: Critical + High脆弱性の修正（非破壊的に可能な範囲）
-- **Key Deliverables**:
-  - 更新されたpackage.json / package-lock.json
-  - .github/dependabot.yml
-  - 残存脆弱性のリスク文書
-- **Quality Gates**:
-  - `npm run build`成功
-  - Security Extension (SECURITY-10) コンプライアンス確認
+- `npm run build` 成功
+- Visual Regression Test: 差分が閾値以内（または意図的変更として文書化）
+- SECURITY-10 Compliant

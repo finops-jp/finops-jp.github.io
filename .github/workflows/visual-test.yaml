@@ -1,0 +1,50 @@
+name: Visual Regression Test
+
+on:
+  pull_request:
+
+jobs:
+  visual-test:
+    name: Visual Regression Test
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
+      - name: Build site
+        run: npm run build
+
+      - name: Run Visual Regression Tests
+        id: visual-test
+        run: npx playwright test --reporter=json > playwright-results.json 2>&1 || true
+
+      - name: Upload test results as Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-test-results
+          path: |
+            test-results/
+            playwright-report/
+            playwright-results.json
+          retention-days: 14
+
+      - name: Post test summary to PR
+        if: always()
+        uses: daun/playwright-report-summary@v3
+        with:
+          report-file: playwright-results.json
+          comment-title: "📸 Visual Regression Test Results"

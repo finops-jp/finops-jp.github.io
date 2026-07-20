@@ -1,73 +1,69 @@
-# Requirement Verification Questions
+# Requirement Verification Questions (Run 2)
 
 ## Intent Analysis
-- **User Request**: finops-jp.github.ioプロジェクトの脆弱性対策
-- **Request Type**: Upgrade（依存パッケージの脆弱性修正）
-- **Scope Estimate**: Single Component（package.json + CI/CD）
-- **Complexity Estimate**: Moderate（破壊的変更の可能性あり）
+- **User Request**: 脆弱性対策（Visual Regression Extension含む）
+- **Request Type**: Upgrade + Testing Infrastructure
+- **Scope Estimate**: Single Component + Testing
+- **Complexity Estimate**: Moderate
 
 ---
 
 ## Question 1: 対応する深刻度レベル
 
-54件の脆弱性が検出されています。どのレベルまで対応しますか？
+現在23件の脆弱性が残っています（前回のnpm audit fixで30件修正済み）。追加で対応しますか？
 
-A) Critical + High のみ（13件）— 最もリスクの高いものに集中
-B) Critical + High + Moderate（47件）— 実質的なリスクをほぼ網羅
-C) 全レベル（54件、Low含む）— 完全対応
+A) 現状維持 — 前回のnpm audit fixの結果で十分（High: 1件はビルド時のみ）
+B) Moderateも対応する — npm audit fix --force を含め追加対応を試みる
 X) Other (please describe after [Answer]: tag below)
 
-[Answer]:A
+[Answer]: B
 
 ---
 
-## Question 2: 破壊的変更の許容
+## Question 2: Visual Regression Testing
 
-`serialize-javascript`の修正には`npm audit fix --force`が必要で、@docusaurus/coreが3.9.2→3.5.2にダウングレードされる可能性があります。
+Should visual regression testing (screenshot comparison) be set up for this project?
 
-A) 破壊的変更は許容しない — `npm audit fix`（非破壊的）のみ実行し、残りは別途対応
-B) 破壊的変更を許容する — ダウングレードしてでも脆弱性を修正、ビルド確認後に判断
-C) Docusaurus自体をさらに新しいバージョンに更新して解決を試みる
+A) Yes — create baseline screenshots before changes, then compare after changes (recommended for UI-impacting updates)
+B) No — skip visual regression testing (suitable for backend-only or non-visual changes)
 X) Other (please describe after [Answer]: tag below)
 
-[Answer]:A
+[Answer]: A
 
 ---
 
-## Question 3: CI/CDへの脆弱性スキャン追加
-
-現在のGitHub Actionsパイプラインには脆弱性スキャンが含まれていません。追加しますか？
-
-A) Yes — `npm audit`ステップをCI/CDに追加し、High以上でビルドを失敗させる
-B) Yes — `npm audit`ステップを追加するが、ワーニングのみ（ビルドは失敗させない）
-C) No — 今回はパッケージ更新のみで、CI/CDの変更は行わない
-X) Other (please describe after [Answer]: tag below)
-
-[Answer]:C
-
----
-
-## Question 4: Dependabot / 自動更新の設定
-
-今後の脆弱性に対して自動的にPRを作成する仕組みを導入しますか？
-
-A) Yes — GitHub Dependabotを有効化する
-B) Yes — ただし手動確認のためのPRのみ作成（自動マージはしない）
-C) No — 今回は手動対応のみ
-X) Other (please describe after [Answer]: tag below)
-
-[Answer]:B
-
----
-
-## Question 5: Security Extensions
+## Question 3: Security Extensions
 
 Should security extension rules be enforced for this project?
 
-A) Yes — enforce all SECURITY rules as blocking constraints（推奨：本番向けアプリケーション）
-B) No — skip all SECURITY rules（適切：PoC、プロトタイプ、実験的プロジェクト）
+A) Yes — enforce all SECURITY rules as blocking constraints
+B) No — skip all SECURITY rules
 X) Other (please describe after [Answer]: tag below)
 
-[Answer]:A
+[Answer]: A
+
+---
+
+## Question 4: Resiliency Extensions
+
+Should resiliency extension rules be enforced for this project?
+
+A) Yes — enforce all RESILIENCY rules as blocking constraints
+B) No — skip all RESILIENCY rules (suitable for static sites without server-side components)
+X) Other (please describe after [Answer]: tag below)
+
+[Answer]: B
+
+---
+
+## Question 5: Property-Based Testing
+
+Should property-based testing rules be enforced for this project?
+
+A) Yes — enforce property-based testing rules
+B) No — skip (suitable for projects without complex logic requiring property-based verification)
+X) Other (please describe after [Answer]: tag below)
+
+[Answer]: B
 
 ---
