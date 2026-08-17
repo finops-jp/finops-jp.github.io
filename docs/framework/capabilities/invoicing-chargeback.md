@@ -1,6 +1,5 @@
 ---
 title: 請求とチャージバック
-sidebar_position: 20
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/invoicing-chargeback/

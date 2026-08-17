@@ -1,6 +1,5 @@
 ---
 title: データ取り込み
-sidebar_position: 1
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/data-ingestion/

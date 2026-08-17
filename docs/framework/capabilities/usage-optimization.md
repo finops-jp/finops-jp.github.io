@@ -1,6 +1,5 @@
 ---
 title: ワークロードの最適化
-sidebar_position: 12
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/workload-optimization/

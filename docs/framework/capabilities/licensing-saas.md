@@ -1,6 +1,5 @@
 ---
 title: ライセンスとSaaS
-sidebar_position: 14
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/licensing-saas/

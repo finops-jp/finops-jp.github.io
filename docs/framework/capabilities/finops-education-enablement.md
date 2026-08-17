@@ -1,6 +1,5 @@
 ---
 title: FinOpsの教育と仕組みづくり
-sidebar_position: 19
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/finops-education-enablement/

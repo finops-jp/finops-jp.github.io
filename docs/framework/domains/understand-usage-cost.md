@@ -1,6 +1,5 @@
 ---
 title: 使用量とコストの理解
-sidebar_position: 1
 ---
 
 [英語版]: https://www.finops.org/framework/domains/understand-cloud-usage-cost/

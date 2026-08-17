@@ -1,6 +1,5 @@
 ---
 title: 異常管理
-sidebar_position: 4
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/anomaly-management/

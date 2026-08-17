@@ -1,6 +1,5 @@
 ---
 title: 割り当て
-sidebar_position: 2
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: FinOpsスコープ
 description: FinOpsスコープは、FinOps実践者がFinOpsのコンセプトを適用するテクノロジー関連支出のセグメントです。
-sidebar_position: 5
 ---
 
 [英語版]: https://www.finops.org/framework/scopes/

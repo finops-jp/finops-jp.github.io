@@ -1,6 +1,5 @@
 ---
 title: アーキテクチャー設計
-sidebar_position: 10
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/architecting-for-cloud/

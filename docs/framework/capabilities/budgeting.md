@@ -1,6 +1,5 @@
 ---
 title: 予算
-sidebar_position: 7
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/budgeting/

@@ -1,6 +1,5 @@
 ---
 title: クラウドポリシーとガバナンス
-sidebar_position: 16
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/cloud-policy-governance/

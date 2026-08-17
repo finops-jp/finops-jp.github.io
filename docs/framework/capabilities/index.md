@@ -1,7 +1,6 @@
 ---
 title: FinOpsケイパビリティ
 description: FinOpsケイパビリティは、対応するFinOpsドメインをサポートする機能的な活動領域を表しています。各ケイパビリティには、実際のFinOpsプラクティスに関連する定義、主要なペルソナ、パフォーマンスメトリクス、機能的なアクティビティが含まれています。
-sidebar_position: 0
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/

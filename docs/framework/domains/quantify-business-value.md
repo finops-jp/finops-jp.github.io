@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 ﻿---
 title: ビジネス価値の定量化
 ---

@@ -1,6 +1,5 @@
 ---
 title: ユニットエコノミクス
-sidebar_position: 9
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/unit-economics/

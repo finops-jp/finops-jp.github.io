@@ -1,7 +1,6 @@
 ---
 title: FinOpsフェーズ
 description: FinOpsジャーニーは、Inform、Optimize、Operateの3つの反復フェーズで構成されています。各フェーズの詳細と開始方法について理解します。
-sidebar_position: 3
 ---
 
 [英語版]: https://www.finops.org/framework/phases/
