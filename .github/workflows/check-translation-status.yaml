@@ -2,8 +2,8 @@ name: Check Translation Status
 
 on:
   workflow_dispatch:  # 手動トリガー
-  schedule:
-    - cron: '0 0 * * 1'  # 毎週月曜日0時(UTC)
+  # schedule:
+  #   - cron: '0 0 * * 1'  # 毎週月曜日0時(UTC)
 
 jobs:
   check-status:
