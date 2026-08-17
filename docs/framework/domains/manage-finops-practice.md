@@ -1,4 +1,4 @@
----
+﻿---
 title: FinOpsプラクティスの管理
 ---
 
@@ -43,13 +43,13 @@ title: FinOpsプラクティスの管理
 
 :::info[ドメインケイパビリティ]
 
-- [FinOpsプラクティスの運用](/docs/framework/capabilities/finops-parctice-operations)
-- [クラウドポリシーとガバナンス](/docs/framework/capabilities/cloud-policy-governance)
+- [FinOpsプラクティスの運用](/docs/framework/capabilities/finops-practice-operations)
+- [クラウドポリシーとガバナンス](/docs/framework/capabilities/governance-policy-risk)
 - [FinOpsアセスメント](/docs/framework/capabilities/finops-assessment)
-- [FinOpsツールとサービス](/docs/framework/capabilities/finops-tools-services)
+- [FinOpsツールとサービス](/docs/framework/capabilities/automation-tools-services)
 - [FinOpsの教育と仕組みづくり](/docs/framework/capabilities/finops-education-enablement)
 - [請求とチャージバック](/docs/framework/capabilities/invoicing-chargeback)
-- [ワークロードのオンボーディング](/docs/framework/capabilities/onboarding-workloads)
+- [ワークロードのオンボーディング](/docs/framework/capabilities/intersecting-disciplines)
 - [関連する専門分野](/docs/framework/capabilities/intersecting-disciplines)
 
 :::

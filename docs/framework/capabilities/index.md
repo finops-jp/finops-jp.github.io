@@ -64,7 +64,7 @@ Anomaly Managementは、FinOpsチームが予期しないクラウドコスト�
 
 ベンチマークにより、組織は、クラウドの価値と最適化の重要な側面について、ユニット メトリックと KPI を、異なるチーム間で内部的に、および同様の方法でクラウドを使用している他の組織と外部で比較できます。
 
-詳細については「[**ベンチマーク（Benchmarking）**](benchmarking)」を参照してください。
+詳細については「[**ベンチマーク（Benchmarking）**](kpis-benchmarking)」を参照してください。
 
 ### ユニットエコノミクス
 
@@ -78,7 +78,7 @@ Anomaly Managementは、FinOpsチームが予期しないクラウドコスト�
 
 FinOpsの導入とクラウドの広範な使用により、エンジニアリングチームと製品チームは、システムの運用要件を満たすサービスを選択する責任があるだけでなく、それらのシステムの持続可能性と財務的実行可能性も選択する必要があります。
 
-詳細については「[**クラウドのアーキテクチャー設計（Architecting for Cloud）**](architecting-for-cloud)」を参照してください。
+詳細については「[**クラウドのアーキテクチャー設計（Architecting for Cloud）**](architecting-workload-placement)」を参照してください。
 
 ### 料金の最適化
 
@@ -90,13 +90,13 @@ FinOpsの導入とクラウドの広範な使用により、エンジニアリ�
 
 特定の使用パターンに合わせてクラウドリソースを分析および最適化すると同時に、ワークロードが効率的に動作し、コストに対して十分なビジネス価値を生み出すようにします。
 
-詳細については「[**ワークロードの最適化（Workload Optimization）**](workload-optimization)」を参照してください。
+詳細については「[**ワークロードの最適化（Workload Optimization）**](usage-optimization)」を参照してください。
 
 ### クラウドの持続可能性
 
 クラウドの持続可能性は、環境への影響と組織の広範な持続可能性目標の両方を考慮した方法で、組織がクラウドの使用に関する意思決定を行う方法を定義します。
 
-詳細については「[**クラウドの持続可能性（Cloud Sustainability）**](cloud-sustainability)」を参照してください。
+詳細については「[**クラウドの持続可能性（Cloud Sustainability）**](sustainability)」を参照してください。
 
 ### ライセンスとSaaS
 
@@ -110,13 +110,13 @@ FinOpsの導入とクラウドの広範な使用により、エンジニアリ�
 
 FinOps プラクティス オペレーションには、組織内で FinOps プラクティスを構築および運用するために必要な一連のアクティビティが含まれます。
 
-詳細については「[**FinOpsプラクティスの運用（FinOps Practice Operations）**](finops-parctice-operations)」を参照してください。
+詳細については「[**FinOpsプラクティスの運用（FinOps Practice Operations）**](finops-practice-operations)」を参照してください。
 
 ### クラウドポリシーとガバナン
 
 ポリシー、制御、ガバナンス メカニズムを確立して進化させ、クラウドの使用がビジネス目標と一致し、規制要件に準拠し、クラウド リソースを効率的に最適化できるようにします。
 
-詳細については「[**クラウドポリシーとガバナンスス（Cloud Policy & Governance）**](cloud-policy-governance)」を参照してください。
+詳細については「[**クラウドポリシーとガバナンスス（Cloud Policy & Governance）**](governance-policy-risk)」を参照してください。
 
 ### FinOpsアセスメント
 
@@ -128,7 +128,7 @@ FinOps プラクティスの評価により、FinOps チームは自身の有効
 
 FinOpsツールとは、FinOps機能のいずれかをサポートするクラウドプロバイダーまたはサードパーティのソフトウェアパッケージを指します。FinOpsサービスとは、FinOps機能に関連する結果を提供するサードパーティのサービスを指します。
 
-詳細については「[**FinOpsツールとサービス（FinOps Tools & Services）**](finops-tools-services)」を参照してください。
+詳細については「[**FinOpsツールとサービス（FinOps Tools & Services）**](automation-tools-services)」を参照してください。
 
 ### FinOpsの教育と仕組みづくり
 
@@ -141,12 +141,6 @@ FinOps Education & Enablementは、FinOpsの実践に参加するすべての人
 クラウド請求書の管理と、組織の財務システムへの正式なチャージバックの作成は、FinOps プラクティスと財務および会計のペルソナとの間の公式なやり取りとして確立する必要がある重要かつ具体的なプロセスです。
 
 詳細については「[**請求とチャージバック（Invoicing & Chargeback）**](invoicing-chargeback)」を参照してください。
-
-### ワークロードのオンボーディング
-
-クラウド環境への、またはクラウド環境間のシステムの移行を、コスト、使用状況、影響に対する透明性を提供する方法で調整します。運用目標をサポートします。費用対効果を確立または維持します。
-
-詳細については「[**ワークロードのオンボーディング（Onboarding Workloads）**](onboarding-workloads)」を参照してください。
 
 ### 関連する専門分野
 

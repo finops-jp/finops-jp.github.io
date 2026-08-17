@@ -1,4 +1,4 @@
----
+﻿---
 title: 使用量とコストの最適化
 ---
 
@@ -48,10 +48,10 @@ title: 使用量とコストの最適化
 
 :::info[ドメインケイパビリティ]
 
-- [クラウドのアーキテクチャー設計](/docs/framework/capabilities/architecting-for-cloud)
+- [クラウドのアーキテクチャー設計](/docs/framework/capabilities/architecting-workload-placement)
 - [料金の最適化](/docs/framework/capabilities/rate-optimization)
-- [ワークロードの最適化](/docs/framework/capabilities/workload-optimization)
-- [クラウドの持続可能性](/docs/framework/capabilities/cloud-sustainability)
+- [ワークロードの最適化](/docs/framework/capabilities/usage-optimization)
+- [クラウドの持続可能性](/docs/framework/capabilities/sustainability)
 - [ライセンスとSaaS](/docs/framework/capabilities/licensing-saas)
 
 :::
