@@ -3,8 +3,10 @@
     "source_url": "https://www.finops.org/assets/",
     "source_hash": "dfae792185f9a42a92fecb5ec81a662e5bbb4e6144e70e6fe3437071b7a220ff",
     "last_crawl": "2026-08-17T12:32:21.702643",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "assets/index.md",
+    "translated_date": "2026-08-17T07:02:02.762133",
+    "translated_source_hash": "dfae792185f9a42a92fecb5ec81a662e5bbb4e6144e70e6fe3437071b7a220ff"
   },
   "framework": {
     "source_url": "https://www.finops.org/framework/",
@@ -74,8 +76,10 @@
     "source_url": "https://www.finops.org/framework/capabilities/executive-strategy-alignment/",
     "source_hash": "f27672ae24a2163f51e2d1bdd0b393958d0daba371636dbf8c8198357d0c0085",
     "last_crawl": "2026-08-17T12:32:36.463060",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/executive-strategy-alignment.md",
+    "translated_date": "2026-08-17T07:03:46.971365",
+    "translated_source_hash": "f27672ae24a2163f51e2d1bdd0b393958d0daba371636dbf8c8198357d0c0085"
   },
   "framework/capabilities/finops-assessment": {
     "source_url": "https://www.finops.org/framework/capabilities/finops-assessment/",
@@ -281,8 +285,10 @@
     "source_url": "https://www.finops.org/framework/technology-categories/",
     "source_hash": "2b888d2f4d8dd22115761374d6d9f3e46bd6382b39de03e810c929417959eaeb",
     "last_crawl": "2026-08-17T12:33:22.166523",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/technology-categories.md",
+    "translated_date": "2026-08-17T07:04:10.350433",
+    "translated_source_hash": "2b888d2f4d8dd22115761374d6d9f3e46bd6382b39de03e810c929417959eaeb"
   },
   "introduction/how-to-use": {
     "source_url": "https://www.finops.org/introduction/how-to-use/",
