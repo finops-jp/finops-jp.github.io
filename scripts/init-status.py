@@ -93,9 +93,21 @@ def main():
 
         entry = status[url_key]
 
-        # translation_statusが既に設定済みならスキップ
+        # translation_statusが既に設定済みの場合 → outdated チェック
         if entry.get('translation_status') in ('machine', 'reviewed'):
-            already_exists += 1
+            translated_hash = entry.get('translated_source_hash', '')
+            current_hash = entry.get('source_hash', '')
+
+            if not translated_hash:
+                # translated_source_hash が未設定 → 現在のsource_hashで初期化
+                entry['translated_source_hash'] = current_hash
+                already_exists += 1
+            elif current_hash and translated_hash != current_hash:
+                # ハッシュが異なる → outdated
+                entry['translation_status'] = 'outdated'
+                initialized += 1
+            else:
+                already_exists += 1
             continue
 
         # docs/に対応ファイルがあるか確認

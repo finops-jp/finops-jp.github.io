@@ -232,6 +232,7 @@ def process_page(key, status, glossary, api_key):
     status[key]['translation_status'] = 'machine'
     status[key]['docs_path'] = str(docs_path.relative_to(DOCS_DIR)).replace('\\', '/')
     status[key]['translated_date'] = datetime.now().isoformat()
+    status[key]['translated_source_hash'] = status[key].get('source_hash', '')
 
     print(f"    → Saved: {docs_path}")
     return True
