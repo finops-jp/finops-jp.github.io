@@ -178,6 +178,7 @@ const config: Config = {
         },
         { to: 'slides', label: 'スライド資料', position: 'right' },
         { to: 'press', label: 'メディア記事', position: 'right' },
+        { to: 'translation-status', label: '翻訳状況', position: 'right' },
         //{to: 'blog', label: 'ブログ', position: 'right'},
         {
           href: 'https://github.com/finops-jp/finops-jp.github.io',
