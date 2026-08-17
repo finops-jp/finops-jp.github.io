@@ -14,7 +14,11 @@
       "/assets/"
     ],
     "excludePatterns": [
-      "/introduction/$"
+      "/introduction/$",
+      "/framework/capabilities/$",
+      "/framework/domains/$",
+      "/framework/$",
+      "/assets/$"
     ]
   },
   "additionalUrls": [
