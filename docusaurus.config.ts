@@ -92,6 +92,44 @@ const config: Config = {
             from: ['/ja'],
             to: '/docs/introduction/what-is-finops',
           },
+          // capabilities パス変更に伴うリダイレクト
+          {
+            from: ['/docs/framework/capabilities/architecting-for-cloud'],
+            to: '/docs/framework/capabilities/architecting-workload-placement',
+          },
+          {
+            from: ['/docs/framework/capabilities/benchmarking'],
+            to: '/docs/framework/capabilities/kpis-benchmarking',
+          },
+          {
+            from: ['/docs/framework/capabilities/cloud-policy-governance'],
+            to: '/docs/framework/capabilities/governance-policy-risk',
+          },
+          {
+            from: ['/docs/framework/capabilities/cloud-sustainability'],
+            to: '/docs/framework/capabilities/sustainability',
+          },
+          {
+            from: ['/docs/framework/capabilities/finops-tools-services'],
+            to: '/docs/framework/capabilities/automation-tools-services',
+          },
+          {
+            from: ['/docs/framework/capabilities/workload-optimization'],
+            to: '/docs/framework/capabilities/usage-optimization',
+          },
+          {
+            from: ['/docs/framework/capabilities/finops-parctice-operations'],
+            to: '/docs/framework/capabilities/finops-practice-operations',
+          },
+          // domains パス変更に伴うリダイレクト
+          {
+            from: ['/docs/framework/domains/optimize-cloud-usage-cost'],
+            to: '/docs/framework/domains/optimize-usage-cost',
+          },
+          {
+            from: ['/docs/framework/domains/understand-cloud-usage-cost'],
+            to: '/docs/framework/domains/understand-usage-cost',
+          },
         ],
       } satisfies ClientRedirectsOptions,
     ],
