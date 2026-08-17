@@ -38,15 +38,15 @@
     "source_url": "https://www.finops.org/framework/capabilities/architecting-workload-placement/",
     "source_hash": "2f24807deed41bcef3c7590a97d5fce20c0d0f4a94c786977c1ab7e8722adbf1",
     "last_crawl": "2026-08-17T12:32:29.565754",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/architecting-workload-placement.md"
   },
   "framework/capabilities/automation-tools-services": {
     "source_url": "https://www.finops.org/framework/capabilities/automation-tools-services/",
     "source_hash": "072cfe149606fd9f540a966833c58497ec14f617ea772e81fd25a510948cc62d",
     "last_crawl": "2026-08-17T12:32:31.075567",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/automation-tools-services.md"
   },
   "framework/capabilities/budgeting": {
     "source_url": "https://www.finops.org/framework/capabilities/budgeting/",
@@ -87,8 +87,8 @@
     "source_url": "https://www.finops.org/framework/capabilities/finops-practice-operations/",
     "source_hash": "dcb5182084c3ac0c64946dae6f9bf5c8b21d89b6ef5d443c7285f8564819593e",
     "last_crawl": "2026-08-17T12:32:41.107731",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/finops-practice-operations.md"
   },
   "framework/capabilities/forecasting": {
     "source_url": "https://www.finops.org/framework/capabilities/forecasting/",
@@ -101,8 +101,8 @@
     "source_url": "https://www.finops.org/framework/capabilities/governance-policy-risk/",
     "source_hash": "60c3afc835fa390928f3ed46ffa83943dfec495d3413a6159f216d25e53a6bbb",
     "last_crawl": "2026-08-17T12:32:44.198339",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/governance-policy-risk.md"
   },
   "framework/capabilities/intersecting-disciplines": {
     "source_url": "https://www.finops.org/framework/capabilities/intersecting-disciplines/",
@@ -122,8 +122,8 @@
     "source_url": "https://www.finops.org/framework/capabilities/kpis-benchmarking/",
     "source_hash": "050eeeb2ad01827c211e93919e7719b15ea14d1506ec81daad337656f7c11108",
     "last_crawl": "2026-08-17T12:32:49.103931",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/kpis-benchmarking.md"
   },
   "framework/capabilities/licensing-saas": {
     "source_url": "https://www.finops.org/framework/capabilities/licensing-saas/",
@@ -157,8 +157,8 @@
     "source_url": "https://www.finops.org/framework/capabilities/sustainability/",
     "source_hash": "13b1002e5efd1e3a7fdc79fbd0751b37012d5160e11ce9359979f0ee2ed8cc6b",
     "last_crawl": "2026-08-17T12:32:57.185413",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/sustainability.md"
   },
   "framework/capabilities/unit-economics": {
     "source_url": "https://www.finops.org/framework/capabilities/unit-economics/",
@@ -171,8 +171,8 @@
     "source_url": "https://www.finops.org/framework/capabilities/usage-optimization/",
     "source_hash": "79911218f3df5d1124d672c981984918f43fce81bc039bb9d6e7039750f503df",
     "last_crawl": "2026-08-17T12:33:00.173910",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/usage-optimization.md"
   },
   "framework/domains": {
     "source_url": "https://www.finops.org/framework/domains/",
@@ -185,8 +185,8 @@
     "source_url": "https://www.finops.org/framework/domains/optimize-usage-cost/",
     "source_hash": "7bb3e54ea1df6d3326307b2ad0cc5e447cf42d0a5acd1cf618a3dbb74a9a3599",
     "last_crawl": "2026-08-17T12:33:03.783291",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/domains/optimize-usage-cost.md"
   },
   "framework/domains/manage-finops-practice": {
     "source_url": "https://www.finops.org/framework/domains/manage-finops-practice/",
@@ -206,8 +206,8 @@
     "source_url": "https://www.finops.org/framework/domains/understand-usage-cost/",
     "source_hash": "c9a48254fd5d37b7dac357d2ee3bd4e79117ab155c83d9e40418109b60977475",
     "last_crawl": "2026-08-17T12:33:13.300767",
-    "translation_status": "not_translated",
-    "docs_path": null
+    "translation_status": "machine",
+    "docs_path": "framework/domains/understand-usage-cost.md"
   },
   "framework/maturity-model": {
     "source_url": "https://www.finops.org/framework/maturity-model/",
@@ -989,11 +989,15 @@
   "assets/terminology": {
     "source_url": "https://www.finops.org/assets/terminology/",
     "source_hash": "49323babc31f47423023438a598169c457fd84b1a4b88d2a3d967a095efad6a5",
-    "last_crawl": "2026-08-17T12:40:21.485498"
+    "last_crawl": "2026-08-17T12:40:21.485498",
+    "translation_status": "machine",
+    "docs_path": "assets/terminology.md"
   },
   "wg/choosing-an-ai-approach-and-infrastructure-strategy": {
     "source_url": "https://www.finops.org/wg/choosing-an-ai-approach-and-infrastructure-strategy/",
     "source_hash": "1f81dc628f46e15552dc4b05b3b60231ce60da0c5ca427733a2b709c842287bc",
-    "last_crawl": "2026-08-17T12:42:03.129751"
+    "last_crawl": "2026-08-17T12:42:03.129751",
+    "translation_status": "not_translated",
+    "docs_path": null
   }
 }
