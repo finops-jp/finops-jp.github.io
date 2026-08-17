@@ -36,6 +36,7 @@ STATUS_FILE = Path(".translation-status.json")
 ORIG_DIR = Path("orig")
 DOCS_DIR = Path("docs")
 GLOSSARY_FILE = Path("scripts/glossary.json")
+STYLE_GUIDE_FILE = Path("scripts/style-guide.md")
 
 # AI API設定
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"
@@ -58,6 +59,12 @@ def load_glossary():
         with open(GLOSSARY_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {}
+
+
+def load_style_guide():
+    if STYLE_GUIDE_FILE.exists():
+        return STYLE_GUIDE_FILE.read_text(encoding='utf-8')
+    return ""
 
 
 def get_untranslated_keys(status):
@@ -102,30 +109,20 @@ def extract_title_from_markdown(content):
 def translate_content(content, glossary, api_key):
     """Gemini APIを使って翻訳"""
     glossary_text = "\n".join([f"- {en}: {ja}" for en, ja in glossary.items()])
+    style_guide = load_style_guide()
 
     prompt = f"""あなたはFinOps(クラウド財務管理)の専門家かつ技術翻訳者です。以下の英語のFinOps技術文書を日本語に翻訳してください。
 
-## 翻訳ルール
+## 翻訳スタイルガイド
 
-1. **専門用語**: 以下の用語辞書に従ってください。辞書にない専門用語は適切な日本語訳を選んでください。
+以下のスタイルガイドに従って翻訳してください:
+
+{style_guide}
+
+## 専門用語辞書
+
+以下の用語辞書に従ってください:
 {glossary_text}
-
-2. **Markdown構造**: 元のMarkdown構造を完全に保持してください。
-   - 見出しレベル(#, ##, ###など)
-   - リスト(-, *, 1.など)
-   - リンク([text](url)) — URLは変更しない
-   - 強調(**bold**, *italic*)
-   - 画像(![alt](url)) — そのまま
-
-3. **翻訳品質**:
-   - 自然で読みやすい日本語
-   - 技術文書として正確
-   - 冗長にならないよう簡潔に
-
-4. **英語のまま残すもの**:
-   - FinOps, AWS, Azure, GCP 等の固有名詞
-   - 製品名、サービス名
-   - URL、コード
 
 ## 翻訳対象
 
