@@ -151,7 +151,7 @@ def translate_content(content, glossary, api_key):
     }
 
     url = f"{GEMINI_API_URL}?key={api_key}"
-    response = requests.post(url, headers=headers, json=payload, timeout=120)
+    response = requests.post(url, headers=headers, json=payload, timeout=300)
     response.raise_for_status()
 
     result = response.json()
