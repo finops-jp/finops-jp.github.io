@@ -1,0 +1,82 @@
+name: Sync and Translate
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: '翻訳するページの最大数 (0 = 翻訳しない、同期のみ)'
+        required: false
+        default: '3'
+        type: string
+      category:
+        description: '翻訳対象カテゴリ (空欄 = 全カテゴリ)'
+        required: false
+        default: ''
+        type: string
+  # schedule:
+  #   - cron: '0 0 * * 0'  # 毎週日曜日0時(UTC) — 必要に応じて有効化
+
+jobs:
+  sync-and-translate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Sync original content (batch-extract)
+        run: python scripts/batch-extract.py
+
+      - name: Update translation status
+        run: python scripts/init-status.py
+
+      - name: Translate new pages
+        if: ${{ inputs.max_pages != '0' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/translate.py \
+            --max-pages ${{ inputs.max_pages || '3' }} \
+            ${{ inputs.category && format('--category {0}', inputs.category) || '' }}
+
+      - name: Generate report
+        run: python scripts/report.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: sync and translate FinOps content"
+          title: "🌐 Sync & Translate: FinOps content update"
+          body: |
+            ## 自動同期 & 翻訳
+
+            - **同期**: finops.org の最新コンテンツを `orig/` に取得
+            - **翻訳**: 未翻訳ページを最大 ${{ inputs.max_pages || '3' }} 件翻訳
+            - **カテゴリ**: ${{ inputs.category || '全カテゴリ' }}
+
+            ### レビューポイント
+
+            - [ ] 翻訳品質の確認
+            - [ ] Markdown構造の確認
+            - [ ] 専門用語の確認
+
+            ---
+            *このPRは自動生成されています。*
+          branch: auto/sync-and-translate
+          delete-branch: true
+          labels: |
+            translation
+            automated

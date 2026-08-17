@@ -1,4 +1,4 @@
----
+﻿---
 title: ビジネス価値の定量化
 ---
 
@@ -46,7 +46,7 @@ title: ビジネス価値の定量化
 - [計画と見積もり](/docs/framework/capabilities/planning-estimating)
 - [予測](/docs/framework/capabilities/forecasting)
 - [予算](/docs/framework/capabilities/budgeting)
-- [ベンチマーク](/docs/framework/capabilities/benchmarking)
+- [ベンチマーク](/docs/framework/capabilities/kpis-benchmarking)
 - [ユニットエコノミクス](/docs/framework/capabilities/unit-economics)
 
 :::

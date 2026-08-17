@@ -1,4 +1,4 @@
----
+﻿---
 title: FinOpsドメイン
 description: FinOpsドメインは、活動やナレッジの領域を表しています。FinOpsを採用するすべての組織は、すべてのFinOpsドメインで活動を行うことになります。
 ---
@@ -22,7 +22,7 @@ FinOpsフレームワークのドメインは、組織がFinOpsの実践から�
 
 このドメインの結果は、組織によるクラウドの使用についてより深く理解することです。このドメイン内では、組織はFinOpsの実行に必要なすべての情報を収集するために作業します。これには、直接および帰属クラウドのコスト、クラウドの使用状況、可観測性、利用、持続可能性のデータ、およびFinOpsドメインに必要なその他のデータセットが含まれます。また、このドメインのアクティビティでは、クラウドのコストと使用状況を分類、割り当て、要約するための組織のメタデータを定義し、そのデータをすべてのFinOpsペルソナが使用できるようにするレポート作成と分析のプロセスを定義します。
 
-詳細については「[**クラウドの使用量とコストの理解**](understand-cloud-usage-cost)」を参照してください。
+詳細については「[**クラウドの使用量とコストの理解**](understand-usage-cost)」を参照してください。
 
 :::info[ドメインケイパビリティ]
 
@@ -44,7 +44,7 @@ FinOpsフレームワークのドメインは、組織がFinOpsの実践から�
 - [計画と見積もり](/docs/framework/capabilities/planning-estimating)
 - [予測](/docs/framework/capabilities/forecasting)
 - [予算](/docs/framework/capabilities/budgeting)
-- [ベンチマーク](/docs/framework/capabilities/benchmarking)
+- [ベンチマーク](/docs/framework/capabilities/kpis-benchmarking)
 - [ユニットエコノミクス](/docs/framework/capabilities/unit-economics)
 
 :::
@@ -53,14 +53,14 @@ FinOpsフレームワークのドメインは、組織がFinOpsの実践から�
 
 このドメインはクラウドの効率性に焦点を当てており、組織が組織に価値を提供する場合にのみリソースを使用するようにします。また、使用されるリソースは、組織の目標を達成するために、許容できる最小限のコストと影響で購入されます。組織は、金銭的コスト、炭素使用量、またはより伝統的なIT運用効率測定など、さまざまな方法で効率を測定します。このドメインの機能により、組織は、使用されるクラウド リソースの種類、タイミング、量、およびそれらのリソースに対して支払われる料金を管理できます。ここでの機能は、アーキテクチャのモダナイゼーション、FinOps チームの持続可能性に関する考慮事項、ライセンスおよび消費ベースの SaaS 製品の使用にも対応しています。
 
-詳細については「[**クラウドの使用量とコストの最適化**](optimize-cloud-usage-cost)」を参照してください。
+詳細については「[**クラウドの使用量とコストの最適化**](optimize-usage-cost)」を参照してください。
 
 :::info[ドメインケイパビリティ]
 
-- [クラウドのアーキテクチャー設計](/docs/framework/capabilities/architecting-for-cloud)
+- [クラウドのアーキテクチャー設計](/docs/framework/capabilities/architecting-workload-placement)
 - [料金の最適化](/docs/framework/capabilities/rate-optimization)
-- [ワークロードの最適化](/docs/framework/capabilities/workload-optimization)
-- [クラウドの持続可能性](/docs/framework/capabilities/cloud-sustainability)
+- [ワークロードの最適化](/docs/framework/capabilities/usage-optimization)
+- [クラウドの持続可能性](/docs/framework/capabilities/sustainability)
 - [ライセンスとSaaS](/docs/framework/capabilities/licensing-saas)
 
 :::
@@ -73,13 +73,13 @@ FinOpsフレームワークのドメインは、組織がFinOpsの実践から�
 
 :::info[ドメインケイパビリティ]
 
-- [FinOpsプラクティスの運用](/docs/framework/capabilities/finops-parctice-operations)
-- [クラウドポリシーとガバナンス](/docs/framework/capabilities/cloud-policy-governance)
+- [FinOpsプラクティスの運用](/docs/framework/capabilities/finops-practice-operations)
+- [クラウドポリシーとガバナンス](/docs/framework/capabilities/governance-policy-risk)
 - [FinOpsアセスメント](/docs/framework/capabilities/finops-assessment)
-- [FinOpsツールとサービス](/docs/framework/capabilities/finops-tools-services)
+- [FinOpsツールとサービス](/docs/framework/capabilities/automation-tools-services)
 - [FinOpsの教育と仕組みづくり](/docs/framework/capabilities/finops-education-enablement)
 - [請求とチャージバック](/docs/framework/capabilities/invoicing-chargeback)
-- [ワークロードのオンボーディング](/docs/framework/capabilities/onboarding-workloads)
+- [ワークロードのオンボーディング](/docs/framework/capabilities/intersecting-disciplines)
 - [関連する専門分野](/docs/framework/capabilities/intersecting-disciplines)
 
 :::

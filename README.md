@@ -1,5 +1,7 @@
 # FinOps Foundation Japan Chapter website
 
+![Translation Coverage](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ffinops-jp.github.io%2Fbadge%2Ftranslation.json&query=%24.message&label=%E7%BF%BB%E8%A8%B3%E3%82%AB%E3%83%90%E3%83%BC%E7%8E%87&color=brightgreen)
+
 [FinOps Foundation Japan Chapterウェブサイト](https://finops-jp.github.io)、ドキュメント、ブログなどを管理するリポジトリです。ウェブサイトは[Docusaurus](https://docusaurus.io/)を使って構築してます。
 
 ## コントリビューティング
