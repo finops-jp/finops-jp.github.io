@@ -35,7 +35,7 @@ An existing understanding of the [FinOps Framework](<https://www.finops.org/fram
 
 A [FinOps Scope](<https://www.finops.org/framework/scopes/>) is a segment of technology-related spending to which FinOps Practitioners apply FinOps concepts.
 
-A [FinOps Scope](</framework/scopes>) is a defined segment of spending across any technology category, aligned to business constructs–such as products, cost centers, or environment–that guide the application of FinOps to maximize technology value. FinOps Scopes can expand the [Framework](<https://www.finops.org/framework/>) operating model to include intersecting areas of technology spend that practitioners manage with FinOps in addition to the public cloud.
+A [FinOps Scope](<https://www.finops.org/framework/scopes>) is a defined segment of spending across any technology category, aligned to business constructs–such as products, cost centers, or environment–that guide the application of FinOps to maximize technology value. FinOps Scopes can expand the [Framework](<https://www.finops.org/framework/>) operating model to include intersecting areas of technology spend that practitioners manage with FinOps in addition to the public cloud.
 
 [FinOps Personas](<https://www.finops.org/framework/personas/>) apply Framework [Capabilities](<https://www.finops.org/framework/capabilities/>) to another Scope of cost and usage data in addition to public cloud – such as SaaS or data center infrastructure – to extend FinOps’ collaborative and timely decision making practices in a consistent way across a broader scope of an organization’s technology landscape.
 

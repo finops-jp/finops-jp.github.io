@@ -1,6 +1,6 @@
 # Data Ingestion
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Understand Usage & Cost](<https://www.finops.org/framework/domains/understand-usage-cost/>) / Data Ingestion 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Understand Usage & Cost](<https://www.finops.org/framework/domains/understand-usage-cost/>) / Data Ingestion 
 
 ## On this page
 
@@ -41,7 +41,7 @@
 
 ## Definition
 
-Data Ingestion involves gathering, transferring, processing, transforming, and correlating various datasets to create a queryable, contextualized repository, at the appropriate level of granularity, accessibility, and completeness to support activities in all of the [FinOps Capabilities](</framework/capabilities>) across all [FinOps Personas](</framework/personas>).
+Data Ingestion involves gathering, transferring, processing, transforming, and correlating various datasets to create a queryable, contextualized repository, at the appropriate level of granularity, accessibility, and completeness to support activities in all of the [FinOps Capabilities](<https://www.finops.org/framework/capabilities>) across all [FinOps Personas](<https://www.finops.org/framework/personas>).
 
 Data Ingestion needs can vary greatly depending on how each organization conducts its FinOps practice:
 
@@ -119,7 +119,7 @@ Action in this Capability will be triggered by the need to build or add data sou
 
 **As someone in the FinOps team role, I will…**
 
-  * Collaborate with the other [FinOps Personas](</framework/personas>) and determine the list of data sources required to fulfill my current reporting, analytics and operational needs
+  * Collaborate with the other [FinOps Personas](<https://www.finops.org/framework/personas>) and determine the list of data sources required to fulfill my current reporting, analytics and operational needs
   * Determine gaps in data and work with responsible teams to update source data
   * Determine the level of granularity required in each data source
   * Establish a data model for normalization, mapping fields from various sources to one another
@@ -127,7 +127,7 @@ Action in this Capability will be triggered by the need to build or add data sou
   * Ensure that the data sources and resulting repository of cost and usage information is kept accurately, is appropriately sized, backed up, and managed throughout its useful lifecycle
   * Provide and ensure everyone with a need to access information can do so
   * Develop reporting output expectations document (update over time as maturity grows)
-  * Leverage the [FOCUS Use Case Library](<https://focus.finops.org>) and collaborate with the other [FinOps Personas](</framework/personas>) to identify FOCUS datasets the FinOps practice requires
+  * Leverage the [FOCUS Use Case Library](<https://focus.finops.org>) and collaborate with the other [FinOps Personas](<https://www.finops.org/framework/personas>) to identify FOCUS datasets the FinOps practice requires
 
 ####  ![](https://www.finops.org/wp-content/uploads/2024/03/Product.svg) Product 
 

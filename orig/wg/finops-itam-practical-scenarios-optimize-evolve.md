@@ -22,10 +22,10 @@ Tip: For a more comprehensive look at the intersection of FinOps and ITAM, refer
 
 Review additional FinOps & ITAM key scenarios where the collaboration of these two teams can deliver increased technology value.
 
-  * [Plan & Procure](</wg/finops-itam-practical-scenarios-planning-procurement/>)
-  * [Deliver & Govern](</wg/finops-itam-practical-scenarios-deliver-govern/>)
-  * [Optimize & Evolve](</wg/finops-itam-practical-scenarios-optimize-evolve/>)
-  * [Realize Value & Reinvest](</wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
+  * [Plan & Procure](<https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/>)
+  * [Deliver & Govern](<https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/>)
+  * [Optimize & Evolve](<https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/>)
+  * [Realize Value & Reinvest](<https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
 
 ## Unified FinOps and ITAM Practical Scenarios Overview
 
@@ -406,10 +406,10 @@ Scanning your estate for Hardware Asset Optimizations can be achieved relatively
 
 Learn more about the intersection of FinOps and ITAM in the context of additional, distinct scenarios where the collaboration of these two teams can deliver increased technology value.
 
-  * [Plan & Procure](</wg/finops-itam-practical-scenarios-planning-procurement/>)
-  * [Deliver & Govern](</wg/finops-itam-practical-scenarios-deliver-govern/>)
-  * [Optimize & Evolve](</wg/finops-itam-practical-scenarios-optimize-evolve/>)
-  * [Realize Value & Reinvest](</wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
+  * [Plan & Procure](<https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/>)
+  * [Deliver & Govern](<https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/>)
+  * [Optimize & Evolve](<https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/>)
+  * [Realize Value & Reinvest](<https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
 
 ## Acknowledgments
 

@@ -1,6 +1,6 @@
 # Governance, Policy & Risk
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Governance, Policy & Risk 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Governance, Policy & Risk 
 
 ## On this page
 

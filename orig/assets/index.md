@@ -3,10 +3,10 @@
   * [Asset Library](<https://www.finops.org/assets/>)
   * [Session Library](<https://www.finops.org/finops-x-session-library/>)
   * [FinOps Landscape](<https://www.finops.org/landscape/>)
-  * [KPIs](</wg/finops-kpis/>)
-  * [Terminology](</assets/terminology/>)
-  * [FinOps Assessment](</wg/finops-assessment/>)
-  * [FinOps Cloud Book](</community/finops-book/>)
+  * [KPIs](<https://www.finops.org/wg/finops-kpis/>)
+  * [Terminology](<https://www.finops.org/assets/terminology/>)
+  * [FinOps Assessment](<https://www.finops.org/wg/finops-assessment/>)
+  * [FinOps Cloud Book](<https://www.finops.org/community/finops-book/>)
 
 # Asset Library
 

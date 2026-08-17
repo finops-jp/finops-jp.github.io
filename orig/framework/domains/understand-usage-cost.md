@@ -1,6 +1,6 @@
 # Understand Usage & Cost
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / Understand Usage & Cost 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / Understand Usage & Cost 
 
 The outcome of this Domain is better understanding of an organization’s use of technology within any [FinOps Scopes](<https://www.finops.org/topic/scopes/>).
 

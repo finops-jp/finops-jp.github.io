@@ -1,6 +1,6 @@
 # Intersecting Disciplines
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Intersecting Disciplines 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Intersecting Disciplines 
 
 ## On this page
 
@@ -42,7 +42,7 @@ Intersecting Disciplines a FinOps team works with might include:
   * DevOps or SRE organizations that operate across application teams and have responsibility for implementation, delivery, or operations of IT services
   * Portfolio Management teams that manage the logical groupings of applications in business portfolios to achieve certain organizational objectives
 
-To support real-time decision making across the technology estate, FinOps teams will need to understand the goals, actions, and granular data used by any intersecting discipline. Embrace the [FinOps Principle](</framework/principles/>) of “Teams need to collaborate” to make the interaction with Allied Personas and intersecting disciplines really contribute to organizational success.
+To support real-time decision making across the technology estate, FinOps teams will need to understand the goals, actions, and granular data used by any intersecting discipline. Embrace the [FinOps Principle](<https://www.finops.org/framework/principles/>) of “Teams need to collaborate” to make the interaction with Allied Personas and intersecting disciplines really contribute to organizational success.
 
 ## Maturity Assessment
 

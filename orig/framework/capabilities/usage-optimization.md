@@ -1,6 +1,6 @@
 # Usage Optimization
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Usage Optimization 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Usage Optimization 
 
 ## On this page
 

@@ -1,6 +1,6 @@
 # Rate Optimization
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Rate Optimization 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Rate Optimization 
 
 ## On this page
 

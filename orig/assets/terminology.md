@@ -88,7 +88,7 @@ Chargeback reporting will typically match to the organization’s financial budg
 
 ## Cost allocation
 
-The process of splitting up a cloud bill and [associating the costs to each cost center](</framework/capabilities/cost-allocation/>). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy. See also, _[Shared Costs](</framework/capabilities/manage-shared-cloud-cost/>)_.
+The process of splitting up a cloud bill and [associating the costs to each cost center](<https://www.finops.org/framework/capabilities/cost-allocation/>). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy. See also, _[Shared Costs](<https://www.finops.org/framework/capabilities/manage-shared-cloud-cost/>)_.
 
 ## Cost Avoidance
 

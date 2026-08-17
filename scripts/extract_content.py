@@ -141,6 +141,22 @@ def extract_content_by_markers(markdown_text):
     for i, line in enumerate(lines):
         if '![](/wp-content/' in line:
             lines[i] = line.replace('![](/wp-content/', '![](https://www.finops.org/wp-content/')
+
+    # finops.org内の相対パスリンクを絶対URLに変換
+    import re
+    for i, line in enumerate(lines):
+        # (</framework/...>) → (<https://www.finops.org/framework/...>)
+        lines[i] = re.sub(
+            r'\(<(/[^>]+)>\)',
+            r'(<https://www.finops.org\1>)',
+            lines[i]
+        )
+        # (/framework/...) or (/wg/...) etc → (https://www.finops.org/...)
+        lines[i] = re.sub(
+            r'\((/(?:framework|introduction|assets|wg|insights|community|training-certification|join|membership)/[^)]*)\)',
+            r'(https://www.finops.org\1)',
+            lines[i]
+        )
     
     # 終了マーカーのパターン  
     end_markers = [

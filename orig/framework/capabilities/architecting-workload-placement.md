@@ -1,6 +1,6 @@
 # Architecting & Workload Placement
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Architecting & Workload Placement 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Architecting & Workload Placement 
 
 ## On this page
 

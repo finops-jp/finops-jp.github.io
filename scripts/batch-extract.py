@@ -136,7 +136,7 @@ def fetch_with_redirect_check(url):
     return final_url, response
 
 
-def process_url(url, base_url, output_dir, status):
+def process_url(url, base_url, output_dir, status, force=False):
     """
     単一URLを処理。
     Returns: ('updated', 'skipped', 'redirected', 'deleted', 'error')
@@ -181,7 +181,7 @@ def process_url(url, base_url, output_dir, status):
 
         # ハッシュ比較でスキップ判定
         new_hash = content_hash(content)
-        if key in status and status[key].get('source_hash') == new_hash:
+        if not force and key in status and status[key].get('source_hash') == new_hash:
             return 'skipped'
 
         # 出力ファイルパスを生成して保存
@@ -250,6 +250,12 @@ def _extract_from_response(response):
 
 def main():
     """メイン処理"""
+    import argparse
+    parser = argparse.ArgumentParser(description='Batch extract FinOps content')
+    parser.add_argument('--force', action='store_true',
+                        help='Force re-download all pages (ignore hash cache)')
+    args = parser.parse_args()
+
     print("FinOps Foundation Content Batch Extractor")
     print("=" * 60)
 
@@ -262,6 +268,8 @@ def main():
     print("Discovering URLs from sitemaps...")
     urls = discover_urls(config)
     print(f"Found {len(urls)} URLs matching filters")
+    if args.force:
+        print("(--force: skipping hash comparison)")
     print()
 
     # ステータスを読み込み
@@ -275,7 +283,7 @@ def main():
         key = url_to_key(url, base_url)
         print(f"[{i}/{len(urls)}] {key}")
 
-        result = process_url(url, base_url, output_dir, status)
+        result = process_url(url, base_url, output_dir, status, force=args.force)
         stats[result] = stats.get(result, 0) + 1
 
         # レート制限（1秒間隔）

@@ -6,31 +6,31 @@ Here’s a collection of Gamification ideas and stories created by the Working G
 
 Learn how the FinOps practitioners at Fidelity used a tournament-style gamification initiative to improve outcomes.
 
-[Read the story](</resource/introducing-the-try-finops-tournament/>)
+[Read the story](<https://www.finops.org/resource/introducing-the-try-finops-tournament/>)
 
 #### How We Created a FinOps Bingo Board
 
 Learn how a FinOps team used a bingo board-type gamification initiative to encourage teammates to optimize cloud costs and reduce waste on Azure.
 
-[Read the story](</resource/how-we-created-a-finops-bingo-board/>)
+[Read the story](<https://www.finops.org/resource/how-we-created-a-finops-bingo-board/>)
 
 #### Increasing Optimization Actions through Gamification
 
 Learn how General Mills created a gamification initiative that focuses on inclusion and gaining leadership support and sponsorship.
 
-[Read the story](</resource/increasing-optimization-actions-through-gamification/>)
+[Read the story](<https://www.finops.org/resource/increasing-optimization-actions-through-gamification/>)
 
 #### Using Gamification to Reduce Waste on Google Cloud
 
 Learn how GitLab uses gamification to optimize containerization and Kubernetes usage.
 
-[Read the story](</resource/using-gamification-to-reduce-waste-on-google-cloud/>)
+[Read the story](<https://www.finops.org/resource/using-gamification-to-reduce-waste-on-google-cloud/>)
 
 #### Gamifying FinOps in a Games Company
 
 Here’s how this practitioner motivated young engineers in a gaming company to adopt FinOps practices.
 
-[Read the story](</resource/gamifying-finops-in-a-games-company/>)
+[Read the story](<https://www.finops.org/resource/gamifying-finops-in-a-games-company/>)
 
 ## Thank you to our contributors
 

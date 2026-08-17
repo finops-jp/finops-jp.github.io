@@ -1,6 +1,6 @@
 # Allocation
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Understand Usage & Cost](<https://www.finops.org/framework/domains/understand-usage-cost/>) / Allocation 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Understand Usage & Cost](<https://www.finops.org/framework/domains/understand-usage-cost/>) / Allocation 
 
 ## On this page
 

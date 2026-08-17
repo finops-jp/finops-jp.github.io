@@ -1,6 +1,6 @@
 # Sustainability
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Sustainability 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Optimize Usage & Cost](<https://www.finops.org/framework/domains/optimize-usage-cost/>) / Sustainability 
 
 ## On this page
 
@@ -14,7 +14,7 @@
 
 ### Understanding Sustainability Impact
 
-  * **Assess technology carbon footprint across all**[**technology categories**](</framework/technology-categories>): Identify and measure the environmental impact of technology use across cloud, data center, SaaS, AI, or end-user computing. Establish baseline emissions data even where coverage is incomplete, using directionally correct estimates where precise data is unavailable.
+  * **Assess technology carbon footprint across all**[**technology categories**](<https://www.finops.org/framework/technology-categories>): Identify and measure the environmental impact of technology use across cloud, data center, SaaS, AI, or end-user computing. Establish baseline emissions data even where coverage is incomplete, using directionally correct estimates where precise data is unavailable.
   * **Align sustainability strategy with optimization goals:** Treat usage efficiency as the primary lever for both cost and carbon reduction. Sustainability improvements are most durable when they emerge from the same optimization activities that reduce waste and improve resource utilization.
   * **Identify and prioritize sustainability improvement opportunities:** Surface tradeoffs where sustainability and financial goals align or conflict, and provide the data needed for engineering and product teams to make informed decisions.
 

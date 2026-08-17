@@ -4,7 +4,7 @@
 
 The Domains of the FinOps Framework describe the fundamental business outcomes organizations should achieve from the FinOps practice. In other words, practicing FinOps will allow organizations to understand their cloud usage and cost, quantify its business value, optimize both usage and rates paid, and manage an effective practice.
 
-Each Domain describes a set of Capabilities an organization can perform to achieve these outcomes. Organizations should develop the Capabilities that provide them value, according to their needs and their organization’s current [FinOps Maturity Level](</framework/maturity-model/>). Some Capabilities aren’t appropriate for some organizations. While every organization won’t invest in every Capability, every organization using cloud, plus managing [Scopes](</framework/scopes>) of technology in addition to cloud, will perform activities in each of the FinOps Domains.
+Each Domain describes a set of Capabilities an organization can perform to achieve these outcomes. Organizations should develop the Capabilities that provide them value, according to their needs and their organization’s current [FinOps Maturity Level](<https://www.finops.org/framework/maturity-model/>). Some Capabilities aren’t appropriate for some organizations. While every organization won’t invest in every Capability, every organization using cloud, plus managing [Scopes](<https://www.finops.org/framework/scopes>) of technology in addition to cloud, will perform activities in each of the FinOps Domains.
 
 ### Understand Usage & Cost
 

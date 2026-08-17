@@ -22,16 +22,16 @@ Every organization will differ in structure, scope, and maturity, so not every s
 
 _
 
-Tip: For a more comprehensive look at the intersection of FinOps and ITAM, refer to [this overview paper](</wg/finops-itam-optimize-cost-risk-value/>). Where a scenario is aligned with one or more FinOps Framework Capabilities, the assets 
+Tip: For a more comprehensive look at the intersection of FinOps and ITAM, refer to [this overview paper](<https://www.finops.org/wg/finops-itam-optimize-cost-risk-value/>). Where a scenario is aligned with one or more FinOps Framework Capabilities, the assets 
 
 _[_Applying the FinOps Framework to SaaS_](<https://www.finops.org/wg/applying-the-finops-framework-to-saas/>) _and_[ _FinOps for Data Center: Applying the FinOps Framework_](<https://www.finops.org/wg/finops-for-data-center-applying-the-finops-framework/>) _can be used in conjunction with the scenario to provide further information and considerations. More information on the intersection of FinOps and ITAM can be found in[this overview resource](<https://www.finops.org/wg/finops-itam-optimize-cost-risk-value/>)._
 
 Review additional FinOps & ITAM key scenarios where the collaboration of these two teams can deliver increased technology value.
 
-  * [Plan & Procure](</wg/finops-itam-practical-scenarios-planning-procurement/>)
-  * [Deliver & Govern](</wg/finops-itam-practical-scenarios-deliver-govern/>)
-  * [Optimize & Evolve](</wg/finops-itam-practical-scenarios-optimize-evolve/>)
-  * [Realize Value & Reinvest](</wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
+  * [Plan & Procure](<https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/>)
+  * [Deliver & Govern](<https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/>)
+  * [Optimize & Evolve](<https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/>)
+  * [Realize Value & Reinvest](<https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
 
 ## Unified FinOps and ITAM Practical Scenarios Overview
 
@@ -410,10 +410,10 @@ Start with phased SaaS activation and pilot demo environment. As new employees s
 
 Learn more about the intersection of FinOps and ITAM in the context of additional, distinct scenarios where the collaboration of these two teams can deliver increased technology value.
 
-  * [Plan & Procure](</wg/finops-itam-practical-scenarios-planning-procurement/>)
-  * [Deliver & Govern](</wg/finops-itam-practical-scenarios-deliver-govern/>)
-  * [Optimize & Evolve](</wg/finops-itam-practical-scenarios-optimize-evolve/>)
-  * [Realize Value & Reinvest](</wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
+  * [Plan & Procure](<https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/>)
+  * [Deliver & Govern](<https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/>)
+  * [Optimize & Evolve](<https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/>)
+  * [Realize Value & Reinvest](<https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
 
 ## Acknowledgments
 
