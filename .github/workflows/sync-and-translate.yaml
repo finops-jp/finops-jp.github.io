@@ -51,6 +51,9 @@ jobs:
             --max-pages ${{ inputs.max_pages || '3' }} \
             ${{ inputs.category && format('--category {0}', inputs.category) || '' }}
 
+      - name: Update sidebar positions
+        run: python scripts/update-sidebar-positions.py
+
       - name: Generate report
         run: python scripts/report.py
 

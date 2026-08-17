@@ -1,5 +1,6 @@
 ---
 title: FinOpsツールとサービス
+sidebar_position: 18
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/finops-tools-services/

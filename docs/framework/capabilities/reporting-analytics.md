@@ -1,5 +1,6 @@
 ---
 title: レポートと分析
+sidebar_position: 3
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/reporting-analytics/

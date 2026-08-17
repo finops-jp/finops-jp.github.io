@@ -1,5 +1,6 @@
 ---
 title: 関連する専門分野
+sidebar_position: 21
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/intersecting-disciplines/

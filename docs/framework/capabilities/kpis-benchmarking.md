@@ -1,5 +1,6 @@
 ---
 title: ベンチマーク
+sidebar_position: 8
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/benchmarking/

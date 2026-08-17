@@ -1,6 +1,7 @@
 ---
 title: FinOpsの原則
 description: クラウド財務の動きを推進するコアバリューであるFinOpsの原則を理解します。
+sidebar_position: 2
 ---
 
 [英語版]: https://www.finops.org/framework/principles/

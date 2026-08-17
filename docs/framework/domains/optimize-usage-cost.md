@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 ﻿---
 title: 使用量とコストの最適化
 ---

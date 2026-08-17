@@ -1,6 +1,7 @@
 ---
 title: FinOps成熟度モデル
 description: 「クロール、ウォーク、ラン」というFinOpsアプローチにより、組織は小規模から始めて、ビジネス価値を機能的なアクティビティの成熟の根拠とし、規模、範囲、複雑性を拡大させることができます。このリソースを使用して、FinOpsの成熟度について詳しく学びます。
+sidebar_position: 4
 ---
 
 [英語版]: https://www.finops.org/framework/maturity-model/

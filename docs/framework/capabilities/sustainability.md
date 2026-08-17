@@ -1,5 +1,6 @@
 ---
 title: クラウドの持続可能性
+sidebar_position: 13
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/cloud-sustainability/

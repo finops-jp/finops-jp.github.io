@@ -1,5 +1,6 @@
 ---
 title: 計画と見積もり
+sidebar_position: 5
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/planning-estimating/
