@@ -37,9 +37,8 @@ ORIG_DIR = Path("orig")
 DOCS_DIR = Path("docs")
 GLOSSARY_FILE = Path("scripts/glossary.json")
 
-# GitHub Models API
-GITHUB_MODELS_API = "https://models.inference.ai.azure.com/chat/completions"
-MODEL_NAME = "gpt-4o"
+# AI API設定
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"
 
 
 def load_status():
@@ -100,8 +99,8 @@ def extract_title_from_markdown(content):
     return None
 
 
-def translate_content(content, glossary, github_token):
-    """GitHub Models APIを使って翻訳"""
+def translate_content(content, glossary, api_key):
+    """Gemini APIを使って翻訳"""
     glossary_text = "\n".join([f"- {en}: {ja}" for en, ja in glossary.items()])
 
     prompt = f"""あなたはFinOps(クラウド財務管理)の専門家かつ技術翻訳者です。以下の英語のFinOps技術文書を日本語に翻訳してください。
@@ -138,35 +137,28 @@ def translate_content(content, glossary, github_token):
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {github_token}"
     }
 
     payload = {
-        "messages": [
+        "contents": [
             {
-                "role": "system",
-                "content": "あなたはFinOps技術文書の翻訳専門家です。正確で自然な日本語翻訳を提供します。"
-            },
-            {
-                "role": "user",
-                "content": prompt
+                "parts": [
+                    {"text": prompt}
+                ]
             }
         ],
-        "model": MODEL_NAME,
-        "temperature": 0.3,
-        "max_tokens": 16000
+        "generationConfig": {
+            "temperature": 0.3,
+            "maxOutputTokens": 65536,
+        }
     }
 
-    response = requests.post(
-        GITHUB_MODELS_API,
-        headers=headers,
-        json=payload,
-        timeout=120
-    )
+    url = f"{GEMINI_API_URL}?key={api_key}"
+    response = requests.post(url, headers=headers, json=payload, timeout=120)
     response.raise_for_status()
 
     result = response.json()
-    translated = result['choices'][0]['message']['content'].strip()
+    translated = result['candidates'][0]['content']['parts'][0]['text'].strip()
 
     # Markdownコードブロックで囲まれている場合は除去
     if translated.startswith('```markdown'):
@@ -212,7 +204,7 @@ title: {doc_title}
     return frontmatter + translated_content + '\n'
 
 
-def process_page(key, status, glossary, github_token):
+def process_page(key, status, glossary, api_key):
     """1ページを翻訳して保存"""
     orig_path = key_to_orig_path(key)
     docs_path = key_to_docs_path(key)
@@ -227,7 +219,7 @@ def process_page(key, status, glossary, github_token):
     print(f"    Size: {len(orig_content)} chars")
 
     # 翻訳
-    translated = translate_content(orig_content, glossary, github_token)
+    translated = translate_content(orig_content, glossary, api_key)
 
     # ドキュメント生成
     doc_content = create_docs_file(key, translated, source_url, title)
@@ -259,10 +251,10 @@ def main():
     args = parser.parse_args()
 
     # GitHub Token確認
-    github_token = os.getenv('GITHUB_TOKEN')
-    if not github_token and not args.dry_run:
-        print("Error: GITHUB_TOKEN environment variable is required")
-        print("Set it with: export GITHUB_TOKEN=your_token")
+    api_key = os.getenv('GEMINI_API_KEY')
+    if not api_key and not args.dry_run:
+        print("Error: GEMINI_API_KEY environment variable is required")
+        print("Set it with: export GEMINI_API_KEY=your_key")
         return 1
 
     # ステータス読み込み
@@ -306,7 +298,7 @@ def main():
 
     for key in targets[:args.max_pages]:
         try:
-            success = process_page(key, status, glossary, github_token)
+            success = process_page(key, status, glossary, api_key)
             if success:
                 translated_count += 1
             # レート制限回避

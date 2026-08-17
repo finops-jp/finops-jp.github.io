@@ -141,6 +141,36 @@ def extract_content_by_markers(markdown_text):
     for i, line in enumerate(lines):
         if '![](/wp-content/' in line:
             lines[i] = line.replace('![](/wp-content/', '![](https://www.finops.org/wp-content/')
+
+    # finops.org の内部リンクをこのサイトの相対パスに変換
+    import re
+    for i, line in enumerate(lines):
+        # (<https://www.finops.org/framework/...>) → (/docs/framework/...)
+        lines[i] = re.sub(
+            r'\(<https?://(?:www\.)?finops\.org/(framework|introduction|assets)(/[^>]*)>\)',
+            r'(/docs/\1\2)',
+            lines[i]
+        )
+        # (https://www.finops.org/framework/...) → (/docs/framework/...)
+        lines[i] = re.sub(
+            r'\(https?://(?:www\.)?finops\.org/(framework|introduction|assets)(/[^)]*)\)',
+            r'(/docs/\1\2)',
+            lines[i]
+        )
+        # (</framework/...>) or (</introduction/...>) → (/docs/framework/...)
+        lines[i] = re.sub(
+            r'\(</(framework|introduction|assets)(/[^>]*)?>\)',
+            r'(/docs/\1\2)',
+            lines[i]
+        )
+        # (/framework/...) → (/docs/framework/...)
+        lines[i] = re.sub(
+            r'\(/(framework|introduction|assets)(/[^)]*)\)',
+            r'(/docs/\1\2)',
+            lines[i]
+        )
+        # finops.org の wg リンク → そのまま外部リンクとして保持
+        # (https://www.finops.org/wg/...) はそのまま残す（docs/wg/ がまだないため）
     
     # 終了マーカーのパターン  
     end_markers = [

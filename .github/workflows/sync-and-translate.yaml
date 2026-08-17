@@ -45,7 +45,7 @@ jobs:
       - name: Translate new pages
         if: ${{ inputs.max_pages != '0' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python scripts/translate.py \
             --max-pages ${{ inputs.max_pages || '3' }} \
