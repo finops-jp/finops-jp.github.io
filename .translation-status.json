@@ -1,1 +1,999 @@
-{}
+{
+  "assets": {
+    "source_url": "https://www.finops.org/assets/",
+    "source_hash": "dfae792185f9a42a92fecb5ec81a662e5bbb4e6144e70e6fe3437071b7a220ff",
+    "last_crawl": "2026-08-17T12:32:21.702643",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework": {
+    "source_url": "https://www.finops.org/framework/",
+    "source_hash": "f20c39a9b3f3721446ee096718fb8abc83077409f3ac2bae74e076c42d69ebd9",
+    "last_crawl": "2026-08-17T12:32:23.287858",
+    "translation_status": "reviewed",
+    "docs_path": "framework/index.md"
+  },
+  "framework/capabilities": {
+    "source_url": "https://www.finops.org/framework/capabilities/",
+    "source_hash": "7208030d67bf88f586b4220f821062bb43b3d28a86da8775db569fc6dcd61190",
+    "last_crawl": "2026-08-17T12:32:24.743759",
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/index.md"
+  },
+  "framework/capabilities/allocation": {
+    "source_url": "https://www.finops.org/framework/capabilities/allocation/",
+    "source_hash": "db4bcd42f57605b15d556afafb534713253b8ed6bbd06ac3c5f80af65cc0d0b7",
+    "last_crawl": "2026-08-17T12:32:26.219922",
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/allocation.md"
+  },
+  "framework/capabilities/anomaly-management": {
+    "source_url": "https://www.finops.org/framework/capabilities/anomaly-management/",
+    "source_hash": "a6e91bff01fa7c43538f03927c8dd35fa4acc43f34464e46f93f90aeab8c6dcd",
+    "last_crawl": "2026-08-17T12:32:27.708570",
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/anomaly-management.md"
+  },
+  "framework/capabilities/architecting-workload-placement": {
+    "source_url": "https://www.finops.org/framework/capabilities/architecting-workload-placement/",
+    "source_hash": "2f24807deed41bcef3c7590a97d5fce20c0d0f4a94c786977c1ab7e8722adbf1",
+    "last_crawl": "2026-08-17T12:32:29.565754",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/automation-tools-services": {
+    "source_url": "https://www.finops.org/framework/capabilities/automation-tools-services/",
+    "source_hash": "072cfe149606fd9f540a966833c58497ec14f617ea772e81fd25a510948cc62d",
+    "last_crawl": "2026-08-17T12:32:31.075567",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/budgeting": {
+    "source_url": "https://www.finops.org/framework/capabilities/budgeting/",
+    "source_hash": "dac170879684b5ccebde74c8c591c70952658cb32bec415736f9446c2db3b27b",
+    "last_crawl": "2026-08-17T12:32:32.580642",
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/budgeting.md"
+  },
+  "framework/capabilities/data-ingestion": {
+    "source_url": "https://www.finops.org/framework/capabilities/data-ingestion/",
+    "source_hash": "651fd3abd87ec9f2aecf3b5a2756257f286da77db36e58bf5e61250e613a8980",
+    "last_crawl": "2026-08-17T12:32:34.147077",
+    "translation_status": "machine",
+    "docs_path": "framework/capabilities/data-ingestion.md"
+  },
+  "framework/capabilities/executive-strategy-alignment": {
+    "source_url": "https://www.finops.org/framework/capabilities/executive-strategy-alignment/",
+    "source_hash": "f27672ae24a2163f51e2d1bdd0b393958d0daba371636dbf8c8198357d0c0085",
+    "last_crawl": "2026-08-17T12:32:36.463060",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/finops-assessment": {
+    "source_url": "https://www.finops.org/framework/capabilities/finops-assessment/",
+    "source_hash": "fc7d925ca9715fed9cba2150f9252044a55c5f0f4dfbf5f7e6dd4fb1f25588f9",
+    "last_crawl": "2026-08-17T12:32:37.908944",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/finops-assessment.md"
+  },
+  "framework/capabilities/finops-education-enablement": {
+    "source_url": "https://www.finops.org/framework/capabilities/finops-education-enablement/",
+    "source_hash": "92e09f4000f1586a027eca51e119e2fc968d09e9a4cd6d54bab6b5442c4bee21",
+    "last_crawl": "2026-08-17T12:32:39.400959",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/finops-education-enablement.md"
+  },
+  "framework/capabilities/finops-practice-operations": {
+    "source_url": "https://www.finops.org/framework/capabilities/finops-practice-operations/",
+    "source_hash": "dcb5182084c3ac0c64946dae6f9bf5c8b21d89b6ef5d443c7285f8564819593e",
+    "last_crawl": "2026-08-17T12:32:41.107731",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/forecasting": {
+    "source_url": "https://www.finops.org/framework/capabilities/forecasting/",
+    "source_hash": "7f5646626eb7f456bce54932ca7062d6699f6f5dd4c09e9a9036688ba5d49cc8",
+    "last_crawl": "2026-08-17T12:32:42.636258",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/forecasting.md"
+  },
+  "framework/capabilities/governance-policy-risk": {
+    "source_url": "https://www.finops.org/framework/capabilities/governance-policy-risk/",
+    "source_hash": "60c3afc835fa390928f3ed46ffa83943dfec495d3413a6159f216d25e53a6bbb",
+    "last_crawl": "2026-08-17T12:32:44.198339",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/intersecting-disciplines": {
+    "source_url": "https://www.finops.org/framework/capabilities/intersecting-disciplines/",
+    "source_hash": "36276cd6384bb1b360bf4446918d6156561cf660a57aa89513b8b8e8cd8eb0e5",
+    "last_crawl": "2026-08-17T12:32:45.875802",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/intersecting-disciplines.md"
+  },
+  "framework/capabilities/invoicing-chargeback": {
+    "source_url": "https://www.finops.org/framework/capabilities/invoicing-chargeback/",
+    "source_hash": "2194647e0bfe1a16126685f80d2d4b7bf58adeef07c2c7cd42f63da9f8015006",
+    "last_crawl": "2026-08-17T12:32:47.395019",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/invoicing-chargeback.md"
+  },
+  "framework/capabilities/kpis-benchmarking": {
+    "source_url": "https://www.finops.org/framework/capabilities/kpis-benchmarking/",
+    "source_hash": "050eeeb2ad01827c211e93919e7719b15ea14d1506ec81daad337656f7c11108",
+    "last_crawl": "2026-08-17T12:32:49.103931",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/licensing-saas": {
+    "source_url": "https://www.finops.org/framework/capabilities/licensing-saas/",
+    "source_hash": "4dbd7ca836a66b5dae850b8622234ab7ead66c7821fe2c0c23ba2826d69adefb",
+    "last_crawl": "2026-08-17T12:32:50.613872",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/licensing-saas.md"
+  },
+  "framework/capabilities/planning-estimating": {
+    "source_url": "https://www.finops.org/framework/capabilities/planning-estimating/",
+    "source_hash": "bc982319fbb6851a5936dc2023b02d5e1344ee04e8c0ff1f2b8b3ae0237b5052",
+    "last_crawl": "2026-08-17T12:32:52.166848",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/planning-estimating.md"
+  },
+  "framework/capabilities/rate-optimization": {
+    "source_url": "https://www.finops.org/framework/capabilities/rate-optimization/",
+    "source_hash": "602024d5bae471f5537c03d0bc920e0e3997e0e0efb2c9c49e6e6055667886db",
+    "last_crawl": "2026-08-17T12:32:53.848937",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/rate-optimization.md"
+  },
+  "framework/capabilities/reporting-analytics": {
+    "source_url": "https://www.finops.org/framework/capabilities/reporting-analytics/",
+    "source_hash": "00146bd16c3ebbee85100b2a85b52dae0fe13e43739c6eb16e5e087507285c50",
+    "last_crawl": "2026-08-17T12:32:55.297865",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/reporting-analytics.md"
+  },
+  "framework/capabilities/sustainability": {
+    "source_url": "https://www.finops.org/framework/capabilities/sustainability/",
+    "source_hash": "13b1002e5efd1e3a7fdc79fbd0751b37012d5160e11ce9359979f0ee2ed8cc6b",
+    "last_crawl": "2026-08-17T12:32:57.185413",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/capabilities/unit-economics": {
+    "source_url": "https://www.finops.org/framework/capabilities/unit-economics/",
+    "source_hash": "e9593bdcbb4f23452acfb31c91dea011daa609bd6a7551e1f72b519e2fd25254",
+    "last_crawl": "2026-08-17T12:32:58.672516",
+    "translation_status": "reviewed",
+    "docs_path": "framework/capabilities/unit-economics.md"
+  },
+  "framework/capabilities/usage-optimization": {
+    "source_url": "https://www.finops.org/framework/capabilities/usage-optimization/",
+    "source_hash": "79911218f3df5d1124d672c981984918f43fce81bc039bb9d6e7039750f503df",
+    "last_crawl": "2026-08-17T12:33:00.173910",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/domains": {
+    "source_url": "https://www.finops.org/framework/domains/",
+    "source_hash": "5f6d60a198ea93a5eab5a34d006bc2c7d8e7c53d46c657e85d9ee4e8904cfcea",
+    "last_crawl": "2026-08-17T12:33:01.618025",
+    "translation_status": "machine",
+    "docs_path": "framework/domains/index.md"
+  },
+  "framework/domains/optimize-usage-cost": {
+    "source_url": "https://www.finops.org/framework/domains/optimize-usage-cost/",
+    "source_hash": "7bb3e54ea1df6d3326307b2ad0cc5e447cf42d0a5acd1cf618a3dbb74a9a3599",
+    "last_crawl": "2026-08-17T12:33:03.783291",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/domains/manage-finops-practice": {
+    "source_url": "https://www.finops.org/framework/domains/manage-finops-practice/",
+    "source_hash": "9dad323cb8a8c3f8ba5d6d903fc6eb8dae617a817c8667d89c88d57bedd3e66d",
+    "last_crawl": "2026-08-17T12:33:07.848392",
+    "translation_status": "machine",
+    "docs_path": "framework/domains/manage-finops-practice.md"
+  },
+  "framework/domains/quantify-business-value": {
+    "source_url": "https://www.finops.org/framework/domains/quantify-business-value/",
+    "source_hash": "0ec71c68e6b2f46e1ed4abeb76c8659add4417791a4f0ce1a5961d2f526a67dd",
+    "last_crawl": "2026-08-17T12:33:09.851684",
+    "translation_status": "machine",
+    "docs_path": "framework/domains/quantify-business-value.md"
+  },
+  "framework/domains/understand-usage-cost": {
+    "source_url": "https://www.finops.org/framework/domains/understand-usage-cost/",
+    "source_hash": "c9a48254fd5d37b7dac357d2ee3bd4e79117ab155c83d9e40418109b60977475",
+    "last_crawl": "2026-08-17T12:33:13.300767",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "framework/maturity-model": {
+    "source_url": "https://www.finops.org/framework/maturity-model/",
+    "source_hash": "ec28f568593c02e82c11df5c5e2673609ffaa91913576da98480f548eb68c96b",
+    "last_crawl": "2026-08-17T12:33:14.687730",
+    "translation_status": "machine",
+    "docs_path": "framework/maturity-model.md"
+  },
+  "framework/personas": {
+    "source_url": "https://www.finops.org/framework/personas/",
+    "source_hash": "293eff5b36ae14a35751846df2929700095da4b62b6daae453910af567985742",
+    "last_crawl": "2026-08-17T12:33:16.127214",
+    "translation_status": "machine",
+    "docs_path": "framework/personas/index.md"
+  },
+  "framework/phases": {
+    "source_url": "https://www.finops.org/framework/phases/",
+    "source_hash": "a8a53adcc49d7e69b679d954b2be4feaa4af221a6af25b43e988fca9b0f0b3eb",
+    "last_crawl": "2026-08-17T12:33:17.876281",
+    "translation_status": "machine",
+    "docs_path": "framework/phases.md"
+  },
+  "framework/principles": {
+    "source_url": "https://www.finops.org/framework/principles/",
+    "source_hash": "08fe8cce4bd84760b74fce5888410a567e0a6c99c77eea66a5193ff8729647d6",
+    "last_crawl": "2026-08-17T12:33:19.455496",
+    "translation_status": "reviewed",
+    "docs_path": "framework/principles.md"
+  },
+  "framework/scopes": {
+    "source_url": "https://www.finops.org/framework/scopes/",
+    "source_hash": "c0c9c8ff61b9e0277bb168937207a8e83491671a0eb7f510c29de581478e4405",
+    "last_crawl": "2026-08-17T12:33:20.806584",
+    "translation_status": "machine",
+    "docs_path": "framework/scopes.md"
+  },
+  "framework/technology-categories": {
+    "source_url": "https://www.finops.org/framework/technology-categories/",
+    "source_hash": "2b888d2f4d8dd22115761374d6d9f3e46bd6382b39de03e810c929417959eaeb",
+    "last_crawl": "2026-08-17T12:33:22.166523",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "introduction/how-to-use": {
+    "source_url": "https://www.finops.org/introduction/how-to-use/",
+    "source_hash": "9ad5b8fa3f60918809f7ec807b554f87eea4c945eb9de050877dc1355dca15bd",
+    "last_crawl": "2026-08-17T12:33:23.604972",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "introduction/what-is-finops": {
+    "source_url": "https://www.finops.org/introduction/what-is-finops/",
+    "source_hash": "5f0025a928c0634630570ecd98d60f138d9304994e1251d003d4e1fbf58b80d8",
+    "last_crawl": "2026-08-17T12:33:24.941812",
+    "translation_status": "reviewed",
+    "docs_path": "introduction/what-is-finops.md"
+  },
+  "wg/a-guide-to-gamification-for-finops": {
+    "source_url": "https://www.finops.org/wg/a-guide-to-gamification-for-finops/",
+    "source_hash": "6038f05b9b962c6dacca0d9afe4ad88fdb1ea5a6083a359b6d4414e4f464a9f1",
+    "last_crawl": "2026-08-17T12:33:26.480161",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/accelerating-onboarding-of-finops-internships": {
+    "source_url": "https://www.finops.org/wg/accelerating-onboarding-of-finops-internships/",
+    "source_hash": "8de615a46669ff26827f50ce184e2bb8d4036152b5dfc159a50469dfa2d6cee7",
+    "last_crawl": "2026-08-17T12:33:27.976739",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/accurate-company-valuations-using-finops": {
+    "source_url": "https://www.finops.org/wg/accurate-company-valuations-using-finops/",
+    "source_hash": "7d0f9b5860fe051cf21ae7daea5f291e1b03f1760ca5b45e527e4afefb66d136",
+    "last_crawl": "2026-08-17T12:33:29.725115",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/adopting-finops-avoiding-pitfalls": {
+    "source_url": "https://www.finops.org/wg/adopting-finops-avoiding-pitfalls/",
+    "source_hash": "7a82a518b3da13b9f9269abc7c05e68845bd67d246811c2946e0c833988e785b",
+    "last_crawl": "2026-08-17T12:33:31.208098",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/adopting-finops": {
+    "source_url": "https://www.finops.org/wg/adopting-finops/",
+    "source_hash": "2c6e003cf3125740a13747acb1cdf1a1142f06d4b9a8689b9a4f492c001c0277",
+    "last_crawl": "2026-08-17T12:33:32.726318",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/adopting-focus-the-finops-open-cost-and-usage-specification": {
+    "source_url": "https://www.finops.org/wg/adopting-focus-the-finops-open-cost-and-usage-specification/",
+    "source_hash": "6390cf770631776727b2993e57b951d5f99b65dd6e781e155c51ed1a1cfd60b5",
+    "last_crawl": "2026-08-17T12:33:34.266960",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/ai-finops-prompts": {
+    "source_url": "https://www.finops.org/wg/ai-finops-prompts/",
+    "source_hash": "a9b4850823a6235c9be79accbbf7ae3e7a493b9c52cd0af76125c5de29185522",
+    "last_crawl": "2026-08-17T12:33:36.229096",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/applying-the-finops-framework-to-saas": {
+    "source_url": "https://www.finops.org/wg/applying-the-finops-framework-to-saas/",
+    "source_hash": "841b8bc3a4cde7dea0d20c8e386694a2cced63db5a64211a161483d4d2ef23c3",
+    "last_crawl": "2026-08-17T12:33:37.741939",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/architecting-vm-based-applications-for-cost-efficiency": {
+    "source_url": "https://www.finops.org/wg/architecting-vm-based-applications-for-cost-efficiency/",
+    "source_hash": "7afc6fac2c782d061dd13baa8ba1550a6bf0b79bbc994e20966be320fc81942b",
+    "last_crawl": "2026-08-17T12:33:39.354690",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/aws-dynamodb-optimization": {
+    "source_url": "https://www.finops.org/wg/aws-dynamodb-optimization/",
+    "source_hash": "d0611e360c601f205ee48f73dc1e9b25ca9b1c5897b0605b8cb4951fbe3897f8",
+    "last_crawl": "2026-08-17T12:33:41.071471",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/aws-ec2-rds-instance-scheduling": {
+    "source_url": "https://www.finops.org/wg/aws-ec2-rds-instance-scheduling/",
+    "source_hash": "aa4e92040d2a79f806ef94cd5e080016b4da54c924630e44ffbb05c16485d8cf",
+    "last_crawl": "2026-08-17T12:33:42.573388",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/aws-ecr-optimization": {
+    "source_url": "https://www.finops.org/wg/aws-ecr-optimization/",
+    "source_hash": "633e8a49b6094c9eb87680c9ad8b90f2c9096abe96997a47eedb278282ef7a64",
+    "last_crawl": "2026-08-17T12:33:44.110383",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/aws-managed-service-modernization": {
+    "source_url": "https://www.finops.org/wg/aws-managed-service-modernization/",
+    "source_hash": "078d4f8faaa2c5f20dd27fc473b29609cd06da0d7febcffd4d156a3bee2776e9",
+    "last_crawl": "2026-08-17T12:33:45.957097",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/aws-rds-removal": {
+    "source_url": "https://www.finops.org/wg/aws-rds-removal/",
+    "source_hash": "13ee3e6623f7c677fe5497272a39799ba3c4ae5c1cdf4ba0cde904ddb705a673",
+    "last_crawl": "2026-08-17T12:33:47.511891",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/aws-s3-cost-optimization": {
+    "source_url": "https://www.finops.org/wg/aws-s3-cost-optimization/",
+    "source_hash": "a43d95a4bc46a7719e628a0cc4f856f5573fc9ab7a520babb32a5ae62e8e098d",
+    "last_crawl": "2026-08-17T12:33:49.304102",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/azure-unused-app-service-plans": {
+    "source_url": "https://www.finops.org/wg/azure-unused-app-service-plans/",
+    "source_hash": "8cad0dfe6cd9c69ef29093ef2b53bc34e42fcab14a49c8a713afe3cc1a56eac8",
+    "last_crawl": "2026-08-17T12:33:50.968457",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/building-finops-teams-roles-structures-career-paths": {
+    "source_url": "https://www.finops.org/wg/building-finops-teams-roles-structures-career-paths/",
+    "source_hash": "6a29fa4ea9cc486c202fec7e05d7882337f476fdc4027512873d7f0a62ccbdaa",
+    "last_crawl": "2026-08-17T12:33:52.631761",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/building-maintaining-healthy-working-relationships-for-finops-practitioners": {
+    "source_url": "https://www.finops.org/wg/building-maintaining-healthy-working-relationships-for-finops-practitioners/",
+    "source_hash": "164b7f02ca2a03d5416012684e782e9c9c44285fa8f570f333a8ea712cebf837",
+    "last_crawl": "2026-08-17T12:33:54.119188",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/calculating-container-costs": {
+    "source_url": "https://www.finops.org/wg/calculating-container-costs/",
+    "source_hash": "63f1e21f9c3c41d4859f53402689a6cad0b74b1bbb816f8980748df660a1bbcc",
+    "last_crawl": "2026-08-17T12:33:56.006842",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/cloud-cost-allocation": {
+    "source_url": "https://www.finops.org/wg/cloud-cost-allocation/",
+    "source_hash": "c6ce9f40e0b4c0f339cfb8e72137b352df518c72146b503b38846d15edb13be5",
+    "last_crawl": "2026-08-17T12:33:59.144131",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/cloud-cost-forecasting": {
+    "source_url": "https://www.finops.org/wg/cloud-cost-forecasting/",
+    "source_hash": "155969c916d1d1b96dd85fb0d9ab8145eea0123ea42a2fa2524ff5359165c11b",
+    "last_crawl": "2026-08-17T12:34:00.814996",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/cloud-unit-economics-story-library": {
+    "source_url": "https://www.finops.org/wg/cloud-unit-economics-story-library/",
+    "source_hash": "a9847216a8c971be535719d108748d179a5fab0add0ab5605d3bc312ae2b6710",
+    "last_crawl": "2026-08-17T12:34:02.346054",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/commitment-based-discounts-overview": {
+    "source_url": "https://www.finops.org/wg/commitment-based-discounts-overview/",
+    "source_hash": "e834e86a7936b4278b77f925937793517c592f42e518dc076cf4551dac9a7d40",
+    "last_crawl": "2026-08-17T12:34:04.127152",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/container-cost-allocation": {
+    "source_url": "https://www.finops.org/wg/container-cost-allocation/",
+    "source_hash": "ac7cdc41460154a6717bdb4e76c3e105c74089413f140947290449e99b0c8c5e",
+    "last_crawl": "2026-08-17T12:34:05.861117",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/cost-allocation-story-library": {
+    "source_url": "https://www.finops.org/wg/cost-allocation-story-library/",
+    "source_hash": "bc42b1f08898c6870a26398a03c3977c7cdb697b71e455c885b26357ee7aaa58",
+    "last_crawl": "2026-08-17T12:34:07.450855",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/cost-estimation-of-ai-workloads": {
+    "source_url": "https://www.finops.org/wg/cost-estimation-of-ai-workloads/",
+    "source_hash": "b8da34ad94ca953d64e0871315a236aa543c7365f9e858b66c4148a647dfa2a1",
+    "last_crawl": "2026-08-17T12:34:09.118367",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/cost-optimization-for-aws-ec2-autoscaling": {
+    "source_url": "https://www.finops.org/wg/cost-optimization-for-aws-ec2-autoscaling/",
+    "source_hash": "8e20aceddad52d3078b5c6f5de9ec69635955cf39231660a50ed5b53e205956f",
+    "last_crawl": "2026-08-17T12:34:10.732082",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/effect-of-optimization-on-ai-forecasting": {
+    "source_url": "https://www.finops.org/wg/effect-of-optimization-on-ai-forecasting/",
+    "source_hash": "4ee91075c077c2e046005d137942511da18f90ffaffded31dda9ce0b9431f77f",
+    "last_crawl": "2026-08-17T12:34:12.425458",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/effective-average-cost-of-compute-per-vcpu": {
+    "source_url": "https://www.finops.org/wg/effective-average-cost-of-compute-per-vcpu/",
+    "source_hash": "b6f8a3dd5e3bb3d2bef5a84f638df03f975e2ba8414260471019ed0682842e93",
+    "last_crawl": "2026-08-17T12:34:13.824538",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/encouraging-engineers-to-take-action": {
+    "source_url": "https://www.finops.org/wg/encouraging-engineers-to-take-action/",
+    "source_hash": "ec584621a21281bdd7a384bf1ce01bd1b3fd73bd91ea64cb54ce354341d64109",
+    "last_crawl": "2026-08-17T12:34:15.522557",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/federal-budgeting-for-cloud-spending-variability": {
+    "source_url": "https://www.finops.org/wg/federal-budgeting-for-cloud-spending-variability/",
+    "source_hash": "cec2c14e59f7458ef6081ff90e0f2432bca5864d5a79c74826345acafabf1aa5",
+    "last_crawl": "2026-08-17T12:34:19.105282",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-assessment": {
+    "source_url": "https://www.finops.org/wg/finops-assessment/",
+    "source_hash": "f31546ff80fb5c28cac0934eff9ba6a6cafbb0c34183bc563c78b5358277313b",
+    "last_crawl": "2026-08-17T12:34:20.737880",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-data-cloud-platforms": {
+    "source_url": "https://www.finops.org/wg/finops-data-cloud-platforms/",
+    "source_hash": "a1acdbc1bc7ea110a9650cacd4f9c3e9b795a8864d2b429d4f1833d69f603777",
+    "last_crawl": "2026-08-17T12:34:22.503434",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-ai-overview": {
+    "source_url": "https://www.finops.org/wg/finops-for-ai-overview/",
+    "source_hash": "c871bd03e9079898693f434e923f7eb4a7f3564e1f51950bd744d0b7a8ea1dad",
+    "last_crawl": "2026-08-17T12:34:24.306029",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-ai-tools-services-considerations": {
+    "source_url": "https://www.finops.org/wg/finops-for-ai-tools-services-considerations/",
+    "source_hash": "4eedfac43d874c8a2efaa00af117ada72f1de5dcdc1eea03aa94eb4c8bcedbdd",
+    "last_crawl": "2026-08-17T12:34:26.896146",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-azure-managed-disks-optimizing-for-value": {
+    "source_url": "https://www.finops.org/wg/finops-for-azure-managed-disks-optimizing-for-value/",
+    "source_hash": "d7ea991ba79424079ecda4be91d39a7c0e579ecb1467b52a51c67c2f19af6c51",
+    "last_crawl": "2026-08-17T12:34:28.338804",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-data-center-applying-the-finops-framework": {
+    "source_url": "https://www.finops.org/wg/finops-for-data-center-applying-the-finops-framework/",
+    "source_hash": "d02556bfa02130b739443ff57c06da9be061a3d3a05d0c92dbf9a4a4b771a895",
+    "last_crawl": "2026-08-17T12:34:30.142386",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-data-center-creating-a-finops-practice-profile": {
+    "source_url": "https://www.finops.org/wg/finops-for-data-center-creating-a-finops-practice-profile/",
+    "source_hash": "3a7aab1b9e3aed61b431b7e4f791d04ab9d3466164e39b68338ad4c9f8787f0f",
+    "last_crawl": "2026-08-17T12:34:31.657032",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-data-center-practical-cost-modeling-focus-alignment": {
+    "source_url": "https://www.finops.org/wg/finops-for-data-center-practical-cost-modeling-focus-alignment/",
+    "source_hash": "5f54f6091f0d5328bb5937fbc896fc7ef120c4a94e7f4752095b01e20b41ffdf",
+    "last_crawl": "2026-08-17T12:34:33.293294",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-data-center-structuring-data-center-cost-and-usage-data": {
+    "source_url": "https://www.finops.org/wg/finops-for-data-center-structuring-data-center-cost-and-usage-data/",
+    "source_hash": "cdbb7f454ac38f1acf3210d1e47c2ea6592e07c04c7e3a4f25b331af5a45c606",
+    "last_crawl": "2026-08-17T12:34:35.061069",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-data-center-tooling-considerations": {
+    "source_url": "https://www.finops.org/wg/finops-for-data-center-tooling-considerations/",
+    "source_hash": "2bcaed96f26da7e0f44f0b931eb65bcfc52698e75205feecc1a6ce6c7d0ff242",
+    "last_crawl": "2026-08-17T12:34:36.814283",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-data-cloud-platforms-practical-scenarios": {
+    "source_url": "https://www.finops.org/wg/finops-for-data-cloud-platforms-practical-scenarios/",
+    "source_hash": "8bf779bdf4c9222629e42296617343ad6a44253b92757bacde2607eb5ac00071",
+    "last_crawl": "2026-08-17T12:34:38.470797",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-resiliency": {
+    "source_url": "https://www.finops.org/wg/finops-for-resiliency/",
+    "source_hash": "a4d91375d0234c421a07f414581d110c4af81fc5ca4dc7841f723542c0295b43",
+    "last_crawl": "2026-08-17T12:34:39.870288",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-saas-best-practices-and-adopting-focus": {
+    "source_url": "https://www.finops.org/wg/finops-for-saas-best-practices-and-adopting-focus/",
+    "source_hash": "bc87736039e7bb3a20c6b94d9f9788b246a4a1af8edfc0854613bd7cf548649f",
+    "last_crawl": "2026-08-17T12:34:41.408100",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-for-software-as-a-service-saas": {
+    "source_url": "https://www.finops.org/wg/finops-for-software-as-a-service-saas/",
+    "source_hash": "f60694a9c3076dd98bc20614db1061f6cc1838d64bdeacdf2752f1b026f2e6bb",
+    "last_crawl": "2026-08-17T12:34:42.921346",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-internship-story-template-library": {
+    "source_url": "https://www.finops.org/wg/finops-internship-story-template-library/",
+    "source_hash": "68b9de05c123b929318db4511e5846eda1f93beb1bc7f62eb6120d540732af04",
+    "last_crawl": "2026-08-17T12:34:44.339381",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-itam-optimize-cost-risk-value": {
+    "source_url": "https://www.finops.org/wg/finops-itam-optimize-cost-risk-value/",
+    "source_hash": "a19472de2494b15b7d9dc32413571c4115d72ac0b618d23bc4caeeea1d66f882",
+    "last_crawl": "2026-08-17T12:34:45.842772",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-itam-practical-scenarios-deliver-govern": {
+    "source_url": "https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/",
+    "source_hash": "67b97e52e2db75185be8adfdb83f46c99d28a72d3573cb7b8e89761e9f1023ad",
+    "last_crawl": "2026-08-17T12:34:47.340263",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-itam-practical-scenarios-optimize-evolve": {
+    "source_url": "https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/",
+    "source_hash": "f705401ec13a83ff026098501c9d05834a97df9fb8a90422de2031c7eb6f30d3",
+    "last_crawl": "2026-08-17T12:34:48.992335",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-itam-practical-scenarios-planning-procurement": {
+    "source_url": "https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/",
+    "source_hash": "b996ddd2df0235781fdd3ce12bbc9d565392568f92fd3b4f9656d77466defd9b",
+    "last_crawl": "2026-08-17T12:34:50.495639",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-itam-practical-scenarios-realize-value-reinvest": {
+    "source_url": "https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/",
+    "source_hash": "41066cbfde7cc866323b60f80a1db86514f8c89eb1b01f4474bb55ce5a27ec47",
+    "last_crawl": "2026-08-17T12:34:51.992641",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-itfm-intersection": {
+    "source_url": "https://www.finops.org/wg/finops-itfm-intersection/",
+    "source_hash": "617d7afce0236ecaef9d9354adfffefa31dd27c9ce7dba4ffdf66c2ee898391d",
+    "last_crawl": "2026-08-17T12:34:53.561383",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-kpis": {
+    "source_url": "https://www.finops.org/wg/finops-kpis/",
+    "source_hash": "f206c9c2858f82f3d44aae65bc1b2617ed9a5ca6c71bd5b3ce1d7cd55387abc4",
+    "last_crawl": "2026-08-17T12:34:55.023898",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-managers-internship-quickstart-guide": {
+    "source_url": "https://www.finops.org/wg/finops-managers-internship-quickstart-guide/",
+    "source_hash": "80003197bb3b9a32053ba5c351c3955c577de354b0fcaf8090d00cbd0f5da7f3",
+    "last_crawl": "2026-08-17T12:34:56.645883",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-tbm-navigating-coexisting-disciplines": {
+    "source_url": "https://www.finops.org/wg/finops-tbm-navigating-coexisting-disciplines/",
+    "source_hash": "e2febddfb85d942058fc085400e5abf0eec6ec2a6dc1f8f0d6f8be5070389014",
+    "last_crawl": "2026-08-17T12:34:59.171048",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/finops-tools-and-services": {
+    "source_url": "https://www.finops.org/wg/finops-tools-and-services/",
+    "source_hash": "fa0ad0aeb70671ad9d585231977517bb1f2aebf4188e5bcd1bf9351f7e5de82b",
+    "last_crawl": "2026-08-17T12:35:00.881827",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/forecasting-cloud-costs": {
+    "source_url": "https://www.finops.org/wg/forecasting-cloud-costs/",
+    "source_hash": "6b87b434ae344b5c4906fc3eb380d3f5f1161782466b7e2c4ecdc5187948155b",
+    "last_crawl": "2026-08-17T12:35:02.355897",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/gamification-library": {
+    "source_url": "https://www.finops.org/wg/gamification-library/",
+    "source_hash": "3f71a6e5c08f787b5ad9f98d65e8e20d8a7d9c757aa3f6e2fcca0fd58e8fded9",
+    "last_crawl": "2026-08-17T12:35:03.847019",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/genai-capacity-options": {
+    "source_url": "https://www.finops.org/wg/genai-capacity-options/",
+    "source_hash": "1bd0f3aebaaed6ba4033bebaa7213f3556122d743ba463173628d01ee1d81629",
+    "last_crawl": "2026-08-17T12:35:05.296012",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/genai-finops-how-token-pricing-really-works": {
+    "source_url": "https://www.finops.org/wg/genai-finops-how-token-pricing-really-works/",
+    "source_hash": "712ca8f95b6540ee9ec958ca8c0bdf267107f2c2a70664052add99767f7dc4cc",
+    "last_crawl": "2026-08-17T12:35:06.649407",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/genai-finops-vs-cloud-finops": {
+    "source_url": "https://www.finops.org/wg/genai-finops-vs-cloud-finops/",
+    "source_hash": "8bfba6a2bbeee822de1407e870ea152648fbb0c6bdba1dd8c0cf8e2f0e4839ac",
+    "last_crawl": "2026-08-17T12:35:08.001999",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-build-a-generative-ai-cost-and-usage-tracker": {
+    "source_url": "https://www.finops.org/wg/how-to-build-a-generative-ai-cost-and-usage-tracker/",
+    "source_hash": "38e5e12639c563acef1b73ec8704d2be6e42240d78302aa0863778ff6dbb2c15",
+    "last_crawl": "2026-08-17T12:35:09.598796",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-build-and-optimize-finops-data-workflows": {
+    "source_url": "https://www.finops.org/wg/how-to-build-and-optimize-finops-data-workflows/",
+    "source_hash": "b6fe758c2f0a2c7e5a9116a40314095f7a076c34f148e4d74597e98f20568e6e",
+    "last_crawl": "2026-08-17T12:35:11.160765",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-calculate-effective-savings-rate-esr": {
+    "source_url": "https://www.finops.org/wg/how-to-calculate-effective-savings-rate-esr/",
+    "source_hash": "eada7f5296cf4c745b9b411fc6ca1b9822b3351b4db8cc0fd32d16b6ce39e56b",
+    "last_crawl": "2026-08-17T12:35:13.360549",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-calculate-general-ledger-recharge-rate": {
+    "source_url": "https://www.finops.org/wg/how-to-calculate-general-ledger-recharge-rate/",
+    "source_hash": "bd48f3fbdf57011f0f03c3aba64e1dc994053ced9740a9615bf84189ce34a16e",
+    "last_crawl": "2026-08-17T12:35:14.864600",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-calculate-percentage-of-cb-discount-waste": {
+    "source_url": "https://www.finops.org/wg/how-to-calculate-percentage-of-cb-discount-waste/",
+    "source_hash": "a0e0517cec574e3f96ae8c7619352d5b75f368a3a660166907df6501d4b4d4fb",
+    "last_crawl": "2026-08-17T12:35:16.248824",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-create-a-finops-champions-program": {
+    "source_url": "https://www.finops.org/wg/how-to-create-a-finops-champions-program/",
+    "source_hash": "332ece4cdcd4da5340027c8a0c7ab3e58ab2250839251e2ad139112af22dce1f",
+    "last_crawl": "2026-08-17T12:35:17.637029",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-forecast-ai-services-costs-in-cloud": {
+    "source_url": "https://www.finops.org/wg/how-to-forecast-ai-services-costs-in-cloud/",
+    "source_hash": "6ff768d84f42e96c5675ea566ccea9cb28587f3da557facda8e14c4829122a81",
+    "last_crawl": "2026-08-17T12:35:19.430556",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-measure-power-schedule-adherence-rate-percentage": {
+    "source_url": "https://www.finops.org/wg/how-to-measure-power-schedule-adherence-rate-percentage/",
+    "source_hash": "2d974bb4f563299271177dedf6718481640ce7035abc2e76e8dade59acf999cc",
+    "last_crawl": "2026-08-17T12:35:20.961277",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-measure-tagging-policy-compliance": {
+    "source_url": "https://www.finops.org/wg/how-to-measure-tagging-policy-compliance/",
+    "source_hash": "e7b87edf7f1875baae9e11446bb4decebc1e2dcd7e0febdcbba8088bd029d03f",
+    "last_crawl": "2026-08-17T12:35:22.353049",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/how-to-optimize-cloud-usage": {
+    "source_url": "https://www.finops.org/wg/how-to-optimize-cloud-usage/",
+    "source_hash": "239d803dad73ca363a10118860003fd608c68595bdef6b5966cbba911a6e0e83",
+    "last_crawl": "2026-08-17T12:35:23.767614",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/ibm-cloud-licensing-management-guide": {
+    "source_url": "https://www.finops.org/wg/ibm-cloud-licensing-management-guide/",
+    "source_hash": "aa08237ff61ce39789019df079f406ec39c7bc88fb89535965b969e095e40d3c",
+    "last_crawl": "2026-08-17T12:35:25.425727",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/identifying-shared-costs": {
+    "source_url": "https://www.finops.org/wg/identifying-shared-costs/",
+    "source_hash": "e334b7f2d36fe6ce34b2bfa7b2b06c1654cff3c3ea11ad781aae19f23bba85da",
+    "last_crawl": "2026-08-17T12:35:26.866925",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/introduction-cloud-unit-economics": {
+    "source_url": "https://www.finops.org/wg/introduction-cloud-unit-economics/",
+    "source_hash": "7ed7ee559bf4c16efce56eb5ec33f31aff6a9dae25c6b10e6226bfe41260187a",
+    "last_crawl": "2026-08-17T12:35:29.082935",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/key-takeaways-finops-data-platforms-scenerios": {
+    "source_url": "https://www.finops.org/wg/key-takeaways-finops-data-platforms-scenerios/",
+    "source_hash": "a4bd7d340a5f19192eba3d0c1abe6d2d60edbb2e711366e97457aad221b0da35",
+    "last_crawl": "2026-08-17T12:35:30.578317",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/key-takeaways-finops-itfm-intersection": {
+    "source_url": "https://www.finops.org/wg/key-takeaways-finops-itfm-intersection/",
+    "source_hash": "28cb5fb999b6ca64beabb3cd839ba03ea7ed4bd0f309e11f16b1f92895e90218",
+    "last_crawl": "2026-08-17T12:35:31.909982",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/managing-ai-value-finops-practice-operations": {
+    "source_url": "https://www.finops.org/wg/managing-ai-value-finops-practice-operations/",
+    "source_hash": "a60068568cf798738fad329429d0e431e72e296d432e9f35e0e59d29213c690e",
+    "last_crawl": "2026-08-17T12:35:33.259575",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/managing-anomalies-story-library": {
+    "source_url": "https://www.finops.org/wg/managing-anomalies-story-library/",
+    "source_hash": "72ef630af1ed889dd94ed08724bb1d5edc8aa153c526341ccc6a4cbfcae89118",
+    "last_crawl": "2026-08-17T12:35:34.686594",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/managing-cloud-cost-anomalies": {
+    "source_url": "https://www.finops.org/wg/managing-cloud-cost-anomalies/",
+    "source_hash": "a1740d9a0036588882a44a9664b5cc2d7880451bbdeb8df35db6867758779e2b",
+    "last_crawl": "2026-08-17T12:35:36.470949",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/measuring-anomaly-detected-cost-avoidance-playbook": {
+    "source_url": "https://www.finops.org/wg/measuring-anomaly-detected-cost-avoidance-playbook/",
+    "source_hash": "2b709a3d613bda4e0969e1d3b6409a217e9d7fdc4b9395b478f398aa699c85a7",
+    "last_crawl": "2026-08-17T12:35:37.814802",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/microsoft-licensing-management-guide": {
+    "source_url": "https://www.finops.org/wg/microsoft-licensing-management-guide/",
+    "source_hash": "fb7ca127044267eaaf818f7838f4dfe6fd08801c1178750e801ac1b5d0802010",
+    "last_crawl": "2026-08-17T12:35:39.189066",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/model-context-protocol-mcp-ai-for-finops-use-case": {
+    "source_url": "https://www.finops.org/wg/model-context-protocol-mcp-ai-for-finops-use-case/",
+    "source_hash": "f3192c1f508c511bb94f452ee9a81a448df6b9782d5bd480f79f5392c6220ee1",
+    "last_crawl": "2026-08-17T12:35:40.675071",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/multi-cloud-tools-and-terminology": {
+    "source_url": "https://www.finops.org/wg/multi-cloud-tools-and-terminology/",
+    "source_hash": "3a8ccc78ab42928df1c091e0e4eaf48b7862084a4702cea27cac025d8a2e15ff",
+    "last_crawl": "2026-08-17T12:35:42.178795",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/navigating-the-federal-ato-process-for-finops-tools-playbook": {
+    "source_url": "https://www.finops.org/wg/navigating-the-federal-ato-process-for-finops-tools-playbook/",
+    "source_hash": "eb24cb87a554002fe0c93c4512b2b9398d4782cc280aa4e4fa4ac97b2a1ed8f1",
+    "last_crawl": "2026-08-17T12:35:43.538536",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/optimizing-genai-usage": {
+    "source_url": "https://www.finops.org/wg/optimizing-genai-usage/",
+    "source_hash": "f6a06aa5ab79c1bba892f6772af505082fa70bbb01e98cdbdecd79d23d0b3d36",
+    "last_crawl": "2026-08-17T12:35:44.965005",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/oracle-license-management": {
+    "source_url": "https://www.finops.org/wg/oracle-license-management/",
+    "source_hash": "5e9c85ba42b2c112c04cf936d7e08c0be0712f0388798b9f4d461bbb47abb32d",
+    "last_crawl": "2026-08-17T12:35:46.348335",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/percent-commitment-based-discount-waste-playbook": {
+    "source_url": "https://www.finops.org/wg/percent-commitment-based-discount-waste-playbook/",
+    "source_hash": "b14aa04186538da258a7d4fe9ab94315426920d63e84dac1b301e8378c22850f",
+    "last_crawl": "2026-08-17T12:35:47.790236",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/percentage-of-costs-associated-with-untagged-csp-cloud-resources": {
+    "source_url": "https://www.finops.org/wg/percentage-of-costs-associated-with-untagged-csp-cloud-resources/",
+    "source_hash": "e02bee616d0c6f6fc9b976992d205825aec69452713816ce37453f3eda3c395d",
+    "last_crawl": "2026-08-17T12:35:49.232785",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/purchasing-commitment-discounts-in-aws": {
+    "source_url": "https://www.finops.org/wg/purchasing-commitment-discounts-in-aws/",
+    "source_hash": "528a8e5c3a677215df30f3ea08eb046db76b8e6d5f9fb63ac3911b5ea56559fa",
+    "last_crawl": "2026-08-17T12:35:50.755887",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/purchasing-commitment-discounts-in-azure": {
+    "source_url": "https://www.finops.org/wg/purchasing-commitment-discounts-in-azure/",
+    "source_hash": "d259e742ad678dd6a81e7f76702c10fd1dff62d115ebd1644e27aeac149e9b84",
+    "last_crawl": "2026-08-17T12:35:52.509792",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/purchasing-commitment-discounts-in-gcp": {
+    "source_url": "https://www.finops.org/wg/purchasing-commitment-discounts-in-gcp/",
+    "source_hash": "fada0191b474548afde7a2e1222157d15a71f7d0467b7bcaba9c27b14a285bd2",
+    "last_crawl": "2026-08-17T12:35:53.939374",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/removing-unused-azure-private-links": {
+    "source_url": "https://www.finops.org/wg/removing-unused-azure-private-links/",
+    "source_hash": "3198c3e4183f14211e9eb03287281d409c93acca408ee57e354956816d33a317",
+    "last_crawl": "2026-08-17T12:35:55.283264",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/rightsizing-virtual-machines-on-azure": {
+    "source_url": "https://www.finops.org/wg/rightsizing-virtual-machines-on-azure/",
+    "source_hash": "2b9470af41be1a6c86e271e6dc599b7bee737e6841d29ac1bc4d29c08d97cb65",
+    "last_crawl": "2026-08-17T12:35:56.699707",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/scaling-kubernetes-for-ai-ml-workloads-with-finops": {
+    "source_url": "https://www.finops.org/wg/scaling-kubernetes-for-ai-ml-workloads-with-finops/",
+    "source_hash": "c9cea7d856653bf93e0689f148c8e28069935f29162ceaf7735b7de077ac3faa",
+    "last_crawl": "2026-08-17T12:35:58.140114",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/sustainability": {
+    "source_url": "https://www.finops.org/wg/sustainability/",
+    "source_hash": "e4d70583cfaa5d4d34f7f7ff0c21d782dce3afecf797b73baf9e8e2232675149",
+    "last_crawl": "2026-08-17T12:35:59.601536",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/token-economics-saas": {
+    "source_url": "https://www.finops.org/wg/token-economics-saas/",
+    "source_hash": "753c118d3fc902ed22d9f6fdae00fab5a28a47e6c3ffd604a122a8c359435707",
+    "last_crawl": "2026-08-17T12:36:01.143243",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/unit-economics-in-the-public-sector": {
+    "source_url": "https://www.finops.org/wg/unit-economics-in-the-public-sector/",
+    "source_hash": "9d391ce8b9b925df9aae1c799eec2a07c1247d4bfd57cb77a8f7209e7806c9e4",
+    "last_crawl": "2026-08-17T12:36:02.694981",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/unlocking-ai-business-value-with-finops": {
+    "source_url": "https://www.finops.org/wg/unlocking-ai-business-value-with-finops/",
+    "source_hash": "5e61087a04b0dc7182f7c6f804ef5de127326db2c573c0a2c3d8a719a155a17e",
+    "last_crawl": "2026-08-17T12:36:04.044628",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/us-gov-playbook": {
+    "source_url": "https://www.finops.org/wg/us-gov-playbook/",
+    "source_hash": "a9c06543c2da9e9900f1c68071504785b6b3cbe7123a0f279aa7ca80c3fdbcf8",
+    "last_crawl": "2026-08-17T12:36:05.415606",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/using-aws-config-to-identify-unused-resources-tagging-compliance": {
+    "source_url": "https://www.finops.org/wg/using-aws-config-to-identify-unused-resources-tagging-compliance/",
+    "source_hash": "5f5a2c43e013ab537c71414d496ad8d8a3b32a7ab40fb9249b35956641f97af6",
+    "last_crawl": "2026-08-17T12:36:06.792285",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/what-is-a-finops-champions-program": {
+    "source_url": "https://www.finops.org/wg/what-is-a-finops-champions-program/",
+    "source_hash": "010577f2d48e05ec8106560a716d082549974c9f9cc0f52fba7ddd40cc29b3d6",
+    "last_crawl": "2026-08-17T12:36:08.519127",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/why-architecting-databases-for-cost-efficiency-matters": {
+    "source_url": "https://www.finops.org/wg/why-architecting-databases-for-cost-efficiency-matters/",
+    "source_hash": "4bb93ec7f086af453973732472b5ada71aeacb4e21babb86a16353c7e6235ca2",
+    "last_crawl": "2026-08-17T12:36:09.944180",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "wg/workload-optimization": {
+    "source_url": "https://www.finops.org/wg/workload-optimization/",
+    "source_hash": "ac359efef207f8eeca5368bffbc1dbd93944ad1044c494579f0e41306dda60e3",
+    "last_crawl": "2026-08-17T12:36:11.379338",
+    "translation_status": "not_translated",
+    "docs_path": null
+  },
+  "assets/terminology": {
+    "source_url": "https://www.finops.org/assets/terminology/",
+    "source_hash": "49323babc31f47423023438a598169c457fd84b1a4b88d2a3d967a095efad6a5",
+    "last_crawl": "2026-08-17T12:40:21.485498"
+  },
+  "wg/choosing-an-ai-approach-and-infrastructure-strategy": {
+    "source_url": "https://www.finops.org/wg/choosing-an-ai-approach-and-infrastructure-strategy/",
+    "source_hash": "1f81dc628f46e15552dc4b05b3b60231ce60da0c5ca427733a2b709c842287bc",
+    "last_crawl": "2026-08-17T12:42:03.129751"
+  }
+}

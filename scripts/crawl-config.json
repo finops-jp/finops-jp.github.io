@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://www.finops.org",
+  "discover": {
+    "sitemaps": [
+      "https://www.finops.org/sitemap-pages.xml",
+      "https://www.finops.org/sitemap-capabilities.xml",
+      "https://www.finops.org/sitemap-domains.xml",
+      "https://www.finops.org/sitemap-projects.xml"
+    ],
+    "includePatterns": [
+      "/introduction/",
+      "/framework/",
+      "/wg/",
+      "/assets/"
+    ],
+    "excludePatterns": [
+      "/introduction/$"
+    ]
+  },
+  "additionalUrls": [
+    "/assets/terminology/"
+  ],
+  "outputDir": "orig",
+  "lastCrawl": "2026-08-17T12:44:21.731600"
+}
