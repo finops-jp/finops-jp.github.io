@@ -895,3 +895,39 @@ All other indirect emissions from activities of the organisation, occurring from
 Refers to atmospheric CO2 emissions that are captured and stored in solid or liquid form, thereby removing their harmful global warming effect
 
 ## Spend-based accounting
+
+When the money that your company spends on an activity is used as a proxy for actual usage data. Example: $10,000,000 airline travel × Emission factor = Scope 3 Category 6 emissions
+
+## Standards Body
+
+An organization whose primary function is developing, coordinating, promulgating, revising, amending, reissuing, interpreting, or otherwise contributing to the usefulness of technical standards[1] to those who employ them.
+
+## Sustainability Focused Organizations
+
+An organization whose primary function is developing, coordinating, promulgating, revising, amending, reissuing, interpreting, or otherwise contributing to the usefulness of technical standards[1] to those who employ them.
+
+## Sustainable procurement
+
+Decisions when buying products and services that include social and environmental factors along with price and quality.
+
+## Transition climate risk
+
+Transitioning to a lower-carbon economy may entail extensive policy, legal, technology, and market changes to address mitigation and adaptation requirements related to climate change. These may pose a financial and reputational risk to organisations
+
+## The Paris Agreement
+
+The Paris Agreement, adopted within the United Nations Framework Convention on Climate Change (UNFCC) in December 2015, commits participating all countries to limit global temperature rise, adapt to changes already occurring, and regularly increase efforts over time  
+
+## On this page
+
+  * [Anomaly Management](<#anomaly-management>)
+  * [Cloud Cost Management](<#cloud-cost-management-terminology>)
+  * [Business Terminology](<#business-terminology>)
+  * [Commitment Discounts](<#commitment-discounts>)
+  * [Public Cloud Terminology](<#public-cloud-terminology>)
+  * [Software Development & Operations Terminology](<#software-development--operations-terminology>)
+  * [Finance & Accounting Terminology](<#finance--accounting-terminology>)
+  * [ITFM & FinOps](<#itfm-and-finops>)
+  * [Unit Economics](<#unit-economics-terms>)
+  * [Usage Optimization](<#usage-optimization>)
+  * [Cloud Sustainability](<#cloud-sustainability>)

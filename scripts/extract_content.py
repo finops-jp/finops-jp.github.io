@@ -166,7 +166,6 @@ def extract_content_by_markers(markdown_text):
         "Related Content",
         "Additional Resources",
         "© FinOps Foundation",
-        "×"  # モーダルの×ボタン
     ]
     
     # 終了位置を探す
