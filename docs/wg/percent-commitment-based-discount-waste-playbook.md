@@ -1,4 +1,5 @@
 ---
+format: md
 title: "料金の最適化KPI：コミットメント割引の無駄の割合（Rate Optimization KPI: Percent of Commitment Discount Waste）"
 ---
 
@@ -145,7 +146,7 @@ title: "料金の最適化KPI：コミットメント割引の無駄の割合（
            end_date_str = end_date.strftime('%Y-%m-%d')
 
            # Set the Azure Cost Management API endpoint
-           api_endpoint = f'https://management.azure.com/subscriptions/{subscription_id}/providers/Microsoft.CostManagement/query?api-version=2019-11-01'
+           api_endpoint = f'https://management.azure.com/subscriptions/\{subscription_id\}/providers/Microsoft.CostManagement/query?api-version=2019-11-01'
 
            # Set the query to retrieve the total cost of reserved instances
            query = {
@@ -187,10 +188,10 @@ title: "料金の最適化KPI：コミットメント割引の無駄の割合（
                # Retrieve the total cost from the response
                total_cost = response_json['properties']['rows'][0][0]
                # Print the total cost
-               print(f'Total cost of reserved instances: {total_cost}')
+               print(f'Total cost of reserved instances: \{total_cost\}')
            else:
                # Print the error message
-               print(f'Error: {response.text}')
+               print(f'Error: \{response.text\}')
            ```
            `<your_subscription_id>` を実際のAzureサブスクリプションIDに置き換えてください。また、`start_date` と `end_date` 変数を調整して、対象の評価期間を指定します。次のステップの後に最終計算を行うため、出力を必ず記録しておいてください。
 
@@ -211,8 +212,8 @@ title: "料金の最適化KPI：コミットメント割引の無駄の割合（
               resource_group = 'your_resource_group_name'
               provider_namespace = 'Microsoft.CostManagement'
               provider_type = 'query'
-              path = f'subscriptions/{subscription_id}/providers/{provider_namespace}/{provider_type}'
-              url = f'{base_url}/{path}?api-version={api_version}'
+              path = f'subscriptions/\{subscription_id\}/providers/\{provider_namespace\}/\{provider_type\}'
+              url = f'\{base_url\}/\{path\}?api-version=\{api_version\}'
 
               # Construct the request body
               request_body = {
@@ -258,9 +259,9 @@ title: "料金の最適化KPI：コミットメント割引の無駄の割合（
               if response.status_code == 200:
                   # Extract the total unused cost from the response
                   total_unused_cost = response.json()['properties']['rows'][0]['totalCost']
-                  print(f'Total unused cost of reserved instances: {total_unused_cost}')
+                  print(f'Total unused cost of reserved instances: \{total_unused_cost\}')
               else:
-                  print(f'Failed to retrieve total unused cost. Status code: {response.status_code}')
+                  print(f'Failed to retrieve total unused cost. Status code: \{response.status_code\}')
               ```
               `'your_subscription_id'`、`'your_resource_group_name'`、および評価の開始日と終了日を独自の値に置き換えてください。また、必要な権限があることを確認してください。
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "IBM Cloudライセンス管理ガイド（IBM Cloud Licensing Management Guide）"
 ---
 

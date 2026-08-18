@@ -1,4 +1,5 @@
 ---
+format: md
 title: "GenAIのキャパシティオプションの選択（Navigating GenAI Capacity Options）"
 ---
 

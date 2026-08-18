@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsとITAMの実践的シナリオ：デリバーとガバナンス（FinOps & ITAM Practical Scenarios: Deliver & Govern）"
 ---
 

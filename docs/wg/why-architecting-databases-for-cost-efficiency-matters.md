@@ -1,4 +1,5 @@
 ---
+format: md
 title: "コスト効率を考慮したデータベース設計が重要な理由（Why Architecting Databases for Cost Efficiency Matters）"
 ---
 

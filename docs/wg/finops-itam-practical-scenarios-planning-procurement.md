@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsとITAMの実践シナリオ：計画と調達（FinOps & ITAM Practical Scenarios: Planning & Procurement）"
 ---
 

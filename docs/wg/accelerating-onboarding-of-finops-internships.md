@@ -1,4 +1,5 @@
 ---
+format: md
 title: "最初のハードルを越える：FinOpsインターンのオンボーディング加速（Exceeding the First Hurdle: Accelerating the Onboarding of FinOps Internships）"
 ---
 

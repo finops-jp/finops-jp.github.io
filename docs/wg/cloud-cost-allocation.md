@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドコスト配分ガイド（Cloud Cost Allocation Guide）"
 ---
 

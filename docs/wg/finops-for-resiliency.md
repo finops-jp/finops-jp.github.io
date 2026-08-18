@@ -1,4 +1,5 @@
 ---
+format: md
 title: "レジリエンスのためのFinOps：システム停止時に発生するリスクの測定方法（FinOps for Resiliency: How to Measure What’s at Risk When Systems Go Down）"
 ---
 

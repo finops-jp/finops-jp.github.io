@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsとITAMの実践的シナリオ：価値の実現と再投資（FinOps & ITAM Practical Scenarios: Realize Value & Reinvest）"
 ---
 

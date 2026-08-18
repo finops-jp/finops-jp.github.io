@@ -1,4 +1,5 @@
 ---
+format: md
 title: "GenAI利用の最適化：コスト、パフォーマンス、効率に関するFinOpsの視点（Optimizing GenAI Usage: A FinOps Perspective on Cost, Performance, and Efficiency）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "コミットメント割引の概要（Commitment Discounts Overview）"
 ---
 

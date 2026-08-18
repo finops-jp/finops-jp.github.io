@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsマネージャー向けインターンシップ・クイックスタートガイド（FinOps Manager’s Internship Quickstart Guide）"
 ---
 

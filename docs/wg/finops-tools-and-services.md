@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsのツールとサービス（FinOps Tools and Services）"
 ---
 

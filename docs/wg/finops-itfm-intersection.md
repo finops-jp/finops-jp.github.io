@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsとITFMの交差（How FinOps & ITFM Are Intersecting）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "総勘定元帳リチャージ率の算出方法（How to Calculate General Ledger Recharge Rate）"
 ---
 

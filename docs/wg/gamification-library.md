@@ -1,4 +1,5 @@
 ---
+format: md
 title: "ゲーミフィケーション事例集（Gamification Story Collection）"
 ---
 

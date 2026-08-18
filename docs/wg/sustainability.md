@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドサステナビリティとFinOpsの交点（Cloud Sustainability and Its Intersection with FinOps）"
 ---
 

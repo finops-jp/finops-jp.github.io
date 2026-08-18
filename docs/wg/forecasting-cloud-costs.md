@@ -1,4 +1,5 @@
 ---
+format: md
 title: "正確なクラウド予測（Accurate Cloud Forecasts）"
 ---
 

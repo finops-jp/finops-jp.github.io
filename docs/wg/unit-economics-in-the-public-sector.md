@@ -1,4 +1,5 @@
 ---
+format: md
 title: "公共部門におけるユニットエコノミクス（Unit Economics in the Public Sector）"
 ---
 

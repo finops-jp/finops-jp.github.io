@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsによるAIビジネス価値の最大化（Unlocking AI Business Value with FinOps）"
 ---
 

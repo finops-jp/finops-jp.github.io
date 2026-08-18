@@ -1,4 +1,5 @@
 ---
+format: md
 title: "Azure Managed DisksにおけるFinOps：価値の最適化（FinOps for Azure Managed Disks: Optimizing for Value）"
 ---
 

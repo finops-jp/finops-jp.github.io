@@ -1,4 +1,5 @@
 ---
+format: md
 title: "実効割引率（Effective Savings Rate: ESR）の算出方法（How to Calculate Effective Savings Rate (ESR)）"
 ---
 
@@ -79,21 +80,21 @@ _（注意：終了日は含まれません。特定のニーズに合わせて�
 
 AWS CLIコマンド: [**get-savings-plan-utilization**](<https://docs.aws.amazon.com/cli/latest/reference/ce/get-savings-plans-utilization.html>) &rarr; 返される値: OnDemandCostOfSPHoursUsed（ステップA）および NetSPSavings（ステップE）:
 [code] 
-        aws ce get-savings-plans-utilization --time-period Start=2024-05-01,End=2024-06-01 --filter '{ "Dimensions": { "Key": "SAVINGS_PLANS_TYPE", "Values": [ "ComputeSavingsPlans", "EC2InstanceSavingsPlans" ] } }' --query 'Total.Savings.[{OnDemandCostOfSPHoursUsed: OnDemandCostEquivalent}, {NetSPSavings: NetSavings}]'
+        aws ce get-savings-plans-utilization --time-period Start=2024-05-01,End=2024-06-01 --filter '\{ "Dimensions": { "Key": "SAVINGS_PLANS_TYPE", "Values": [ "ComputeSavingsPlans", "EC2InstanceSavingsPlans" ] \} }' --query 'Total.Savings.[\{OnDemandCostOfSPHoursUsed: OnDemandCostEquivalent\}, \{NetSPSavings: NetSavings\}]'
 
 
 [/code]
 
 AWS CLIコマンド: [**get-reservation-utilization**](<https://docs.aws.amazon.com/cli/latest/reference/ce/get-reservation-utilization.html>) &rarr; 返される値: OnDemandCostOfRIHoursUsed（ステップB）および NetRISavings（ステップF）:
 [code] 
-        aws ce get-reservation-utilization --time-period Start=2024-05-01,End=2024-06-01 --filter '{ "Dimensions": { "Key": "SERVICE", "Values": [ "Amazon Elastic Compute Cloud - Compute" ] } }' --query 'Total.[{OnDemandCostOfRIHoursUsed: OnDemandCostOfRIHoursUsed}, {NetRISavings: NetRISavings}]'
+        aws ce get-reservation-utilization --time-period Start=2024-05-01,End=2024-06-01 --filter '\{ "Dimensions": { "Key": "SERVICE", "Values": [ "Amazon Elastic Compute Cloud - Compute" ] \} }' --query 'Total.[\{OnDemandCostOfRIHoursUsed: OnDemandCostOfRIHoursUsed\}, \{NetRISavings: NetRISavings\}]'
 
 
 [/code]
 
 AWS CLIコマンド: [**get-savings-plan-coverage**](<https://docs.aws.amazon.com/cli/latest/reference/ce/get-savings-plans-coverage.html>) &rarr; 返される値: OnDemandCost（ステップC）
 [code] 
-        aws ce get-savings-plans-coverage --time-period Start=2024-05-01,End=2024-06-01 --filter '{ "Dimensions": { "Key": "SERVICE", "Values": [ "Amazon Elastic Compute Cloud - Compute", "Amazon EC2 Container Service", "Amazon Elastic Container Service", "Amazon Elastic Container Service for Kubernetes", "AWS Lambda" ] } }' --query 'SavingsPlansCoverages[].Coverage.{OnDemandCost: OnDemandCost}'
+        aws ce get-savings-plans-coverage --time-period Start=2024-05-01,End=2024-06-01 --filter '\{ "Dimensions": { "Key": "SERVICE", "Values": [ "Amazon Elastic Compute Cloud - Compute", "Amazon EC2 Container Service", "Amazon Elastic Container Service", "Amazon Elastic Container Service for Kubernetes", "AWS Lambda" ] \} }' --query 'SavingsPlansCoverages[].Coverage.\{OnDemandCost: OnDemandCost\}'
 
 
 [/code]

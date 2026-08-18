@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsとITAM：コスト、リスク、価値の最適化に向けた連携（FinOps & ITAM: Collaborating to Optimize Cost, Risk, and Value）"
 ---
 

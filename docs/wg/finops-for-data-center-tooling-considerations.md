@@ -1,4 +1,5 @@
 ---
+format: md
 title: "データセンター向けFinOps：FinOpsツールの検討事項（FinOps for Data Center: FinOps Tooling Considerations）"
 ---
 

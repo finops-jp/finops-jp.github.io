@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsとTBM：共存する専門分野の進め方（FinOps & TBM: Navigating Co-Existing Disciplines）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "データクラウドプラットフォーム向けFinOpsプラクティス構築の背景（Context for Building a FinOps Practice for Data Cloud Platforms）"
 ---
 

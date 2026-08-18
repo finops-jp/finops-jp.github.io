@@ -1,4 +1,5 @@
 ---
+format: md
 title: "データセンター向けFinOps：実践的なコストモデリングとFOCUSへの整合（FinOps for Data Center: Practical Cost Modeling & FOCUS Alignment）"
 ---
 

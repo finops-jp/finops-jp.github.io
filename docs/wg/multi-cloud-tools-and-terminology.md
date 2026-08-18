@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドサービスプロバイダーのツールと用語に関するガイド（Guide to Cloud Service Provider Tools and Terminology）"
 ---
 

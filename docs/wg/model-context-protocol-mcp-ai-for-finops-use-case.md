@@ -1,4 +1,5 @@
 ---
+format: md
 title: "Model Context Protocol (MCP)：FinOps向けAIのユースケース（Model Context Protocol (MCP): An AI for FinOps Use Case）"
 ---
 

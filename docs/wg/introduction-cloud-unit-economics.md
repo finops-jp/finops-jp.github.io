@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドユニットエコノミクス入門（Introduction to Cloud Unit Economics）"
 ---
 

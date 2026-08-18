@@ -1,4 +1,5 @@
 ---
+format: md
 title: "タグ未設定のCSPクラウドソースに関連するコスト割合の算出方法（How to Calculate Percentage of Costs Associated with Untagged CSP Cloud Resources）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsの導入 – 避けるべき落とし穴（Adopting FinOps – Pitfalls to Avoid）"
 ---
 

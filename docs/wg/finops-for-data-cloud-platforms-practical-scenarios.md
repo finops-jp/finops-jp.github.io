@@ -1,4 +1,5 @@
 ---
+format: md
 title: "データクラウドプラットフォーム向けFinOps：実践シナリオ（FinOps for Data Cloud Platforms: Practical Scenarios）"
 ---
 

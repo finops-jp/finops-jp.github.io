@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsの導入（Adopting FinOps）"
 ---
 

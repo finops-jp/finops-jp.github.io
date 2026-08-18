@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsチームの構築：役割、体制、キャリアパス（Building FinOps Teams: Roles, Structures, Career Paths）"
 ---
 

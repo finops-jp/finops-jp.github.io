@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsチャンピオンプログラム（FinOps Champions Program）とは"
 ---
 

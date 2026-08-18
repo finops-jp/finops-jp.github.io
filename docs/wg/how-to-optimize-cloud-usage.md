@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウド使用量の最適化方法（How to Optimize Cloud Usage）"
 ---
 

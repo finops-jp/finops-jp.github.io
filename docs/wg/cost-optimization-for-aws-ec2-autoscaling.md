@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWS EC2 Autoscalingのコスト最適化（Cost Optimization for AWS EC2 Autoscaling）"
 ---
 

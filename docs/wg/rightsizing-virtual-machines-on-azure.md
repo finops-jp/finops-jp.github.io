@@ -1,4 +1,5 @@
 ---
+format: md
 title: "Azureにおける仮想マシンのライトサイジング（Rightsizing Virtual Machines on Azure）"
 ---
 

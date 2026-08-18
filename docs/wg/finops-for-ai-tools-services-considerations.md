@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AI向けFinOps：ツールとサービスに関する検討事項（FinOps for AI: Tools & Services Considerations）"
 ---
 

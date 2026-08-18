@@ -1,4 +1,5 @@
 ---
+format: md
 title: "使用量の最適化機会ライブラリ（Usage Optimization Opportunities Library）"
 ---
 

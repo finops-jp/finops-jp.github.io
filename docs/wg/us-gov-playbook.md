@@ -1,4 +1,5 @@
 ---
+format: md
 title: "米国公共セクター向けFinOpsプレイブック（U.S. Public Sector FinOps Playbook）"
 ---
 

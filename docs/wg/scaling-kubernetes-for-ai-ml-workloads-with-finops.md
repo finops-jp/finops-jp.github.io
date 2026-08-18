@@ -1,4 +1,5 @@
 ---
+format: md
 title: "価値最大化に向けたFinOpsによるAI/MLワークロード向けKubernetesのスケーリング（Scaling Kubernetes for AI/ML Workloads with FinOps to Optimize Value）"
 ---
 

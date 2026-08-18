@@ -1,4 +1,5 @@
 ---
+format: md
 title: "データセンターにおけるFinOpsの考慮事項（FinOps Considerations for a Data Center）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "連邦政府のFinOpsツール向けATOプロセスナビゲーションプレイブック（Navigating the Federal ATO Process for FinOps Tools Playbook）"
 ---
 

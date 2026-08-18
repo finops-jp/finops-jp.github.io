@@ -1,4 +1,5 @@
 ---
+format: md
 title: "コスト効率を考慮したVMベースのアプリケーションのアーキテクチャ設計（Architecting VM-based Applications for Cost Efficiency）"
 ---
 

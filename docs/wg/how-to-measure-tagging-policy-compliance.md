@@ -1,4 +1,5 @@
 ---
+format: md
 title: "タグ付けポリシー準拠の測定方法（How to Measure Tagging Policy Compliance）"
 ---
 

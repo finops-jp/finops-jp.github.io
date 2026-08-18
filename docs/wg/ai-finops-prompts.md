@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOps基礎のためのAI：ユースケースとプロンプトの実践（AI for FinOps Fundamentals: Use Cases and Prompt Practices）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "データセンター向けFinOps：データセンターのコストと使用量データの構造化（FinOps for Data Center: Structuring Data Center Cost and Usage Data）"
 ---
 

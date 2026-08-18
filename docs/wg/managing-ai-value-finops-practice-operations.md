@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsプラクティスの運用によるAI価値の管理（Managing AI Value Using FinOps Practice Operations）"
 ---
 

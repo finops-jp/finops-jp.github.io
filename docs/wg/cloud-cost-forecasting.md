@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドコスト予測の探求（Exploring Cloud Cost Forecasting）"
 ---
 

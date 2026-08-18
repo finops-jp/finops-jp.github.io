@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWS DynamoDBの最適化（AWS DynamoDB Optimization）"
 ---
 

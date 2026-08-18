@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWS ECRの最適化（AWS ECR Optimization）"
 ---
 

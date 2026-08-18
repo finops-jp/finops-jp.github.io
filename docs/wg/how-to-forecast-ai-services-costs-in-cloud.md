@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドにおけるAIサービスコストの予測方法（How to Forecast AI Services Costs in Cloud）"
 ---
 

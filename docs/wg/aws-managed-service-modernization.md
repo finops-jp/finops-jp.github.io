@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWSマネージドサービスのモダナイゼーション（AWS Managed Service Modernization）"
 ---
 

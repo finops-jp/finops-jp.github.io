@@ -1,4 +1,5 @@
 ---
+format: md
 title: "生成AIのコストと使用量トラッカーの構築方法（How to Build a Generative AI Cost and Usage Tracker）"
 ---
 

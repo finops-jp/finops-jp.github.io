@@ -1,4 +1,5 @@
 ---
+format: md
 title: "GCPにおけるコミットメント割引の購入（Purchasing Commitment Discounts in GCP）"
 ---
 

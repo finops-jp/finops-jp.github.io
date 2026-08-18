@@ -1,4 +1,5 @@
 ---
+format: md
 title: "異常管理ストーリー集（Managing Anomalies Story Collection）"
 ---
 

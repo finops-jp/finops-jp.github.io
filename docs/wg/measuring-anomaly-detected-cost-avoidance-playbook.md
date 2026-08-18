@@ -1,4 +1,5 @@
 ---
+format: md
 title: "異常検知によるコスト回避額の測定プレイブック（Measuring Anomaly-Detected Cost Avoidance Playbook）"
 ---
 

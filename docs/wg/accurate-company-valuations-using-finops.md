@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsを活用した正確な企業価値評価（Accurate Company Valuations Using FinOps）"
 ---
 

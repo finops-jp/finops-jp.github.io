@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsにおけるゲーミフィケーションガイド（A Guide to Gamification for FinOps）"
 ---
 

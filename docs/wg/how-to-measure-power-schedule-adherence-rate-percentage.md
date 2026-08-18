@@ -1,4 +1,5 @@
 ---
+format: md
 title: "電源スケジュールの遵守率（Power Schedule Adherence Rate/Percentage）の測定方法"
 ---
 

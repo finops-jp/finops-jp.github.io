@@ -1,4 +1,5 @@
 ---
+format: md
 title: "コスト配分ストーリー集（Cost Allocation Story Collection）"
 ---
 

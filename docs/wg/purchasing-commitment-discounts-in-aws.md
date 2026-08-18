@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWSにおけるコミットメント割引（Commitment Discounts）の購入"
 ---
 

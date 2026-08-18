@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AIアプローチとインフラストラクチャ戦略の選択（Choosing an AI Approach and Infrastructure Strategy）"
 ---
 

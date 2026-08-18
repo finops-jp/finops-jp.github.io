@@ -1,4 +1,5 @@
 ---
+format: md
 title: "キーテイクアウェイ：データクラウドプラットフォーム向けFinOpsの実践シナリオ（Key Takeaways: FinOps for Data Cloud Platforms Practical Scenarios）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "トークノミクス：SaaSモデルのトークンコストにおけるAI価値の管理（Tokenomics: Managing AI Value in SaaS Model Token Costs）"
 ---
 

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "クラウドユニットエコノミクス事例集（Cloud Unit Economics Story Collection）"
 ---
 

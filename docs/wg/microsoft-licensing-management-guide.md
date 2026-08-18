@@ -1,4 +1,5 @@
 ---
+format: md
 title: "Microsoftライセンス管理ガイド（Microsoft Licensing Management Guide）"
 ---
 

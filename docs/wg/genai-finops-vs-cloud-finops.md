@@ -1,4 +1,5 @@
 ---
+format: md
 title: "GenAI FinOpsとCloud FinOps：共通のルーツと異なる課題（GenAI FinOps vs. Cloud FinOps: Similar Roots, Different Challenges）"
 ---
 

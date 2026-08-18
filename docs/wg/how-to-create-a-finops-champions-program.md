@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsチャンピオンプログラムの作成方法（How to Create a FinOps Champions Program）"
 ---
 

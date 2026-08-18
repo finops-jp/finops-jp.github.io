@@ -1,4 +1,5 @@
 ---
+format: md
 title: "コミットメント割引の無駄の割合を計算する方法（How to Calculate Percentage of Commitment Discount Waste）"
 ---
 
@@ -197,7 +198,7 @@ title: "コミットメント割引の無駄の割合を計算する方法（How
     # Set the Azure Cost Management API endpoint
 
 
-    api_endpoint = f'https://management.azure.com/subscriptions/{subscription_id}/providers/Microsoft.CostManagement/query?api-version=2019-11-01'
+    api_endpoint = f'https://management.azure.com/subscriptions/\{subscription_id\}/providers/Microsoft.CostManagement/query?api-version=2019-11-01'
 
 
     # Set the query to retrieve the total cost of reserved instances
@@ -314,7 +315,7 @@ title: "コミットメント割引の無駄の割合を計算する方法（How
         # Print the total cost
 
 
-        print(f'Total cost of reserved instances: {total_cost}')
+        print(f'Total cost of reserved instances: \{total_cost\}')
 
 
     else:
@@ -323,7 +324,7 @@ title: "コミットメント割引の無駄の割合を計算する方法（How
         # Print the error message
 
 
-        print(f'Error: {response.text}')
+        print(f'Error: \{response.text\}')
 
 
 [/code]
@@ -373,10 +374,10 @@ title: "コミットメント割引の無駄の割合を計算する方法（How
     provider_type = 'query'
 
 
-    path = f'subscriptions/{subscription_id}/providers/{provider_namespace}/{provider_type}'
+    path = f'subscriptions/\{subscription_id\}/providers/\{provider_namespace\}/\{provider_type\}'
 
 
-    url = f'{base_url}/{path}?api-version={api_version}'
+    url = f'\{base_url\}/\{path\}?api-version=\{api_version\}'
 
 
     # Construct the request body
@@ -505,13 +506,13 @@ title: "コミットメント割引の無駄の割合を計算する方法（How
        total_unused_cost = response.json()['properties']['rows'][0]['totalCost']
 
 
-       print(f'Total unused cost of reserved instances: {total_unused_cost}')
+       print(f'Total unused cost of reserved instances: \{total_unused_cost\}')
 
 
     else:
 
 
-       print(f'Failed to retrieve total unused cost. Status code: {response.status_code}')
+       print(f'Failed to retrieve total unused cost. Status code: \{response.status_code\}')
 
 
 [/code]

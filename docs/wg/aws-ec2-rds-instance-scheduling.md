@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWS EC2およびRDSインスタンスのスケジュール設定（AWS EC2 & RDS Instance Scheduling）"
 ---
 

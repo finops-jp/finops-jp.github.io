@@ -1,4 +1,5 @@
 ---
+format: md
 title: "主な要点：FinOpsとITFMの交差（Key Takeaways: How FinOps & ITFM Are Intersecting）"
 ---
 

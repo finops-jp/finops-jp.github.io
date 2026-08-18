@@ -1,4 +1,5 @@
 ---
+format: md
 title: "SaaS向けFinOps：FOCUSの導入（FinOps for SaaS: Adopting FOCUS）"
 ---
 

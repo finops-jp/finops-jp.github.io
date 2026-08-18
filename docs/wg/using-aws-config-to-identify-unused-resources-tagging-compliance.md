@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWS Configを使用した未使用リソースの特定とタグ付けコンプライアンスの遵守（Using AWS Config to Identify Unused Resources & Tagging Compliance）"
 ---
 

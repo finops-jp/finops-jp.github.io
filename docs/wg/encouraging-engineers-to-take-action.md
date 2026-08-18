@@ -1,4 +1,5 @@
 ---
+format: md
 title: "エンジニアの行動喚起（Encouraging Engineers to Take Action）"
 ---
 

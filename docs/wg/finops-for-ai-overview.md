@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AI向けFinOpsの概要（FinOps for AI Overview）"
 ---
 

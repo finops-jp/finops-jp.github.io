@@ -1,4 +1,5 @@
 ---
+format: md
 title: "インターンシップの事例とテンプレート集（Internship Story and Template Collection）"
 ---
 

@@ -198,7 +198,12 @@ def create_docs_file(key, translated_content, source_url, title):
 
     frontmatter = f"""---
 title: "{doc_title}"
----
+"""
+    # wg カテゴリは format: md (MDX parse error 回避)
+    if key.startswith('wg/'):
+        frontmatter += "format: md\n"
+
+    frontmatter += f"""---
 
 [英語版]: {source_url}
 

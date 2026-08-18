@@ -1,4 +1,5 @@
 ---
+format: md
 title: "vCPUあたりの実効平均コンピュートコストの算出方法（How to Calculate Effective Average Cost of Compute per vCPU）"
 ---
 
@@ -135,12 +136,12 @@ title: "vCPUあたりの実効平均コンピュートコストの算出方法�
 
     # Get Cost Explorer data
 
-    $result = Get-CECostAndUsage -TimePeriod $interval -Granularity MONTHLY -Metrics "UsageQuantity" -GroupBy @{Type="DIMENSION";Key="INSTANCE_TYPE"} -Filter $filter
+    $result = Get-CECostAndUsage -TimePeriod $interval -Granularity MONTHLY -Metrics "UsageQuantity" -GroupBy @\{Type="DIMENSION";Key="INSTANCE_TYPE"\} -Filter $filter
 
 
     # Get Instance Types and vCPUs
 
-    $instances = Get-EC2InstanceType | Select-Object InstanceType, @{Name="DefaultVCpus"; Expression={$_.VCpuInfo.DefaultVCpus}}
+    $instances = Get-EC2InstanceType | Select-Object InstanceType, @\{Name="DefaultVCpus"; Expression={$_.VCpuInfo.DefaultVCpus\}}
 
 
     # Access the ResultsByTime property
@@ -161,7 +162,7 @@ title: "vCPUあたりの実効平均コンピュートコストの算出方法�
 
             $instanceType = $group.Keys
 
-            $defaultvCPUs = ($instances | Where-Object { $_.InstanceType -eq $desiredInstanceType }).DefaultVCpus
+            $defaultvCPUs = ($instances | Where-Object \{ $_.InstanceType -eq $desiredInstanceType \}).DefaultVCpus
 
             $usageQuantity = $group.Metrics["UsageQuantity"].Amount
 
@@ -449,7 +450,7 @@ title: "vCPUあたりの実効平均コンピュートコストの算出方法�
 
     # Get usage data
 
-    $usage = Get-AzConsumptionUsageDetail -IncludeAdditionalProperties -StartDate $startDate -EndDate $endDate | Where-Object { $_.Product -like "Virtual Machines*" }
+    $usage = Get-AzConsumptionUsageDetail -IncludeAdditionalProperties -StartDate $startDate -EndDate $endDate | Where-Object \{ $_.Product -like "Virtual Machines*" \}
 
 
     # Loop through usage to calculate the vCPUs

@@ -1,4 +1,5 @@
 ---
+format: md
 title: "GenAI FinOps：トークン価格設定の真の仕組み（GenAI FinOps: How Token Pricing Really Works）"
 ---
 

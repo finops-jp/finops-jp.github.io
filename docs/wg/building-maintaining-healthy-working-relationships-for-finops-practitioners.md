@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOps実践者のための健全な協力関係の構築と維持（Building & Maintaining Healthy Working Relationships for FinOps Practitioners）"
 ---
 

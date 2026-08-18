@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AWS RDSの削除（AWS RDS Removal）"
 ---
 

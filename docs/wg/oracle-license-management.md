@@ -1,4 +1,5 @@
 ---
+format: md
 title: "Oracleライセンス管理ガイド（Oracle License Management Guide）"
 ---
 
@@ -35,7 +36,7 @@ Oracleのクラウドサービス、サブスクリプション、モビリテ�
 
 **クラウドサービス** | **クラウドサブスクリプション** | **ライセンスモビリティプログラム** | **サポート軽減プログラム** | **その他のクラウド**  
 ---|---|---|---|---  
-Oracle Cloud Infrastructure (OCI) / IaaS-PaaS<br>Oracle Fusion Cloud Applications / SaaS<br>Cloud@Customer | 契約 / 契約書<br>Universal Credits / 価格設定 | IaaS-OCIへのBYOL（リフト＆シフト）<br>PaaSへのBYOL<br>SaaS向けCustomer 2 Cloud (C2C) | Oracle Support Rewards (OSR) | 認定クラウド（Authorized Cloud） 
+Oracle Cloud Infrastructure (OCI) / IaaS-PaaS<br/>Oracle Fusion Cloud Applications / SaaS<br/>Cloud@Customer | 契約 / 契約書<br/>Universal Credits / 価格設定 | IaaS-OCIへのBYOL（リフト＆シフト）<br/>PaaSへのBYOL<br/>SaaS向けCustomer 2 Cloud (C2C) | Oracle Support Rewards (OSR) | 認定クラウド（Authorized Cloud） 
 
   * AWS
   * Azure
@@ -99,16 +100,16 @@ Universal CreditsまたはFunded Allocationサブスクリプションの利用�
 **ライセンス込みPaaSデータベースエディション**  
 ---  
 **Standard Edition** | **Enterprise Edition** | **EE High Performance** | **EE Extreme Performance**  
-**含まれるオプションとパック**<br>TDE表領域暗号化<br>OML [Advanced Analytics]、Spatial & Graph<br>19c以降の3つのPDB<br>Data Safe | **追加されるオプションとパック：**<br>Data Guard<br>Data Masking & Subsetting Pack<br>Diagnostics & Tuning Pack<br>Real Application Testing | **追加されるオプションとパック：**<br>Multitenant<br>Partitioning<br>Advanced Compression<br>Advanced Security、Label Security、Database Vault<br>Lifecycle Management Pack<br>OLAP<br>Cloud Management Packs | **追加されるオプションとパック：**<br>In-Memory Column Store<br>In-Memory Base Level<br>Active Data Guard<br>Real Application Clusters  
-**_注意：_**<br>_エディションのオプションとパックは、SEからEE、EEHP、EEEPへと累積されます。_<br>_Autonomous Database、Exadata Cloud Services、Exadata Cloud@Customerも利用可能ですが、ここでは記載していません。_<br>_ライセンス込みの代表的な価格は以下の表を参照してください。_  
+**含まれるオプションとパック**<br/>TDE表領域暗号化<br/>OML [Advanced Analytics]、Spatial & Graph<br/>19c以降の3つのPDB<br/>Data Safe | **追加されるオプションとパック：**<br/>Data Guard<br/>Data Masking & Subsetting Pack<br/>Diagnostics & Tuning Pack<br/>Real Application Testing | **追加されるオプションとパック：**<br/>Multitenant<br/>Partitioning<br/>Advanced Compression<br/>Advanced Security、Label Security、Database Vault<br/>Lifecycle Management Pack<br/>OLAP<br/>Cloud Management Packs | **追加されるオプションとパック：**<br/>In-Memory Column Store<br/>In-Memory Base Level<br/>Active Data Guard<br/>Real Application Clusters  
+**_注意：_**<br/>_エディションのオプションとパックは、SEからEE、EEHP、EEEPへと累積されます。_<br/>_Autonomous Database、Exadata Cloud Services、Exadata Cloud@Customerも利用可能ですが、ここでは記載していません。_<br/>_ライセンス込みの代表的な価格は以下の表を参照してください。_  
 
 BYOL
 
 **PaaSへのBYOLデータベースエディション**  
 ---  
 **Standard Edition** | **Enterprise Edition** | **EE High Performance** | **EE Extreme Performance**  
-**含まれるオプションとパック**<br>TDE表領域暗号化<br>OML [Advanced Analytics]、Spatial & Graph<br>19c以降の3つのPDB<br>Data Safe | **追加されるオプションとパック：**<br>Data Guard<br>Data Masking & Subsetting Pack<br>Diagnostics & Tuning Pack<br>Real Application Testing | **追加されるオプションとパック：**<br>+ BYOLに従ってサポート対象ライセンスを保有しているオプションとパックのみ | **追加されるオプションとパック：**<br>+ BYOLに従ってサポート対象ライセンスを保有しているオプションとパックのみ  
-**_注意：_**<br>_エディションのオプションとパックは、SEからEEへと累積されます。_<br>_EEHPおよびEEEPのエディションオプションとパックは、BYOLに従ってサポート対象ライセンスを保有しているもののみが含まれます。_<br>_Autonomous Database、Exadata Cloud Services、Exadata Cloud@Customerも利用可能ですが、ここでは記載していません。_<br>_BYOLの代表的な価格は以下の表を参照してください。_  
+**含まれるオプションとパック**<br/>TDE表領域暗号化<br/>OML [Advanced Analytics]、Spatial & Graph<br/>19c以降の3つのPDB<br/>Data Safe | **追加されるオプションとパック：**<br/>Data Guard<br/>Data Masking & Subsetting Pack<br/>Diagnostics & Tuning Pack<br/>Real Application Testing | **追加されるオプションとパック：**<br/>+ BYOLに従ってサポート対象ライセンスを保有しているオプションとパックのみ | **追加されるオプションとパック：**<br/>+ BYOLに従ってサポート対象ライセンスを保有しているオプションとパックのみ  
+**_注意：_**<br/>_エディションのオプションとパックは、SEからEEへと累積されます。_<br/>_EEHPおよびEEEPのエディションオプションとパックは、BYOLに従ってサポート対象ライセンスを保有しているもののみが含まれます。_<br/>_Autonomous Database、Exadata Cloud Services、Exadata Cloud@Customerも利用可能ですが、ここでは記載していません。_<br/>_BYOLの代表的な価格は以下の表を参照してください。_  
 
 ### 代表的なユニット価格
 
@@ -188,9 +189,9 @@ BYOL（Bring Your Own License）プログラムは、ベンダーごとに独自
 
 **従量課金制（PAYG）** | **Annual Flexプラン**  
 ---|---  
-事前のコミットメントや支払いは不要<br>リスト価格（定価）<br>使用した分だけ支払い<br>使用実績に基づき後払い<br>不確実で柔軟な要件に適している | クレジットの事前コミットメントと支払い（クラウドサービスの消費全体に適用）<br>ボリュームディスカウント価格<br>クレジットを消費するための12ヶ月の期間（「使わなければ失効」）、未使用のクレジットは期間終了時に失効。超過消費分は期間終了時までレートカードのユニットレートレベルで請求<br>集約、コミット、割引が可能な、既知で長期的な予測可能要件に有益  
+事前のコミットメントや支払いは不要<br/>リスト価格（定価）<br/>使用した分だけ支払い<br/>使用実績に基づき後払い<br/>不確実で柔軟な要件に適している | クレジットの事前コミットメントと支払い（クラウドサービスの消費全体に適用）<br/>ボリュームディスカウント価格<br/>クレジットを消費するための12ヶ月の期間（「使わなければ失効」）、未使用のクレジットは期間終了時に失効。超過消費分は期間終了時までレートカードのユニットレートレベルで請求<br/>集約、コミット、割引が可能な、既知で長期的な予測可能要件に有益  
 **ライセンス込み** | **BYOL**  
-ライセンスとサポートを含むクラウドサービス（「クラウド専用」製品）<br>BYOLよりも高いサブスクリプション価格<br>制限なし（すべてのクラウドサービスにライセンス込みの標準クラウド専用バージョンが存在）<br>クラウドサービスの消費に関連するライセンス管理やコンプライアンス要件は不要 | 既存のライセンスとサポートを同等のクラウドサービスに適用。顧客は未使用のサポート対象ライセンスを活用して、より低い料金のBYOLバージョンを利用可能<br>制限あり（BYOLバージョンがあり、かつBYOL利用に適格なライセンスタイプを持つクラウドサービスに限定）<br>割引あり（クラウドサービスのBYOLバージョンは大幅に割引され、ライセンス込みバージョンよりも低い料金が適用）<br>ライセンスコンプライアンスを確保するために、厳格なインベントリ管理策が必要  
+ライセンスとサポートを含むクラウドサービス（「クラウド専用」製品）<br/>BYOLよりも高いサブスクリプション価格<br/>制限なし（すべてのクラウドサービスにライセンス込みの標準クラウド専用バージョンが存在）<br/>クラウドサービスの消費に関連するライセンス管理やコンプライアンス要件は不要 | 既存のライセンスとサポートを同等のクラウドサービスに適用。顧客は未使用のサポート対象ライセンスを活用して、より低い料金のBYOLバージョンを利用可能<br/>制限あり（BYOLバージョンがあり、かつBYOL利用に適格なライセンスタイプを持つクラウドサービスに限定）<br/>割引あり（クラウドサービスのBYOLバージョンは大幅に割引され、ライセンス込みバージョンよりも低い料金が適用）<br/>ライセンスコンプライアンスを確保するために、厳格なインベントリ管理策が必要  
 
 #### BYOLの機会の特定
 

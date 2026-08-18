@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsアセスメントガイド（FinOps Assessment Guide）"
 ---
 

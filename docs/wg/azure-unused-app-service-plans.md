@@ -1,4 +1,5 @@
 ---
+format: md
 title: "Azureの未使用のApp Service Plan（Azure Unused App Service Plans）"
 ---
 
@@ -169,7 +170,7 @@ _Update-AzTag_ – コマンドレットの詳細については、Microsoftド�
     $OrigTier=(Get-AzAppServicePlan -ResourceGroupName "<YourRGName>" -Name "<YourASPName>").Sku.Size
 
 
-    $tags = @{“OriginalPricingTier”=$OrigTier}
+    $tags = @\{“OriginalPricingTier”=$OrigTier\}
 
 
     $resource = Get-AzResource -Name “<YourASPName>” -ResourceGroup “<YourRGName>”

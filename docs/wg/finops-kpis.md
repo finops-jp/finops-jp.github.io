@@ -1,4 +1,5 @@
 ---
+format: md
 title: "FinOpsのKPI（FinOps KPIs）"
 ---
 

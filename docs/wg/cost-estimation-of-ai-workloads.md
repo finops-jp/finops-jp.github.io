@@ -1,4 +1,5 @@
 ---
+format: md
 title: "AIワークロードのコスト見積もり（Cost Estimation of AI Workloads）"
 ---
 

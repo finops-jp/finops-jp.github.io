@@ -1,4 +1,5 @@
 ---
+format: md
 title: "SaaS向けFinOps入門（Introduction to FinOps for SaaS）"
 ---
 
