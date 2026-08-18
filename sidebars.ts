@@ -56,6 +56,7 @@ const sidebars: SidebarsConfig = {
         id: 'framework/index',
       },
       items: [
+        'framework/scopes',
         'framework/principles',
         {
           type: 'category',
@@ -123,7 +124,7 @@ const sidebars: SidebarsConfig = {
             'framework/capabilities/intersecting-disciplines',
           ],
         },
-        'framework/scopes',
+        'framework/technology-categories',
       ],
     },
     {

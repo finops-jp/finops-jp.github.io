@@ -1,5 +1,5 @@
-﻿---
-title: FinOpsプラクティスの管理
+---
+title: FinOpsプラクティスの管理（Manage the FinOps Practice）
 ---
 
 [英語版]: https://www.finops.org/framework/domains/manage-finops-practice/
@@ -11,45 +11,37 @@ title: FinOpsプラクティスの管理
 
 :::
 
-# FinOpsプラクティスの管理
+[フレームワーク](<https://www.finops.org/framework/>) / [ドメイン](<https://www.finops.org/framework/domains/>) / FinOpsプラクティスの管理
 
-このドメインにより、組織全体(人、プロセス、テクノロジー)を変更し、調整するための継続的な改善が可能になり、FinOpsを採用し、企業に価値を生み出す方法でクラウドを使用できます。
+このドメインは、組織全体（人、プロセス、テクノロジー）を変化させ、整合を図ることで、FinOpsを導入し、企業に価値をもたらす方法でテクノロジーを利用するための継続的な改善を可能にします。
 
-このドメインでは、ケイパビリティは効果的なFinOps運用を中心としており、他のすべてのペルソナやビジネス機能との相互作用を改善することで、組織全体がクラウドの使用から最大の価値を引き出すことを可能にし、クラウドの使用をより効果的にサポートおよび表現します。
+このドメイン内におけるケイパビリティは、効果的なFinOpsの運用に焦点を当てています。また、他のすべてのペルソナやビジネス部門との相互作用を改善し、テクノロジーの利用をより効果的にサポートおよび表現することで、組織全体が[FinOpsスコープ](<https://www.finops.org/topic/scopes/>)から最大の価値を得られるようにします。
 
-組織は、トレーニング、ツール、評価、ガバナンスを使用して、効果的なFinOpsチームと文化を構築および管理するための行動を取り、組織全体、特に財務部門や組織内の他の部門に対して説明責任を促進します。これらの分野では、より広範な職務を遂行するために特定のFinOpsデータやインサイトが必要です。
+組織は、トレーニング、ツール、アセスメント、ガバナンスを活用して、効果的なFinOpsチームと文化を構築および管理します。これにより、組織全体で広く当事者意識を促進します。特に、より広範な業務を遂行するために特定のFinOpsデータやインサイトを必要とする財務やその他の専門分野との連携において、当事者意識を強化します。
 
-> このドメインの機能は、組織に次のことを支援します。
-> 
-> - クラウドの使用が成熟するにつれて、適切なFinOpsチームを設立、管理、進化させる
-> - プロセス、ポリシー、ワークフローを確立し、コアおよび関連するFinOpsペルソナがFinOps機能を日常業務に組み込めるようにします。
-> - FinOps 機能を評価するための基準を作成し、組織の FinOps プラクティスを成熟させるためのマイルストーンを設定します
-> - CoreとAllied FinOps PersonasがFinOpsの実践に協力できるようにする教育とトレーニングを開発します。
-> - 組織のユースケースのニーズと成熟度レベルに合わせたクラウドコスト管理活動をサポートするためのツールとサービスの要件を特定します
+**このドメインのケイパビリティは、組織が以下のことを行うのに役立ちます。**
 
-> このドメインは、次のFinOps原則を直接サポートします。
-> 
-> - 一元化されたチームがFinOpsを推進
-> - チームは協力する必要がある
-> - 誰もが自分のクラウド利用にオーナーシップを持つ
-> - FinOpsデータはアクセス可能でタイムリーであるべきです
+  * テクノロジーの利用が進化し成熟するにつれて、適切なFinOpsチームを立ち上げ、管理し、進化させる
+  * [FinOpsペルソナ](<https://www.finops.org/framework/personas/>)が日々の活動にFinOpsケイパビリティを組み込めるように、プロセス、ポリシー、ワークフローを確立する
+  * 組織のFinOpsプラクティスを成熟させるために、FinOpsケイパビリティを評価する基準を作成し、マイルストーンを設定する
+  * [FinOpsペルソナ](<https://www.finops.org/framework/personas/>)がFinOpsの実践において協力できるようにするための教育とトレーニングを開発する
+  * テクノロジーの利用、およびFinOpsスコープで定義された組織の目標に沿った活動をサポートするために必要なツールとサービスの要件を特定する
 
-> このドメインは、次の質問に答えます。
-> 
-> - 現在、私たちの組織にとって最も効果的なチームの規模と構造はどれくらいですか?
-> - クラウドをより効果的に使用するために、組織内でどのような変更を加えることができますか?
-> - 組織内のすべてのペルソナと交差する分野を最も効果的にサポートするにはどうすればよいでしょうか?
-> - クラウドの使用に関する健全なFinOps文化をどのように確立しますか?
+**このドメインは、以下の[FinOps原則](<https://www.finops.org/framework/principles/>)を直接サポートします。**
 
-:::info[ドメインケイパビリティ]
+  * チームはお互いに協力する必要がある
+  * すべての人が自分のテクノロジー利用に当事者意識を持つ
+  * FinOpsデータはアクセスしやすくタイムリーで正確であるべき
+  * 組織横断の専門チームが中心となりFinOpsを推進するべき
 
-- [FinOpsプラクティスの運用](/docs/framework/capabilities/finops-practice-operations)
-- [クラウドポリシーとガバナンス](/docs/framework/capabilities/governance-policy-risk)
-- [FinOpsアセスメント](/docs/framework/capabilities/finops-assessment)
-- [FinOpsツールとサービス](/docs/framework/capabilities/automation-tools-services)
-- [FinOpsの教育と仕組みづくり](/docs/framework/capabilities/finops-education-enablement)
-- [請求とチャージバック](/docs/framework/capabilities/invoicing-chargeback)
-- [ワークロードのオンボーディング](/docs/framework/capabilities/intersecting-disciplines)
-- [関連する専門分野](/docs/framework/capabilities/intersecting-disciplines)
+**このドメインは、以下の問いに答えます。**
 
-:::
+  * 現在の組織にとって、最も効果的なチームの規模と構成はどのようなものか
+  * すべての人がより効果的にテクノロジーを利用できるようにするために、組織内でどのような変更を行えるか
+  * 組織内のすべてのFinOpsペルソナと専門分野間の連携を、最も効果的にサポートするにはどうすればよいか
+  * テクノロジーの利用に関して、健全なFinOps文化をどのように確立するか
+  * FinOpsプラクティスは、テクノロジー投資の利用とコストを管理するために、どのように価値を提供するか
+
+##### ドメインのケイパビリティ
+
+[ ![](https://www.finops.org/wp-content/uploads/2024/03/FinOps-Practice-Operations-1.svg) FinOpsプラクティスの運用 ](<https://www.finops.org/framework/capabilities/finops-practice-operations/>) [ ![](https://www.finops.org/wp-content/uploads/2024/03/Cloud-Policy-and-Governance.svg) ガバナンス、ポリシー、リスク ](<https://www.finops.org/framework/capabilities/governance-policy-risk/>) [ ![](https://www.finops.org/wp-content/uploads/2024/03/FinOps-Assessment.svg) FinOpsアセスメント ](<https://www.finops.org/framework/capabilities/finops-assessment/>) [ ![](https://www.finops.org/wp-content/uploads/2024/03/FinOps-Tools-Services-1.svg) 自動化、ツール、サービス ](<https://www.finops.org/framework/capabilities/automation-tools-services/>) [ ![](https://www.finops.org/wp-content/uploads/2024/03/FinOps-Education-Enablement.svg) FinOpsの教育と普及促進 ](<https://www.finops.org/framework/capabilities/finops-education-enablement/>) [ ![](https://www.finops.org/wp-content/uploads/2024/03/Invoicing-Chargeback.svg) 請求とチャージバック ](<https://www.finops.org/framework/capabilities/invoicing-chargeback/>) [ ![](https://www.finops.org/wp-content/uploads/2024/03/Intersecting-Disciplines.svg) 専門分野間の連携 ](<https://www.finops.org/framework/capabilities/intersecting-disciplines/>) [ ![](https://www.finops.org/wp-content/uploads/2026/03/Executive-Strategy-Alignment.svg) 経営戦略との整合 ](<https://www.finops.org/framework/capabilities/executive-strategy-alignment/>)
