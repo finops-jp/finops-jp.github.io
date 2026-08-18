@@ -142,6 +142,11 @@ def extract_content_by_markers(markdown_text):
         if '![](/wp-content/' in line:
             lines[i] = line.replace('![](/wp-content/', '![](https://www.finops.org/wp-content/')
 
+    # 空URL画像を除去 (lazy load のプレースホルダー等)
+    import re
+    for i, line in enumerate(lines):
+        lines[i] = re.sub(r'!\[[^\]]*\]\(\s*\)', '', lines[i])
+
     # finops.org内の相対パスリンクを絶対URLに変換
     import re
     for i, line in enumerate(lines):
