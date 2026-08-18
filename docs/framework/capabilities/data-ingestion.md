@@ -176,7 +176,7 @@ FinOps Open Cost & Usage Specification（[FOCUS](<https://finops.org/focus>)）�
   * 中央集権的なデータ正規化の戦略、およびFinOpsプラクティスから要求されるさまざまな種類の情報へのアクセス要求をサポートする
   * レポート作成と意思決定のために、クラウドの使用量とコストに関する単一の真実のソース（Single Source of Truth）を持つ必要性について、明確に推奨し、伝える
 
-####  ![]() 関連ペルソナ（Allied Personas）
+####   関連ペルソナ（Allied Personas）
 
 **関連ペルソナのロールとして、私は以下を行います。**
 
