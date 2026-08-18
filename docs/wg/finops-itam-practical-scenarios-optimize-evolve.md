@@ -1,5 +1,5 @@
 ---
-title: FinOpsとITAMの実践的シナリオ：最適化と進化（FinOps & ITAM Practical Scenarios: Optimize & Evolve）
+title: "FinOpsとITAMの実践的シナリオ：最適化と進化（FinOps & ITAM Practical Scenarios: Optimize & Evolve）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/

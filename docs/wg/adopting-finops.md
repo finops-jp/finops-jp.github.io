@@ -1,5 +1,5 @@
 ---
-title: FinOpsの導入（Adopting FinOps）
+title: "FinOpsの導入（Adopting FinOps）"
 ---
 
 [英語版]: https://www.finops.org/wg/adopting-finops/

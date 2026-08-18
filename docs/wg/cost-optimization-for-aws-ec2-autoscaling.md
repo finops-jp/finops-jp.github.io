@@ -1,5 +1,5 @@
 ---
-title: AWS EC2 Autoscalingのコスト最適化（Cost Optimization for AWS EC2 Autoscaling）
+title: "AWS EC2 Autoscalingのコスト最適化（Cost Optimization for AWS EC2 Autoscaling）"
 ---
 
 [英語版]: https://www.finops.org/wg/cost-optimization-for-aws-ec2-autoscaling/

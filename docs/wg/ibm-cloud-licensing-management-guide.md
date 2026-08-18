@@ -1,5 +1,5 @@
 ---
-title: IBM Cloudライセンス管理ガイド（IBM Cloud Licensing Management Guide）
+title: "IBM Cloudライセンス管理ガイド（IBM Cloud Licensing Management Guide）"
 ---
 
 [英語版]: https://www.finops.org/wg/ibm-cloud-licensing-management-guide/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsデータワークフローの構築と最適化（How to Build and Optimize FinOps Data Workflows）
+title: "FinOpsデータワークフローの構築と最適化（How to Build and Optimize FinOps Data Workflows）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-build-and-optimize-finops-data-workflows/

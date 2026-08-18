@@ -1,5 +1,5 @@
 ---
-title: クラウド使用量の最適化方法（How to Optimize Cloud Usage）
+title: "クラウド使用量の最適化方法（How to Optimize Cloud Usage）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-optimize-cloud-usage/

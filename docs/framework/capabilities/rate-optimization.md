@@ -1,5 +1,5 @@
 ---
-title: 料金の最適化（Rate Optimization）
+title: "料金の最適化（Rate Optimization）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/rate-optimization/

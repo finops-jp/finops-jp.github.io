@@ -1,5 +1,5 @@
 ---
-title: 価値最大化に向けたFinOpsによるAI/MLワークロード向けKubernetesのスケーリング（Scaling Kubernetes for AI/ML Workloads with FinOps to Optimize Value）
+title: "価値最大化に向けたFinOpsによるAI/MLワークロード向けKubernetesのスケーリング（Scaling Kubernetes for AI/ML Workloads with FinOps to Optimize Value）"
 ---
 
 [英語版]: https://www.finops.org/wg/scaling-kubernetes-for-ai-ml-workloads-with-finops/

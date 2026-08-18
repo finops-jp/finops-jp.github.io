@@ -1,5 +1,5 @@
 ---
-title: クラウドコスト配分ガイド（Cloud Cost Allocation Guide）
+title: "クラウドコスト配分ガイド（Cloud Cost Allocation Guide）"
 ---
 
 [英語版]: https://www.finops.org/wg/cloud-cost-allocation/

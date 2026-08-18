@@ -1,5 +1,5 @@
 ---
-title: データセンター向けFinOps：FinOpsツールの検討事項（FinOps for Data Center: FinOps Tooling Considerations）
+title: "データセンター向けFinOps：FinOpsツールの検討事項（FinOps for Data Center: FinOps Tooling Considerations）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-data-center-tooling-considerations/

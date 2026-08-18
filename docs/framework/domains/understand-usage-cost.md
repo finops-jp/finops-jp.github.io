@@ -1,5 +1,5 @@
 ---
-title: 使用量とコストの把握（Understand Usage & Cost）
+title: "使用量とコストの把握（Understand Usage & Cost）"
 ---
 
 [英語版]: https://www.finops.org/framework/domains/understand-usage-cost/

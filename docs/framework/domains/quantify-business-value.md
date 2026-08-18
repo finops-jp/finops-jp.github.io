@@ -1,5 +1,5 @@
 ---
-title: ビジネス価値の定量化（Quantify Business Value）
+title: "ビジネス価値の定量化（Quantify Business Value）"
 ---
 
 [英語版]: https://www.finops.org/framework/domains/quantify-business-value/

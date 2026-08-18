@@ -1,5 +1,5 @@
 ---
-title: FinOpsとは（What is FinOps?）
+title: "FinOpsとは（What is FinOps?）"
 ---
 
 [英語版]: https://www.finops.org/introduction/what-is-finops/

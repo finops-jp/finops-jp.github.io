@@ -1,5 +1,5 @@
 ---
-title: アーキテクチャ設計とワークロード配置（Architecting & Workload Placement）
+title: "アーキテクチャ設計とワークロード配置（Architecting & Workload Placement）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/architecting-workload-placement/

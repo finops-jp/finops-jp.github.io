@@ -1,5 +1,5 @@
 ---
-title: 主な要点：FinOpsとITFMの交差（Key Takeaways: How FinOps & ITFM Are Intersecting）
+title: "主な要点：FinOpsとITFMの交差（Key Takeaways: How FinOps & ITFM Are Intersecting）"
 ---
 
 [英語版]: https://www.finops.org/wg/key-takeaways-finops-itfm-intersection/

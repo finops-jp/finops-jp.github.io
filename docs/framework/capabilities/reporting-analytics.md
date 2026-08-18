@@ -1,5 +1,5 @@
 ---
-title: レポートと分析（Reporting & Analytics）
+title: "レポートと分析（Reporting & Analytics）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/reporting-analytics/

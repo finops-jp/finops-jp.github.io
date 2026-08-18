@@ -1,5 +1,5 @@
 ---
-title: Azure Managed DisksにおけるFinOps：価値の最適化（FinOps for Azure Managed Disks: Optimizing for Value）
+title: "Azure Managed DisksにおけるFinOps：価値の最適化（FinOps for Azure Managed Disks: Optimizing for Value）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-azure-managed-disks-optimizing-for-value/

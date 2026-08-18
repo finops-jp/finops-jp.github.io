@@ -1,5 +1,5 @@
 ---
-title: FinOpsプラクティスの運用によるAI価値の管理（Managing AI Value Using FinOps Practice Operations）
+title: "FinOpsプラクティスの運用によるAI価値の管理（Managing AI Value Using FinOps Practice Operations）"
 ---
 
 [英語版]: https://www.finops.org/wg/managing-ai-value-finops-practice-operations/

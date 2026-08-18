@@ -1,5 +1,5 @@
 ---
-title: 生成AIのコストと使用量トラッカーの構築方法（How to Build a Generative AI Cost and Usage Tracker）
+title: "生成AIのコストと使用量トラッカーの構築方法（How to Build a Generative AI Cost and Usage Tracker）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-build-a-generative-ai-cost-and-usage-tracker/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsフレームワーク
+title: "FinOpsフレームワーク"
 pagination_prev: "introduction/what-is-finops"
 ---
 

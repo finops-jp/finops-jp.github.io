@@ -1,5 +1,5 @@
 ---
-title: コミットメント割引の概要（Commitment Discounts Overview）
+title: "コミットメント割引の概要（Commitment Discounts Overview）"
 ---
 
 [英語版]: https://www.finops.org/wg/commitment-based-discounts-overview/

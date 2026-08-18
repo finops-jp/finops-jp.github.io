@@ -1,5 +1,5 @@
 ---
-title: ユニットエコノミクス（Unit Economics）
+title: "ユニットエコノミクス（Unit Economics）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/unit-economics/

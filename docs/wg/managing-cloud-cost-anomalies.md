@@ -1,5 +1,5 @@
 ---
-title: クラウドコストの異常管理（Managing Cloud Cost Anomalies）
+title: "クラウドコストの異常管理（Managing Cloud Cost Anomalies）"
 ---
 
 [英語版]: https://www.finops.org/wg/managing-cloud-cost-anomalies/

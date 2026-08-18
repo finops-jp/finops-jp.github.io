@@ -1,5 +1,5 @@
 ---
-title: データクラウドプラットフォーム向けFinOpsプラクティス構築の背景（Context for Building a FinOps Practice for Data Cloud Platforms）
+title: "データクラウドプラットフォーム向けFinOpsプラクティス構築の背景（Context for Building a FinOps Practice for Data Cloud Platforms）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-data-cloud-platforms/

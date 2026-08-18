@@ -1,5 +1,5 @@
 ---
-title: FinOpsプラクティスの運用
+title: "FinOpsプラクティスの運用"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/finops-parctice-operations/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsのツールとサービス（FinOps Tools and Services）
+title: "FinOpsのツールとサービス（FinOps Tools and Services）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-tools-and-services/

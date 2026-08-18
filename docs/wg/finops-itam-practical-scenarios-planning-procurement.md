@@ -1,5 +1,5 @@
 ---
-title: FinOpsとITAMの実践シナリオ：計画と調達（FinOps & ITAM Practical Scenarios: Planning & Procurement）
+title: "FinOpsとITAMの実践シナリオ：計画と調達（FinOps & ITAM Practical Scenarios: Planning & Procurement）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/

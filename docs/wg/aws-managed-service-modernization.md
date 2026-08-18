@@ -1,5 +1,5 @@
 ---
-title: AWSマネージドサービスのモダナイゼーション（AWS Managed Service Modernization）
+title: "AWSマネージドサービスのモダナイゼーション（AWS Managed Service Modernization）"
 ---
 
 [英語版]: https://www.finops.org/wg/aws-managed-service-modernization/

@@ -1,5 +1,5 @@
 ---
-title: Microsoftライセンス管理ガイド（Microsoft Licensing Management Guide）
+title: "Microsoftライセンス管理ガイド（Microsoft Licensing Management Guide）"
 ---
 
 [英語版]: https://www.finops.org/wg/microsoft-licensing-management-guide/

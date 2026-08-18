@@ -1,5 +1,5 @@
 ---
-title: Azureにおけるコミットメント割引の購入（Purchasing Commitment Discounts in Azure）
+title: "Azureにおけるコミットメント割引の購入（Purchasing Commitment Discounts in Azure）"
 ---
 
 [英語版]: https://www.finops.org/wg/purchasing-commitment-discounts-in-azure/

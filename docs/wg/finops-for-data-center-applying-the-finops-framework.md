@@ -1,5 +1,5 @@
 ---
-title: データセンター向けFinOps：FinOpsフレームワークの適用（FinOps for Data Center: Applying the FinOps Framework）
+title: "データセンター向けFinOps：FinOpsフレームワークの適用（FinOps for Data Center: Applying the FinOps Framework）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-data-center-applying-the-finops-framework/

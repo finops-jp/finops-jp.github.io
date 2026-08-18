@@ -1,5 +1,5 @@
 ---
-title: FinOps基礎のためのAI：ユースケースとプロンプトの実践（AI for FinOps Fundamentals: Use Cases and Prompt Practices）
+title: "FinOps基礎のためのAI：ユースケースとプロンプトの実践（AI for FinOps Fundamentals: Use Cases and Prompt Practices）"
 ---
 
 [英語版]: https://www.finops.org/wg/ai-finops-prompts/

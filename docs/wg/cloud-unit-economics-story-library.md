@@ -1,5 +1,5 @@
 ---
-title: クラウドユニットエコノミクス事例集（Cloud Unit Economics Story Collection）
+title: "クラウドユニットエコノミクス事例集（Cloud Unit Economics Story Collection）"
 ---
 
 [英語版]: https://www.finops.org/wg/cloud-unit-economics-story-library/

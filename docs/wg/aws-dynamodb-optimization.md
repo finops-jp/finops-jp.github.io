@@ -1,5 +1,5 @@
 ---
-title: AWS DynamoDBの最適化（AWS DynamoDB Optimization）
+title: "AWS DynamoDBの最適化（AWS DynamoDB Optimization）"
 ---
 
 [英語版]: https://www.finops.org/wg/aws-dynamodb-optimization/

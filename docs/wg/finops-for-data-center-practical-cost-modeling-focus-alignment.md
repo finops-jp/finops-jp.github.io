@@ -1,5 +1,5 @@
 ---
-title: データセンター向けFinOps：実践的なコストモデリングとFOCUSへの整合（FinOps for Data Center: Practical Cost Modeling & FOCUS Alignment）
+title: "データセンター向けFinOps：実践的なコストモデリングとFOCUSへの整合（FinOps for Data Center: Practical Cost Modeling & FOCUS Alignment）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-data-center-practical-cost-modeling-focus-alignment/

@@ -1,5 +1,5 @@
 ---
-title: キーテイクアウェイ：データクラウドプラットフォーム向けFinOpsの実践シナリオ（Key Takeaways: FinOps for Data Cloud Platforms Practical Scenarios）
+title: "キーテイクアウェイ：データクラウドプラットフォーム向けFinOpsの実践シナリオ（Key Takeaways: FinOps for Data Cloud Platforms Practical Scenarios）"
 ---
 
 [英語版]: https://www.finops.org/wg/key-takeaways-finops-data-platforms-scenerios/

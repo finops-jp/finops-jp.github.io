@@ -1,5 +1,5 @@
 ---
-title: FinOpsマネージャー向けインターンシップ・クイックスタートガイド（FinOps Manager’s Internship Quickstart Guide）
+title: "FinOpsマネージャー向けインターンシップ・クイックスタートガイド（FinOps Manager’s Internship Quickstart Guide）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-managers-internship-quickstart-guide/

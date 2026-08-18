@@ -1,5 +1,5 @@
 ---
-title: GenAIのキャパシティオプションの選択（Navigating GenAI Capacity Options）
+title: "GenAIのキャパシティオプションの選択（Navigating GenAI Capacity Options）"
 ---
 
 [英語版]: https://www.finops.org/wg/genai-capacity-options/

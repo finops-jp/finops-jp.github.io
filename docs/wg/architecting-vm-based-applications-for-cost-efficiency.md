@@ -1,5 +1,5 @@
 ---
-title: コスト効率を考慮したVMベースのアプリケーションのアーキテクチャ設計（Architecting VM-based Applications for Cost Efficiency）
+title: "コスト効率を考慮したVMベースのアプリケーションのアーキテクチャ設計（Architecting VM-based Applications for Cost Efficiency）"
 ---
 
 [英語版]: https://www.finops.org/wg/architecting-vm-based-applications-for-cost-efficiency/

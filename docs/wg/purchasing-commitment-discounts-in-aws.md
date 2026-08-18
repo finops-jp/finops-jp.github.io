@@ -1,5 +1,5 @@
 ---
-title: AWSにおけるコミットメント割引（Commitment Discounts）の購入
+title: "AWSにおけるコミットメント割引（Commitment Discounts）の購入"
 ---
 
 [英語版]: https://www.finops.org/wg/purchasing-commitment-discounts-in-aws/

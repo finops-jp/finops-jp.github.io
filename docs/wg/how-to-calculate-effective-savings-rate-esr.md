@@ -1,5 +1,5 @@
 ---
-title: 実効割引率（Effective Savings Rate: ESR）の算出方法（How to Calculate Effective Savings Rate (ESR)）
+title: "実効割引率（Effective Savings Rate: ESR）の算出方法（How to Calculate Effective Savings Rate (ESR)）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-calculate-effective-savings-rate-esr/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsとITAM：コスト、リスク、価値の最適化に向けた連携（FinOps & ITAM: Collaborating to Optimize Cost, Risk, and Value）
+title: "FinOpsとITAM：コスト、リスク、価値の最適化に向けた連携（FinOps & ITAM: Collaborating to Optimize Cost, Risk, and Value）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-itam-optimize-cost-risk-value/

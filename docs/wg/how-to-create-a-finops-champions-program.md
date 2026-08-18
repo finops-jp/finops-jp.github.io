@@ -1,5 +1,5 @@
 ---
-title: FinOpsチャンピオンプログラムの作成方法（How to Create a FinOps Champions Program）
+title: "FinOpsチャンピオンプログラムの作成方法（How to Create a FinOps Champions Program）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-create-a-finops-champions-program/

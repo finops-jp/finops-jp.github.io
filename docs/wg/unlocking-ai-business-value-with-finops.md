@@ -1,5 +1,5 @@
 ---
-title: FinOpsによるAIビジネス価値の最大化（Unlocking AI Business Value with FinOps）
+title: "FinOpsによるAIビジネス価値の最大化（Unlocking AI Business Value with FinOps）"
 ---
 
 [英語版]: https://www.finops.org/wg/unlocking-ai-business-value-with-finops/

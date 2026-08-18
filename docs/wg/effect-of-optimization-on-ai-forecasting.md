@@ -1,5 +1,5 @@
 ---
-title: AI予測における最適化の影響（Effect of Optimization on AI Forecasting）
+title: "AI予測における最適化の影響（Effect of Optimization on AI Forecasting）"
 ---
 
 [英語版]: https://www.finops.org/wg/effect-of-optimization-on-ai-forecasting/

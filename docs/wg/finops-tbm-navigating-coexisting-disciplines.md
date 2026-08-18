@@ -1,5 +1,5 @@
 ---
-title: FinOpsとTBM：共存する専門分野の進め方（FinOps & TBM: Navigating Co-Existing Disciplines）
+title: "FinOpsとTBM：共存する専門分野の進め方（FinOps & TBM: Navigating Co-Existing Disciplines）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-tbm-navigating-coexisting-disciplines/

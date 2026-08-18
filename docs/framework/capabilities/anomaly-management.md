@@ -1,5 +1,5 @@
 ---
-title: 異常管理（Anomaly Management）
+title: "異常管理（Anomaly Management）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/anomaly-management/

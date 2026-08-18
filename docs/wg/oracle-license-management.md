@@ -1,5 +1,5 @@
 ---
-title: Oracleライセンス管理ガイド（Oracle License Management Guide）
+title: "Oracleライセンス管理ガイド（Oracle License Management Guide）"
 ---
 
 [英語版]: https://www.finops.org/wg/oracle-license-management/

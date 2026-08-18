@@ -1,5 +1,5 @@
 ---
-title: サステナビリティ（Sustainability）
+title: "サステナビリティ（Sustainability）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/sustainability/

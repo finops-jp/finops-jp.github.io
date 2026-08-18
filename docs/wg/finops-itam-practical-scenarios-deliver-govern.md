@@ -1,5 +1,5 @@
 ---
-title: FinOpsとITAMの実践的シナリオ：デリバーとガバナンス（FinOps & ITAM Practical Scenarios: Deliver & Govern）
+title: "FinOpsとITAMの実践的シナリオ：デリバーとガバナンス（FinOps & ITAM Practical Scenarios: Deliver & Govern）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/

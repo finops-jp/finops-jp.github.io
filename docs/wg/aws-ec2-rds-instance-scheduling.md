@@ -1,5 +1,5 @@
 ---
-title: AWS EC2およびRDSインスタンスのスケジュール設定（AWS EC2 & RDS Instance Scheduling）
+title: "AWS EC2およびRDSインスタンスのスケジュール設定（AWS EC2 & RDS Instance Scheduling）"
 ---
 
 [英語版]: https://www.finops.org/wg/aws-ec2-rds-instance-scheduling/

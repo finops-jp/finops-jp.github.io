@@ -1,5 +1,5 @@
 ---
-title: データセンターにおけるFinOpsの考慮事項（FinOps Considerations for a Data Center）
+title: "データセンターにおけるFinOpsの考慮事項（FinOps Considerations for a Data Center）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-data-center-creating-a-finops-practice-profile/

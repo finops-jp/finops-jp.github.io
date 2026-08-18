@@ -1,5 +1,5 @@
 ---
-title: AWS Configを使用した未使用リソースの特定とタグ付けコンプライアンスの遵守（Using AWS Config to Identify Unused Resources & Tagging Compliance）
+title: "AWS Configを使用した未使用リソースの特定とタグ付けコンプライアンスの遵守（Using AWS Config to Identify Unused Resources & Tagging Compliance）"
 ---
 
 [英語版]: https://www.finops.org/wg/using-aws-config-to-identify-unused-resources-tagging-compliance/

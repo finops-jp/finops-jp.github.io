@@ -1,5 +1,5 @@
 ---
-title: AIアプローチとインフラストラクチャ戦略の選択（Choosing an AI Approach and Infrastructure Strategy）
+title: "AIアプローチとインフラストラクチャ戦略の選択（Choosing an AI Approach and Infrastructure Strategy）"
 ---
 
 [英語版]: https://www.finops.org/wg/choosing-an-ai-approach-and-infrastructure-strategy/

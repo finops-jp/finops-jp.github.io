@@ -1,5 +1,5 @@
 ---
-title: タグ付けポリシー準拠の測定方法（How to Measure Tagging Policy Compliance）
+title: "タグ付けポリシー準拠の測定方法（How to Measure Tagging Policy Compliance）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-measure-tagging-policy-compliance/

@@ -1,5 +1,5 @@
 ---
-title: 異常検知によるコスト回避額の測定プレイブック（Measuring Anomaly-Detected Cost Avoidance Playbook）
+title: "異常検知によるコスト回避額の測定プレイブック（Measuring Anomaly-Detected Cost Avoidance Playbook）"
 ---
 
 [英語版]: https://www.finops.org/wg/measuring-anomaly-detected-cost-avoidance-playbook/

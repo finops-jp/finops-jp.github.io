@@ -1,5 +1,5 @@
 ---
-title: FinOpsの用語集（FinOps Terminology）
+title: "FinOpsの用語集（FinOps Terminology）"
 ---
 
 [英語版]: https://www.finops.org/assets/terminology/

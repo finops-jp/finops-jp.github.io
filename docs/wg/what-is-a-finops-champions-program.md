@@ -1,5 +1,5 @@
 ---
-title: FinOpsチャンピオンプログラム（FinOps Champions Program）とは
+title: "FinOpsチャンピオンプログラム（FinOps Champions Program）とは"
 ---
 
 [英語版]: https://www.finops.org/wg/what-is-a-finops-champions-program/

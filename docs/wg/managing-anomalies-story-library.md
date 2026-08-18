@@ -1,5 +1,5 @@
 ---
-title: 異常管理ストーリー集（Managing Anomalies Story Collection）
+title: "異常管理ストーリー集（Managing Anomalies Story Collection）"
 ---
 
 [英語版]: https://www.finops.org/wg/managing-anomalies-story-library/

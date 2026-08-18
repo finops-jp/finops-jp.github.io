@@ -1,5 +1,5 @@
 ---
-title: FinOpsチームの構築：役割、体制、キャリアパス（Building FinOps Teams: Roles, Structures, Career Paths）
+title: "FinOpsチームの構築：役割、体制、キャリアパス（Building FinOps Teams: Roles, Structures, Career Paths）"
 ---
 
 [英語版]: https://www.finops.org/wg/building-finops-teams-roles-structures-career-paths/

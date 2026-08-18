@@ -1,5 +1,5 @@
 ---
-title: 使用量の最適化（Usage Optimization）
+title: "使用量の最適化（Usage Optimization）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/usage-optimization/

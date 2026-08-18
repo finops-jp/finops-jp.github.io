@@ -1,5 +1,5 @@
 ---
-title: 専門分野間の連携（Intersecting Disciplines）
+title: "専門分野間の連携（Intersecting Disciplines）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/intersecting-disciplines/

@@ -1,5 +1,5 @@
 ---
-title: Azureの未使用のApp Service Plan（Azure Unused App Service Plans）
+title: "Azureの未使用のApp Service Plan（Azure Unused App Service Plans）"
 ---
 
 [英語版]: https://www.finops.org/wg/azure-unused-app-service-plans/

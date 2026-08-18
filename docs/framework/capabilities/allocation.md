@@ -1,5 +1,5 @@
 ---
-title: 配賦（Allocation）
+title: "配賦（Allocation）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/allocation/

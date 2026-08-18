@@ -1,5 +1,5 @@
 ---
-title: 予測（Forecasting）
+title: "予測（Forecasting）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/forecasting/

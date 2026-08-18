@@ -1,5 +1,5 @@
 ---
-title: コスト効率を考慮したデータベース設計が重要な理由（Why Architecting Databases for Cost Efficiency Matters）
+title: "コスト効率を考慮したデータベース設計が重要な理由（Why Architecting Databases for Cost Efficiency Matters）"
 ---
 
 [英語版]: https://www.finops.org/wg/why-architecting-databases-for-cost-efficiency-matters/

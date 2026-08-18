@@ -1,5 +1,5 @@
 ---
-title: クラウドサービスプロバイダーのツールと用語に関するガイド（Guide to Cloud Service Provider Tools and Terminology）
+title: "クラウドサービスプロバイダーのツールと用語に関するガイド（Guide to Cloud Service Provider Tools and Terminology）"
 ---
 
 [英語版]: https://www.finops.org/wg/multi-cloud-tools-and-terminology/

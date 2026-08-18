@@ -1,5 +1,5 @@
 ---
-title: SaaSへのFinOpsフレームワークの適用（Applying the FinOps Framework to SaaS）
+title: "SaaSへのFinOpsフレームワークの適用（Applying the FinOps Framework to SaaS）"
 ---
 
 [英語版]: https://www.finops.org/wg/applying-the-finops-framework-to-saas/

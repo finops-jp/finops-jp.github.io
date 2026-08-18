@@ -1,5 +1,5 @@
 ---
-title: FinOpsのKPI（FinOps KPIs）
+title: "FinOpsのKPI（FinOps KPIs）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-kpis/

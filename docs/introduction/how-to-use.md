@@ -1,5 +1,5 @@
 ---
-title: FinOpsフレームワークおよびFoundationコンテンツの帰属表示方法（How to Attribute the FinOps Framework and Foundation Content）
+title: "FinOpsフレームワークおよびFoundationコンテンツの帰属表示方法（How to Attribute the FinOps Framework and Foundation Content）"
 ---
 
 [英語版]: https://www.finops.org/introduction/how-to-use/

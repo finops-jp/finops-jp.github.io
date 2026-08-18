@@ -1,5 +1,5 @@
 ---
-title: 公共部門におけるユニットエコノミクス（Unit Economics in the Public Sector）
+title: "公共部門におけるユニットエコノミクス（Unit Economics in the Public Sector）"
 ---
 
 [英語版]: https://www.finops.org/wg/unit-economics-in-the-public-sector/

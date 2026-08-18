@@ -1,5 +1,5 @@
 ---
-title: 料金の最適化KPI：コミットメント割引の無駄の割合（Rate Optimization KPI: Percent of Commitment Discount Waste）
+title: "料金の最適化KPI：コミットメント割引の無駄の割合（Rate Optimization KPI: Percent of Commitment Discount Waste）"
 ---
 
 [英語版]: https://www.finops.org/wg/percent-commitment-based-discount-waste-playbook/

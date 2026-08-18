@@ -1,5 +1,5 @@
 ---
-title: FinOpsとITAMの実践的シナリオ：価値の実現と再投資（FinOps & ITAM Practical Scenarios: Realize Value & Reinvest）
+title: "FinOpsとITAMの実践的シナリオ：価値の実現と再投資（FinOps & ITAM Practical Scenarios: Realize Value & Reinvest）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/

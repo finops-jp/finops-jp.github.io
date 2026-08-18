@@ -1,5 +1,5 @@
 ---
-title: 未使用のAzure Private Linkの削除（Removing Unused Azure Private Links）
+title: "未使用のAzure Private Linkの削除（Removing Unused Azure Private Links）"
 ---
 
 [英語版]: https://www.finops.org/wg/removing-unused-azure-private-links/

@@ -1,5 +1,5 @@
 ---
-title: AWS S3コスト最適化（AWS S3 Cost Optimization）
+title: "AWS S3コスト最適化（AWS S3 Cost Optimization）"
 ---
 
 [英語版]: https://www.finops.org/wg/aws-s3-cost-optimization/

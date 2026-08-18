@@ -1,5 +1,5 @@
 ---
-title: Azureにおける仮想マシンのライトサイジング（Rightsizing Virtual Machines on Azure）
+title: "Azureにおける仮想マシンのライトサイジング（Rightsizing Virtual Machines on Azure）"
 ---
 
 [英語版]: https://www.finops.org/wg/rightsizing-virtual-machines-on-azure/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsプラクティスの管理（Manage the FinOps Practice）
+title: "FinOpsプラクティスの管理（Manage the FinOps Practice）"
 ---
 
 [英語版]: https://www.finops.org/framework/domains/manage-finops-practice/

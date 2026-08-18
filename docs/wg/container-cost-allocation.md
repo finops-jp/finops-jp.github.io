@@ -1,5 +1,5 @@
 ---
-title: コンテナコスト配分ラベルと辞書（Container Cost Allocation Labels and Dictionary）
+title: "コンテナコスト配分ラベルと辞書（Container Cost Allocation Labels and Dictionary）"
 ---
 
 [英語版]: https://www.finops.org/wg/container-cost-allocation/

@@ -1,5 +1,5 @@
 ﻿---
-title: FinOpsドメイン
+title: "FinOpsドメイン"
 description: FinOpsドメインは、活動やナレッジの領域を表しています。FinOpsを採用するすべての組織は、すべてのFinOpsドメインで活動を行うことになります。
 ---
 

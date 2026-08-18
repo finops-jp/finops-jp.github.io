@@ -1,5 +1,5 @@
 ---
-title: データクラウドプラットフォーム向けFinOps：実践シナリオ（FinOps for Data Cloud Platforms: Practical Scenarios）
+title: "データクラウドプラットフォーム向けFinOps：実践シナリオ（FinOps for Data Cloud Platforms: Practical Scenarios）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-data-cloud-platforms-practical-scenarios/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsを活用した正確な企業価値評価（Accurate Company Valuations Using FinOps）
+title: "FinOpsを活用した正確な企業価値評価（Accurate Company Valuations Using FinOps）"
 ---
 
 [英語版]: https://www.finops.org/wg/accurate-company-valuations-using-finops/

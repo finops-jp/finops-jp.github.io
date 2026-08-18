@@ -1,5 +1,5 @@
 ---
-title: AWS RDSの削除（AWS RDS Removal）
+title: "AWS RDSの削除（AWS RDS Removal）"
 ---
 
 [英語版]: https://www.finops.org/wg/aws-rds-removal/

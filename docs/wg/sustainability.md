@@ -1,5 +1,5 @@
 ---
-title: クラウドサステナビリティとFinOpsの交点（Cloud Sustainability and Its Intersection with FinOps）
+title: "クラウドサステナビリティとFinOpsの交点（Cloud Sustainability and Its Intersection with FinOps）"
 ---
 
 [英語版]: https://www.finops.org/wg/sustainability/

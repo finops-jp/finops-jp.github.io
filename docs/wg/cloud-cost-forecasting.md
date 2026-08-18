@@ -1,5 +1,5 @@
 ---
-title: クラウドコスト予測の探求（Exploring Cloud Cost Forecasting）
+title: "クラウドコスト予測の探求（Exploring Cloud Cost Forecasting）"
 ---
 
 [英語版]: https://www.finops.org/wg/cloud-cost-forecasting/

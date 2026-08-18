@@ -1,5 +1,5 @@
 ---
-title: ゲーミフィケーション事例集（Gamification Story Collection）
+title: "ゲーミフィケーション事例集（Gamification Story Collection）"
 ---
 
 [英語版]: https://www.finops.org/wg/gamification-library/

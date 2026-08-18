@@ -1,5 +1,5 @@
 ---
-title: 経営戦略との整合（Executive Strategy Alignment）
+title: "経営戦略との整合（Executive Strategy Alignment）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/executive-strategy-alignment/

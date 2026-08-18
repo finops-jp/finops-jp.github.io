@@ -1,5 +1,5 @@
 ---
-title: トークノミクス：SaaSモデルのトークンコストにおけるAI価値の管理（Tokenomics: Managing AI Value in SaaS Model Token Costs）
+title: "トークノミクス：SaaSモデルのトークンコストにおけるAI価値の管理（Tokenomics: Managing AI Value in SaaS Model Token Costs）"
 ---
 
 [英語版]: https://www.finops.org/wg/token-economics-saas/

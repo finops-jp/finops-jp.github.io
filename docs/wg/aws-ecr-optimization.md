@@ -1,5 +1,5 @@
 ---
-title: AWS ECRの最適化（AWS ECR Optimization）
+title: "AWS ECRの最適化（AWS ECR Optimization）"
 ---
 
 [英語版]: https://www.finops.org/wg/aws-ecr-optimization/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsアセスメントガイド（FinOps Assessment Guide）
+title: "FinOpsアセスメントガイド（FinOps Assessment Guide）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-assessment/

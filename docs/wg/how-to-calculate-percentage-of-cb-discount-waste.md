@@ -1,5 +1,5 @@
 ---
-title: コミットメント割引の無駄の割合を計算する方法（How to Calculate Percentage of Commitment Discount Waste）
+title: "コミットメント割引の無駄の割合を計算する方法（How to Calculate Percentage of Commitment Discount Waste）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-calculate-percentage-of-cb-discount-waste/

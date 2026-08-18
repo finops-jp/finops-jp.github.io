@@ -1,5 +1,5 @@
 ---
-title: 使用量の最適化機会ライブラリ（Usage Optimization Opportunities Library）
+title: "使用量の最適化機会ライブラリ（Usage Optimization Opportunities Library）"
 ---
 
 [英語版]: https://www.finops.org/wg/workload-optimization/

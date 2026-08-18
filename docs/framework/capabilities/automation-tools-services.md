@@ -1,5 +1,5 @@
 ---
-title: 自動化、ツール、サービス（Automation, Tools, & Services）
+title: "自動化、ツール、サービス（Automation, Tools, & Services）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/automation-tools-services/

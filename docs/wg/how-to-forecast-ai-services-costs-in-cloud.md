@@ -1,5 +1,5 @@
 ---
-title: クラウドにおけるAIサービスコストの予測方法（How to Forecast AI Services Costs in Cloud）
+title: "クラウドにおけるAIサービスコストの予測方法（How to Forecast AI Services Costs in Cloud）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-forecast-ai-services-costs-in-cloud/

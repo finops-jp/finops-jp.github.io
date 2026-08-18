@@ -1,5 +1,5 @@
 ---
-title: FinOpsの導入 – 避けるべき落とし穴（Adopting FinOps – Pitfalls to Avoid）
+title: "FinOpsの導入 – 避けるべき落とし穴（Adopting FinOps – Pitfalls to Avoid）"
 ---
 
 [英語版]: https://www.finops.org/wg/adopting-finops-avoiding-pitfalls/

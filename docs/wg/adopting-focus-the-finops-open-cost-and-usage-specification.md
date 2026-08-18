@@ -1,5 +1,5 @@
 ---
-title: FOCUS（FinOps Open Cost and Usage Specification）の導入（Adopting FOCUS, the FinOps Open Cost and Usage Specification）
+title: "FOCUS（FinOps Open Cost and Usage Specification）の導入（Adopting FOCUS, the FinOps Open Cost and Usage Specification）"
 ---
 
 [英語版]: https://www.finops.org/wg/adopting-focus-the-finops-open-cost-and-usage-specification/

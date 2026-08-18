@@ -1,5 +1,5 @@
 ---
-title: 使用量とコストの最適化（Optimize Usage & Cost）
+title: "使用量とコストの最適化（Optimize Usage & Cost）"
 ---
 
 [英語版]: https://www.finops.org/framework/domains/optimize-usage-cost/

@@ -1,5 +1,5 @@
 ---
-title: 正確なクラウド予測（Accurate Cloud Forecasts）
+title: "正確なクラウド予測（Accurate Cloud Forecasts）"
 ---
 
 [英語版]: https://www.finops.org/wg/forecasting-cloud-costs/

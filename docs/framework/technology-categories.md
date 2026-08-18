@@ -1,5 +1,5 @@
 ---
-title: テクノロジーカテゴリー（Technology Categories）
+title: "テクノロジーカテゴリー（Technology Categories）"
 ---
 
 [英語版]: https://www.finops.org/framework/technology-categories/

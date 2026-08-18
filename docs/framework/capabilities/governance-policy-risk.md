@@ -1,5 +1,5 @@
 ---
-title: ガバナンス、ポリシー、リスク（Governance, Policy & Risk）
+title: "ガバナンス、ポリシー、リスク（Governance, Policy & Risk）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/governance-policy-risk/

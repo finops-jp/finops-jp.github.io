@@ -1,5 +1,5 @@
 ---
-title: GenAI利用の最適化：コスト、パフォーマンス、効率に関するFinOpsの視点（Optimizing GenAI Usage: A FinOps Perspective on Cost, Performance, and Efficiency）
+title: "GenAI利用の最適化：コスト、パフォーマンス、効率に関するFinOpsの視点（Optimizing GenAI Usage: A FinOps Perspective on Cost, Performance, and Efficiency）"
 ---
 
 [英語版]: https://www.finops.org/wg/optimizing-genai-usage/

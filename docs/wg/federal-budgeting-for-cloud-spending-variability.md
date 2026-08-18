@@ -1,5 +1,5 @@
 ---
-title: 連邦政府におけるクラウド支出変動への予算編成（Federal Budgeting for Cloud Spending Variability）
+title: "連邦政府におけるクラウド支出変動への予算編成（Federal Budgeting for Cloud Spending Variability）"
 ---
 
 [英語版]: https://www.finops.org/wg/federal-budgeting-for-cloud-spending-variability/

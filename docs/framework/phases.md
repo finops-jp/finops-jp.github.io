@@ -1,5 +1,5 @@
 ---
-title: FinOpsのフェーズ（Phases）
+title: "FinOpsのフェーズ（Phases）"
 ---
 
 [英語版]: https://www.finops.org/framework/phases/

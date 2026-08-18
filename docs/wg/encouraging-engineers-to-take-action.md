@@ -1,5 +1,5 @@
 ---
-title: エンジニアの行動喚起（Encouraging Engineers to Take Action）
+title: "エンジニアの行動喚起（Encouraging Engineers to Take Action）"
 ---
 
 [英語版]: https://www.finops.org/wg/encouraging-engineers-to-take-action/

@@ -1,5 +1,5 @@
 ---
-title: 総勘定元帳リチャージ率の算出方法（How to Calculate General Ledger Recharge Rate）
+title: "総勘定元帳リチャージ率の算出方法（How to Calculate General Ledger Recharge Rate）"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-calculate-general-ledger-recharge-rate/

@@ -1,5 +1,5 @@
 ---
-title: FinOpsとITFMの交差（How FinOps & ITFM Are Intersecting）
+title: "FinOpsとITFMの交差（How FinOps & ITFM Are Intersecting）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-itfm-intersection/

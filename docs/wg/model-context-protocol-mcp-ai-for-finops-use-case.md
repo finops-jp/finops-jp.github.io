@@ -1,5 +1,5 @@
 ---
-title: Model Context Protocol (MCP)：FinOps向けAIのユースケース（Model Context Protocol (MCP): An AI for FinOps Use Case）
+title: "Model Context Protocol (MCP)：FinOps向けAIのユースケース（Model Context Protocol (MCP): An AI for FinOps Use Case）"
 ---
 
 [英語版]: https://www.finops.org/wg/model-context-protocol-mcp-ai-for-finops-use-case/

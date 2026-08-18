@@ -1,5 +1,5 @@
 ---
-title: vCPUあたりの実効平均コンピュートコストの算出方法（How to Calculate Effective Average Cost of Compute per vCPU）
+title: "vCPUあたりの実効平均コンピュートコストの算出方法（How to Calculate Effective Average Cost of Compute per vCPU）"
 ---
 
 [英語版]: https://www.finops.org/wg/effective-average-cost-of-compute-per-vcpu/

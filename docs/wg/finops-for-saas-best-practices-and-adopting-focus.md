@@ -1,5 +1,5 @@
 ---
-title: SaaS向けFinOps：FOCUSの導入（FinOps for SaaS: Adopting FOCUS）
+title: "SaaS向けFinOps：FOCUSの導入（FinOps for SaaS: Adopting FOCUS）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-saas-best-practices-and-adopting-focus/

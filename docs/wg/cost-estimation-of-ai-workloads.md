@@ -1,5 +1,5 @@
 ---
-title: AIワークロードのコスト見積もり（Cost Estimation of AI Workloads）
+title: "AIワークロードのコスト見積もり（Cost Estimation of AI Workloads）"
 ---
 
 [英語版]: https://www.finops.org/wg/cost-estimation-of-ai-workloads/

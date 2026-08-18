@@ -1,5 +1,5 @@
 ---
-title: 米国公共セクター向けFinOpsプレイブック（U.S. Public Sector FinOps Playbook）
+title: "米国公共セクター向けFinOpsプレイブック（U.S. Public Sector FinOps Playbook）"
 ---
 
 [英語版]: https://www.finops.org/wg/us-gov-playbook/

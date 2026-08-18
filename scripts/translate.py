@@ -197,7 +197,7 @@ def create_docs_file(key, translated_content, source_url, title):
         doc_title = title or key.split('/')[-1]
 
     frontmatter = f"""---
-title: {doc_title}
+title: "{doc_title}"
 ---
 
 [英語版]: {source_url}

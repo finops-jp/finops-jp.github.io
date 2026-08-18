@@ -1,5 +1,5 @@
 ---
-title: GenAI FinOps：トークン価格設定の真の仕組み（GenAI FinOps: How Token Pricing Really Works）
+title: "GenAI FinOps：トークン価格設定の真の仕組み（GenAI FinOps: How Token Pricing Really Works）"
 ---
 
 [英語版]: https://www.finops.org/wg/genai-finops-how-token-pricing-really-works/

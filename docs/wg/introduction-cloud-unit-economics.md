@@ -1,5 +1,5 @@
 ---
-title: クラウドユニットエコノミクス入門（Introduction to Cloud Unit Economics）
+title: "クラウドユニットエコノミクス入門（Introduction to Cloud Unit Economics）"
 ---
 
 [英語版]: https://www.finops.org/wg/introduction-cloud-unit-economics/

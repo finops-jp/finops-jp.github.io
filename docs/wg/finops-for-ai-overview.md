@@ -1,5 +1,5 @@
 ---
-title: AI向けFinOpsの概要（FinOps for AI Overview）
+title: "AI向けFinOpsの概要（FinOps for AI Overview）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-ai-overview/

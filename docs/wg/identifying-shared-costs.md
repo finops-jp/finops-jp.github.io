@@ -1,5 +1,5 @@
 ---
-title: 共有クラウドコストの管理（Managing Shared Cloud Costs）
+title: "共有クラウドコストの管理（Managing Shared Cloud Costs）"
 ---
 
 [英語版]: https://www.finops.org/wg/identifying-shared-costs/

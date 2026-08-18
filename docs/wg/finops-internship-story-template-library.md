@@ -1,5 +1,5 @@
 ---
-title: インターンシップの事例とテンプレート集（Internship Story and Template Collection）
+title: "インターンシップの事例とテンプレート集（Internship Story and Template Collection）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-internship-story-template-library/

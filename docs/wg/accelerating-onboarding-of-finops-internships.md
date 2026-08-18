@@ -1,5 +1,5 @@
 ---
-title: 最初のハードルを越える：FinOpsインターンのオンボーディング加速（Exceeding the First Hurdle: Accelerating the Onboarding of FinOps Internships）
+title: "最初のハードルを越える：FinOpsインターンのオンボーディング加速（Exceeding the First Hurdle: Accelerating the Onboarding of FinOps Internships）"
 ---
 
 [英語版]: https://www.finops.org/wg/accelerating-onboarding-of-finops-internships/

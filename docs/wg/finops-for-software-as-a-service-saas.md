@@ -1,5 +1,5 @@
 ---
-title: SaaS向けFinOps入門（Introduction to FinOps for SaaS）
+title: "SaaS向けFinOps入門（Introduction to FinOps for SaaS）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-software-as-a-service-saas/

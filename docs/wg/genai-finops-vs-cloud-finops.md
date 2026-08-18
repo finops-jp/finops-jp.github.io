@@ -1,5 +1,5 @@
 ---
-title: GenAI FinOpsとCloud FinOps：共通のルーツと異なる課題（GenAI FinOps vs. Cloud FinOps: Similar Roots, Different Challenges）
+title: "GenAI FinOpsとCloud FinOps：共通のルーツと異なる課題（GenAI FinOps vs. Cloud FinOps: Similar Roots, Different Challenges）"
 ---
 
 [英語版]: https://www.finops.org/wg/genai-finops-vs-cloud-finops/

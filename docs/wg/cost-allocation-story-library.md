@@ -1,5 +1,5 @@
 ---
-title: コスト配分ストーリー集（Cost Allocation Story Collection）
+title: "コスト配分ストーリー集（Cost Allocation Story Collection）"
 ---
 
 [英語版]: https://www.finops.org/wg/cost-allocation-story-library/

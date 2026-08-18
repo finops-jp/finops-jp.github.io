@@ -1,5 +1,5 @@
 ---
-title: AI向けFinOps：ツールとサービスに関する検討事項（FinOps for AI: Tools & Services Considerations）
+title: "AI向けFinOps：ツールとサービスに関する検討事項（FinOps for AI: Tools & Services Considerations）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-ai-tools-services-considerations/

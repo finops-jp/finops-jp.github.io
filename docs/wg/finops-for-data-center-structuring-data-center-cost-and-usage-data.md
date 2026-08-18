@@ -1,5 +1,5 @@
 ---
-title: データセンター向けFinOps：データセンターのコストと使用量データの構造化（FinOps for Data Center: Structuring Data Center Cost and Usage Data）
+title: "データセンター向けFinOps：データセンターのコストと使用量データの構造化（FinOps for Data Center: Structuring Data Center Cost and Usage Data）"
 ---
 
 [英語版]: https://www.finops.org/wg/finops-for-data-center-structuring-data-center-cost-and-usage-data/

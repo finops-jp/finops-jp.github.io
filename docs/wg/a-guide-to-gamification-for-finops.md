@@ -1,5 +1,5 @@
 ---
-title: FinOpsにおけるゲーミフィケーションガイド（A Guide to Gamification for FinOps）
+title: "FinOpsにおけるゲーミフィケーションガイド（A Guide to Gamification for FinOps）"
 ---
 
 [英語版]: https://www.finops.org/wg/a-guide-to-gamification-for-finops/

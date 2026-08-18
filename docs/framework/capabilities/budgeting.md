@@ -1,5 +1,5 @@
 ---
-title: 予算編成（Budgeting）
+title: "予算編成（Budgeting）"
 ---
 
 [英語版]: https://www.finops.org/framework/capabilities/budgeting/

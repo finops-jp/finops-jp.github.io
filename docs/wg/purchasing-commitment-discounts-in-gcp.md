@@ -1,5 +1,5 @@
 ---
-title: GCPにおけるコミットメント割引の購入（Purchasing Commitment Discounts in GCP）
+title: "GCPにおけるコミットメント割引の購入（Purchasing Commitment Discounts in GCP）"
 ---
 
 [英語版]: https://www.finops.org/wg/purchasing-commitment-discounts-in-gcp/

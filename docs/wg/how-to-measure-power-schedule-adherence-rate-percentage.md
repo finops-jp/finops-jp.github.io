@@ -1,5 +1,5 @@
 ---
-title: 電源スケジュールの遵守率（Power Schedule Adherence Rate/Percentage）の測定方法
+title: "電源スケジュールの遵守率（Power Schedule Adherence Rate/Percentage）の測定方法"
 ---
 
 [英語版]: https://www.finops.org/wg/how-to-measure-power-schedule-adherence-rate-percentage/
