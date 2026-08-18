@@ -1,6 +1,6 @@
 # Invoicing & Chargeback
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Invoicing & Chargeback 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Invoicing & Chargeback 
 
 ## On this page
 

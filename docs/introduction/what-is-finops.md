@@ -1,98 +1,88 @@
 ---
-title: 'FinOpsとは'
-pagination_next: "framework/index"
+title: "FinOpsとは（What is FinOps?）"
 ---
 
-[英語版]:https://www.finops.org/introduction/what-is-finops/
+[英語版]: https://www.finops.org/introduction/what-is-finops/
 
-# FinOpsとは
+:::warning[ドラフトのページ]
 
-> 『FinOpsとは、クラウドのビジネス価値の最大化、データに基づいたタイムリーな意思決定、エンジニアリング、財務、ビジネスチーム間のコラボレーションを通じて財務上の説明責任を生み出すための運用フレームワークおよび組織文化的なプラクティスです。』
+翻訳は機械翻訳により提供されています。
+翻訳内容と[英語版]の間で齟齬、不一致、矛盾がある場合は[英語版]を優先します。
 
-FinOps Foundation[技術諮問委員会](https://www.finops.org/about/technical-advisory-council/)  
-更新日: 2023年12月
+:::
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/VDrcgEne6lU?si=3DrgxMX89Tmcj5rO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> FinOpsは、エンジニアリング、財務、ビジネスの各チームが連携することで、テクノロジーのビジネス価値を最大化し、タイムリーなデータ駆動型の意思決定を可能にし、財務的な責任を生み出す、運用フレームワークであり文化的なプラクティスです。
 
----
+FinOps Foundation [_技術諮問委員会（Technical Advisory Council）_](<https://www.finops.org/about/technical-advisory-council/>)  
+更新日: 2026年3月
 
-FinOpsの本質は、組織文化的なプラクティスにあります。これは、チームがクラウドコストを管理する方法であり、中央のベストプラクティスグループのサポートを受けながら、全員が自身のクラウド使用量に対して当事者意識を持つことです。エンジニアリング、財務、プロダクトなどの部門を超えたチームが協力し合うことで、より迅速な製品デリバリーを可能にすると同時に、より高い財務管理と予測可能性を得ることができます。
+FinOpsの本質は文化的なプラクティスです。これは、組織横断の専門チーム（ベストプラクティスグループ）の支援を受けながら、すべての人が自分のコストと使用量に当事者意識を持ち、チームがテクノロジーの価値を管理および最適化するための手法です。エンジニアリング、財務、プロダクトなどのクロスファンクショナルなチームが連携することで、製品の迅速な提供を可能にすると同時に、財務的な管理能力と予測可能性を高め、経営陣（エグゼクティブ）による強力な意思決定を支援します。
 
-> 『FinOps（フィンオプス）は 「Finance（ファイナンス）」と「DevOps（デブオプス）」を組み合わせた造語で、ビジネスチームとエンジニアリングチーム間のコミュニケーションとコラボレーションを重視しています。』
+> FinOpsは「Finance（財務）」と「DevOps」を組み合わせた造語であり、ビジネスチームとエンジニアリングチームの間のコミュニケーションとコラボレーションを強調しています。
 
-このプラクティスには「クラウド財務管理（CFM: Cloud Financial Management）」、「クラウド財務エンジニアリング（Cloud Financial Engineering）」、「クラウドコスト管理（Cloud Cost Management）」、「クラウド最適化（Cloud Optimization）」、「クラウド財務最適化（Cloud Financial Optimization）」など、他のさまざまな名称があります。
+このプラクティスは、「クラウド財務管理（Cloud Financial Management）」、「クラウド財務エンジニアリング（Cloud Financial Engineering）」、「クラウドコスト管理（Cloud Cost Management）」、「クラウド最適化（Cloud Optimization）」、または「クラウド財務最適化（Cloud Financial Optimization）」とも呼ばれます。FinOpsはクラウドのコストと使用量を管理することから発展してきましたが、**現代のFinOpsプラクティスは、SaaS、ライセンス、データセンター、データクラウドプラットフォームなど、あらゆる種類のテクノロジーカテゴリにおける支出管理へとその対象を広げています。**
 
-> 『Cloud FinOpsは「クラウド財務運用（Cloud Financial Operations）」と誤って解釈をされることもありますが、財務部門に存在するより一般的な「財務運用（Financial Operations）」の役割との曖昧さから、次第に使われなくなっています。』
+> FinOpsは「Cloud Financial Operations（クラウド財務運用）」と誤って呼ばれることがありますが、この用語は財務部門に存在する従来の「Financial Operations（財務運用）」ロールとの混同を避けるため、現在はあまり使われていません。
 
-呼び名にかかわらず、FinOpsは、クラウドの変動支出モデルに財務説明責任の組織文化的変革をもたらすプラクティスです。これにより、分散したエンジニアリングチームとビジネスチームが、クラウドアーキテクチャーと投資の意思決定においてスピード、コスト、品質の間でトレードオフを行うことができるようになります。
+名称に関わらず、FinOpsは、クラウド、SaaS、PaaS、ライセンス、データセンター、データクラウドプラットフォームなどのカテゴリにわたり、テクノロジー価値の測定方法に財務的な責任という文化的な変化をもたらすプラクティスです。これにより、分散したエンジニアリングチームやビジネスチームが、アーキテクチャや投資に関する意思決定において、速度、コスト、品質のトレードオフを評価できるようになります。
 
-> 『FinOpsの目的が単なるコスト削減だと思えるなら、もう一度考え直してください。FinOpsはクラウドから最大限の価値を引き出し、効率的な成長を促進することを目的としています。』
+**目標：** ビジネスおよびテクノロジーの目標をサポートするために、テクノロジーに関する意思決定の背景にある価値を特定、伝達、および最適化すること。
 
-クラウドへの投資は、収益の増加、顧客基盤の成長シグナル、製品や機能のリリース速度の向上、さらにはデータセンターの閉鎖を支援することもあります。FinOpsの目的はさまざまな阻害要因を取り除き、エンジニアリングチームがより優れた機能、アプリケーション、移行をより迅速に提供できるようにし、どこにいつ投資するかについて部門を超えての話し合いを可能にすることです。ビジネスチームは、ときに引き締めの決定を行うこともあれば、より多くの投資判断をすることもあります。今ではなぜそのような決定を下すのか、FinOpsによりエンジニアリングチームも理由が分かっています。
+> FinOpsが単なるコスト削減のためのものに見えるなら、それは誤解です。FinOpsの本質は、効率的な成長を促進するためにテクノロジーから最大の価値を引き出すことにあります。
 
-### FinOps学習の始め方
+戦略的なテクノロジー投資は、収益の増加、顧客基盤の拡大、製品や機能のリリースの迅速化、さらにはIT資産全体の洗練と合理化をもたらします。FinOpsは、これらの価値ある取り組みに対する障害を取り除き、エンジニアリングチームがより優れた機能、アプリケーション、移行をより迅速に提供できるように支援します。また、さまざまなテクノロジーに対して「いつ、どこに投資すべきか」について、部門横断的な議論を可能にします。組織が予算を引き締める決定をすることもあれば、投資を増やす決定をすることもあります。しかし、FinOpsを導入することで、チームはどのテクノロジー投資が最も高い価値をもたらすかを把握し、将来に向けてより確実で自信に満ちた意思決定を行えるようになります。
 
-FinOps Foundationは、理解度や時間的な余裕に応じて、この分野について学ぶためのさまざまな方法を提供しています。
+## FinOpsの学習方法
 
-- [**Googleスライド**]や[**PowerPoint**]で**FinOps入門スライド**をダウンロードする
-- [**YouTubeでFinOps入門**]を視聴する
-- [**FinOpsフレームワーク**]を確認する
-- [**FinOpsアセット**]のガイドとプレイブックを閲覧する
-- 組織における[**FinOpsの採用**]について読む
-- [**FinOpsコミュニティーイベント**]に参加する
-- [**Cloud FinOpsの書籍**]を読む
-- [**FinOpsの現状**]の年次調査を調べる
-- [**FinOps認定**]を取得する
+FinOps Foundationは、知識レベルや利用可能な時間に応じて、この分野を学ぶためのさまざまな方法を提供しています。初心者の実践者は、以下の方法で大きな成果を上げています。
 
-[**Googleスライド**]: https://docs.google.com/presentation/d/11TtHnL-I1_yF_jAUsHtxfB_aewADkf-bCltuS8AZW34?usp=drive_fs
-[**PowerPoint**]: https://docs.google.com/presentation/d/1038O4H7aqG6v2YAqViDafRrj4jMQkIDl?rtpof=true&usp=drive_fs
-[**YouTubeでFinOps入門**]: https://www.youtube.com/watch?v=VDrcgEne6lU
-[**FinOpsフレームワーク**]: https://www.finops.org/framework/
-[**FinOpsアセット**]: https://www.finops.org/assets/
-[**FinOpsの採用**]: https://www.finops.org/wg/adopting-finops/
-[**FinOpsコミュニティーイベント**]: https://www.finops.org/community/events/
-[**Cloud FinOpsの書籍**]: https://www.finops.org/community/finops-book/
-[**FinOpsの現状**]: https://data.finops.org/
-[**FinOps認定**]: https://learn.finops.org/
+  1. **[FinOps認定プロフェッショナル（FinOps Certified Practitioner）資格の取得](<https://learn.finops.org/path/finops-certified-practitioner-self-paced>)**：FinOpsのキャリアを開始するために、最新のベストプラクティスを反映して頻繁に更新される[自己学習型コースと試験](<https://learn.finops.org/path/finops-certified-practitioner-self-paced>)を受講します。
+  2. **[今後のFinOpsイベントへの参加](<https://www.finops.org/community/events/>)**：人々をつなぎ、新しいアイデアを刺激するように設計された、歓迎的でインクルーシブな環境（地域イベントおよびバーチャルイベントの両方）で、[志を同じくする実践者や専門家と出会い、学びます](<https://www.finops.org/community/events/>)。
 
-## FinOpsフレームワーク：クラウドのビジネス価値の最大化
+[FinOpsフレームワーク](<https://www.finops.org/framework/>)を理解することで自己学習を補完し、ワーキンググループが提供するペーパーやプレイブックなどの[FinOpsアセット](<https://www.finops.org/assets/>)を確認してください。これらは、プラクティスの情報収集、能力向上、および拡大に役立ちます。
 
-![](/img/Japanese-Framework-Poster-v2.png)
+### 教育用YouTubeチャンネルでの動画視聴
 
-### FinOpsの原則
+[毎月のバーチャルサミットや実践者によるプレゼンテーション](<https://www.youtube.com/@finopsfoundation>)、および[FinOps Xセッションライブラリ](<https://www.finops.org/finops-x-session-library/>)を確認し、さまざまなFinOpsケイパビリティやトピックに関する最新情報を入手してください。また、世界中の他の実践者がどのようにプラクティスを推進しているかを参照できます。
 
-6つの[**FinOpsの原則**]は、FinOpsプラクティスの活動を導く、航海士にとっての北極星のような重要な道しるべです。
+### FinOps導入の準備
 
-[**FinOpsの原則**]: https://finops-jp.github.io/ja/docs/framework/principles
+開始方法のステップバイステップの説明が含まれる[FinOpsの導入アセット](<https://www.finops.org/wg/adopting-finops/>)や、[Googleスライド](<https://docs.google.com/presentation/d/11TtHnL-I1_yF_jAUsHtxfB_aewADkf-bCltuS8AZW34/edit?usp=sharing>)または[PowerPoint](<https://docs.google.com/presentation/d/133wF8fUcy9zwQt-12P7zcOtVu1oNOHOA/edit?usp=drive_link&ouid=116710015507928537039&rtpof=true&sd=true>)形式の**FinOps紹介スライド**を確認してください。また、年次業界スナップショットである[State of FinOps](<https://data.finops.org>)を利用して、自組織の進捗状況をベンチマークし、比較できます。
 
-### 主要なステークホルダー
+## FinOpsフレームワーク：テクノロジーのビジネス価値の最大化
 
-クラウドCoEなどの中核的なFinOps機能は組織の変革を実現するために作用するかもしれませんが、FinOpsは単一の個人やチームによって実行されるものではなく、むしろ異なるエンジニアリング、財務、ビジネスの各チームの連携方法を変えるものです。エグゼクティブ、エンジニア、FinOps実践者、運用、財務、調達など、組織内のあらゆるレベル、あらゆる分野の個人が、FinOpsの実践において異なる役割を果たすことができます。
+[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%203413%201920'%3E%3C/svg%3E)](<https://www.finops.org/wp-content/uploads/2026/03/FinOps-Framework-Poster-March-2026-v3-2.pdf>)
 
-詳細については、[**FinOpsのペルソナとロール**]をご覧ください。
+### FinOps原則
 
-[**FinOpsのペルソナとロール**]: https://finops-jp.github.io/ja/docs/framework/personas
+[FinOps原則](<https://www.finops.org/framework/principles/>)は、コラボレーションを通じて財務的な責任を生み出し、テクノロジー支出に対するビジネス価値を向上させます。
+
+### ステークホルダーペルソナ
+
+組織横断の専門チームが組織の変化を推進する一方で、FinOpsは単一の個人やチームによって実行されるものではありません。むしろ、分散したエンジニアリング、財務、ビジネスの各チームが連携する方法を変化させるものです。組織のあらゆるレベルおよびあらゆる領域の個人が、FinOpsプラクティスにおいてそれぞれ異なる役割を担います。これには、エグゼクティブ、エンジニア、FinOps実践者、運用、財務、調達が含まれます。
+
+[FinOpsペルソナと役割](<https://www.finops.org/framework/personas>)の詳細を参照してください。
 
 ### 成熟度モデル
 
-FinOpsの実践は本質的に反復であり、特定のプロセス、機能的なアクティビティ、ケイパビリティ（能力）、ドメインの成熟度は、繰り返すことによって向上します。「クロール」ステージの組織は一般的に、非常に反応的で、問題が発生した後の対処に重点を置いています。一方、「ラン」ステージのプラクティスでは、アーキテクチャー設計の選択や継続的なエンジニアリングプロセスにコストを積極的に織り込んでいます。
+FinOpsのプラクティスは本質的に反復的であり、特定のプロセス、機能的活動、ケイパビリティ、またはドメインの成熟度は、繰り返すことで向上します。一般的に、「クロール（Crawl）」段階の組織は非常に受動的であり、問題が発生した後の対処に焦点を当てています。一方で、「ラン（Run）」段階のプラクティスでは、アーキテクチャ設計の選択や継続的なエンジニアリングプロセスにコストを能動的に組み込んでいます。
 
-FinOpsを実行するための「クロール、ウォーク、ラン」という成熟度アプローチにより、組織は小規模から始めて、ビジネス価値を機能的なアクティビティの成熟の根拠とし、規模、範囲、複雑性を拡大させることができます。小規模かつ限定的な範囲で迅速なアクションを起こすことで、FinOpsチームはそのアクションの結果を評価し、より大規模、より迅速、より粒度の細かい方法でさらなるアクションを起こす価値について洞察を得ることができます。
+FinOpsを実行するための「クロール、ウォーク、ラン」の成熟度アプローチにより、組織は小さく開始し、ビジネス価値が機能的活動の成熟を正当化するにつれて、規模、スコープ、複雑さを拡大できます。小規模かつ限定されたスコープで迅速に行動を起こすことで、FinOpsチームは行動の結果を評価し、より大規模、迅速、または詳細な方法でさらなる行動をとる価値についての洞察を得ることができます。
 
-詳細については、[**FinOpsフレームワークのFinOps成熟度**]をご覧ください。
+[FinOpsフレームワークにおけるFinOps成熟度](<https://www.finops.org/framework/maturity-model/>)の詳細を参照してください。
 
-[**FinOpsフレームワークのFinOps成熟度**]: https://finops-jp.github.io/ja/docs/framework/maturity-model
+### FinOpsスコープ
 
-## FOCUS：クラウド請求データの統一フォーマット
+FinOpsスコープは、FinOpsプラクティスにおいてステークホルダー、活動、および成果を整合させるための、意思決定のコンテキストと共通の参照基準を確立します。このコンテキストにより、どの[ペルソナ](<http://finops.org/framework/personas>)が関与し、どの[ケイパビリティ](<http://finops.org/framework/capabilities>)が適用され、どの[ドメイン](<http://finops.org/framework/domains>)が成功を定義するかを決定するプラクティスプロファイルの作成が可能になります。
 
-![](https://www.finops.org/wp-content/uploads/2024/08/FOCUS-Flow-Diagram-v2.svg)
+[FinOpsスコープ](<https://www.finops.org/framework/scopes/>)の詳細を参照してください。
 
-FinOps Foundationは、クラウドのコストと使用量の請求データに関するオープンソースの技術仕様の開発を支援しています。[**FinOps Open Cost and Usage Specification(FOCUS)™**]と呼ばれるこの仕様は、クラウドベンダーが一貫性のあるコストと使用量のデータセットを作成するための統一されたフォーマットを定義しています。FOCUSは、FinOps実践者がデータに基づいた意思決定をより簡単に実現し、クラウドのビジネス価値を最大化すると同時に、クラウド、ツール、組織間でFinOps実践者のスキルをより活用できるようにします。
+## FOCUS：テクノロジー価値のための統一言語
 
-**Microsoft Azure**、**Google Cloud**、**Oracle Cloud** Infrastructure（OCI）、Amazon Web Services（**AWS**）などの大手クラウドサービスプロバイダーはすべて、ネイティブコンソールから直接FOCUS形式のコストと使用量の請求データのエクスポートする機能を提供しています。いくつかの[**FinOpsツールベンダー**]もFOCUSデータをサポートし、FOCUS属性とメトリクスを使用してレポートを生成します。
+[![](https://www.finops.org/wp-content/uploads/2025/06/FOCUS-Flow-Diagram-v5.svg)](<https://www.finops.org/wp-content/uploads/2025/06/FOCUS-Flow-Diagram-v5.svg>)
 
-FinOps実践者は、[**各クラウドからFOCUSデータを取得する方法について詳しく学ぶこと**]ができます。
+FinOps Foundationは、テクノロジーの請求データに関するオープンソースの技術仕様の開発をサポートしています。[FinOps Open Cost and Usage Specification（FOCUS™）](<https://focus.finops.org/>)は、データプロバイダーが一貫した請求データセットを生成するための統一フォーマットを定義しています。FOCUSにより、FinOps実践者はデータ駆動型の意思決定をより容易に実現し、テクノロジーのビジネス価値を最大化できるようになります。同時に、クラウド、ツール、組織をまたいでスキルを応用しやすくなります。
 
-[**FinOps Open Cost and Usage Specification(FOCUS)™**]: https://focus.finops.org/
-[**FinOpsツールベンダー**]: https://www.finops.org/landscape/?prod_TOOLS_SERVICES%5Btoggle%5D%5Bis_focus_adopter%5D=true&prod_TOOLS_SERVICES%5BrefinementList%5D%5Bcategories%5D%5B0%5D=FinOps%20Tool
-[**各クラウドからFOCUSデータを取得する方法について詳しく学ぶこと**]: https://focus.finops.org/#obtain
+主要なクラウドサービスプロバイダーである**Microsoft Azure**、**Google Cloud**、**Oracle Cloud** Infrastructure（OCI）、およびAmazon Web Services（**AWS**）はすべて、ネイティブコンソールから直接、FOCUSフォーマットのコストと使用量の請求データエクスポートを提供しています。DatabricksやGrafanaなどのSaaSプロバイダーもこの取り組みに参加し、FinOps実践者による従量課金制の請求データの出力と分析の方法を統一しようとしています。複数の[FinOpsツールベンダー](<https://www.finops.org/landscape/?prod_TOOLS_SERVICES%5BrefinementList%5D%5Bcompliances%5D%5B0%5D=FOCUS%20Adopter>)もFOCUSデータをサポートしており、FOCUSの属性とメトリクスを使用してレポートを生成しています。
+
+FinOps実践者は、[データ生成元からFOCUSデータを取得する方法の詳細](<https://focus.finops.org/get-started/>)を参照できます。

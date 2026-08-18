@@ -68,7 +68,7 @@ As part of this stage, you should gather a comprehensive picture of your technol
   * **Investigate FinOps tooling and service providers** and their relative costs. Consider the existing resources available to you and if procurement of additional resources is needed. 
     * [FinOps Landscape](<http://finops.org/landscape/>)
   * **Estimate funding needed** to support FinOps human resourcing and training. 
-    * [FinOps Foundation Training](</training-certification/>)
+    * [FinOps Foundation Training](<https://www.finops.org/training-certification/>)
 
 Use the information gathered to create a vision statement for FinOps adoption (or adoption of a [new scope](<https://finops.org/framework/scopes>)) and outline the activities that occur, including rough timelines, to bring this vision to life.
 

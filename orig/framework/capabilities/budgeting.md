@@ -1,6 +1,6 @@
 # Budgeting
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Quantify Business Value](<https://www.finops.org/framework/domains/quantify-business-value/>) / Budgeting 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Quantify Business Value](<https://www.finops.org/framework/domains/quantify-business-value/>) / Budgeting 
 
 ## On this page
 

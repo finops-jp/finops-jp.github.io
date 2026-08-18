@@ -464,7 +464,7 @@ _* Roles swap depending on assignment_
 
 ## Intersecting FinOps Capabilities
 
-To build a solid [FinOps Framework](</framework/capabilities/>), capabilities (such as Anomaly Management) don’t work as standalones and have intersections with other capabilities of the Framework. While typically it’s the same team working in most of the capabilities, it’s important to highlight these intersecting points to establish a mature process and governance.
+To build a solid [FinOps Framework](<https://www.finops.org/framework/capabilities/>), capabilities (such as Anomaly Management) don’t work as standalones and have intersections with other capabilities of the Framework. While typically it’s the same team working in most of the capabilities, it’s important to highlight these intersecting points to establish a mature process and governance.
 
 The following table should cover the main intersection points between Anomaly Management and other capabilities, it includes a quick description and which inputs the other capabilities are expecting to receive from Anomaly Management, and what Anomaly Management should be getting.
 

@@ -23,7 +23,7 @@ FinOps and ITAM can work jointly toward a shared goal of maximizing the value th
 
 By translating cost and usage data into actionable intelligence, FinOps enables prioritization and investment choices that directly support business outcomes, product strategy, and customer experience.
 
-See [What is FinOps](</introduction/what-is-finops/>) for further information or take the free [Intro to FinOps Training](<https://learn.finops.org/introduction-to-finops>) if new to this space.
+See [What is FinOps](<https://www.finops.org/introduction/what-is-finops/>) for further information or take the free [Intro to FinOps Training](<https://learn.finops.org/introduction-to-finops>) if new to this space.
 
 **ITAM brings governance, compliance, and contractual accountability.**
 
@@ -224,10 +224,10 @@ FinOps and ITAM not only intersect, but can collaborate to strengthen [FinOps Ca
 
 Once familiar with the intersection of FinOps and ITAM, move on to key scenarios where the collaboration of these two teams can deliver increased technology value.
 
-  * [Plan & Procure](</wg/finops-itam-practical-scenarios-planning-procurement/>)
-  * [Deliver & Govern](</wg/finops-itam-practical-scenarios-deliver-govern/>)
-  * [Optimize & Evolve](</wg/finops-itam-practical-scenarios-optimize-evolve/>)
-  * [Realize Value & Reinvest](</wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
+  * [Plan & Procure](<https://www.finops.org/wg/finops-itam-practical-scenarios-planning-procurement/>)
+  * [Deliver & Govern](<https://www.finops.org/wg/finops-itam-practical-scenarios-deliver-govern/>)
+  * [Optimize & Evolve](<https://www.finops.org/wg/finops-itam-practical-scenarios-optimize-evolve/>)
+  * [Realize Value & Reinvest](<https://www.finops.org/wg/finops-itam-practical-scenarios-realize-value-reinvest/>)
 
 ## Acknowledgments
 

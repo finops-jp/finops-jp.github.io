@@ -1,6 +1,6 @@
 # Executive Strategy Alignment
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Executive Strategy Alignment 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Manage the FinOps Practice](<https://www.finops.org/framework/domains/manage-finops-practice/>) / Executive Strategy Alignment 
 
 ## On this page
 
@@ -16,7 +16,7 @@ This guidance is intended for [executive leaders](<https://www.finops.org/insigh
 
 It is also for FinOps teams partnering with executive leaders to support executive strategy alignment of technology-related spend through clear decision support, shared accountability, and business-relevant measures.
 
-In a FinOps context, this alignment is achieved through [FinOps Scopes](<https://www.finops.org/framework/scopes/>). Executives set strategic business priorities which FinOps practice operationalize within at least one Scope across one or multiple [Technology Categories](</framework/technology-categories>).
+In a FinOps context, this alignment is achieved through [FinOps Scopes](<https://www.finops.org/framework/scopes/>). Executives set strategic business priorities which FinOps practice operationalize within at least one Scope across one or multiple [Technology Categories](<https://www.finops.org/framework/technology-categories>).
 
 ### Executive Priority Alignment
 

@@ -1,5 +1,5 @@
 ---
-title: FinOpsペルソナ
+title: "FinOpsペルソナ"
 description: FinOpsの分野には、さまざまなペルソナが含まれます。それらのペルソナ、その役割、要件について詳しく理解します。
 ---
 

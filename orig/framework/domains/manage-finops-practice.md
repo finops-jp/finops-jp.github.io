@@ -1,6 +1,6 @@
 # Manage the FinOps Practice
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / Manage the FinOps Practice 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / Manage the FinOps Practice 
 
 This Domain enables continuous improvement to change and align the entire organization – its people, processes and technology – to adopt FinOps and use technology in ways that create value for the company.
 

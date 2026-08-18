@@ -60,7 +60,7 @@ Manually look in Azure portal at a list of all snapshots across all subscription
 
 Snapshots created from AMIs that are no longer available. These are no longer being used and so can be removed.
 
-  * [Read the Story](</resource/removing-ami-snapshots/>)
+  * [Read the Story](<https://www.finops.org/resource/removing-ami-snapshots/>)
   * [Code Example](<https://wellarchitectedlabs.com/cost/300_labs/300_optimization_data_collection/3_deploy_data_collection_modules/>)
 
 #### AWS S3 - Multipart Uploads
@@ -93,7 +93,7 @@ Save database costs by configuring serverless-tier (instead of provisioned compu
 
 Failure to purchase org level capacity commitments for BigQuery can result in runaway costs due to on-demand query costs. Purchasing an org level capacity commitment and enabling idle capacity at the org level can ensure stable BigQuery costs across the organization. Consideration also needs to given be to whether the location supports multi-region commitments or if separate commitments will need to be purchased for each region or location where workloads are provisioned.
 
-  * [Read the Story](</resource/runaway-cost-in-bigquery-capacity-commitments/>)
+  * [Read the Story](<https://www.finops.org/resource/runaway-cost-in-bigquery-capacity-commitments/>)
   * [Related Material](<https://cloud.google.com/bigquery/docs/reservations-intro>)
 
 #### CloudWatch
@@ -102,7 +102,7 @@ Failure to purchase org level capacity commitments for BigQuery can result in ru
 
 To reduce ingestion costs, stop ingestion of unnecessary logs. To reduce storage costs, change the retention period for your log groups. To reduce ingested log data scanned for CloudWatch Logs Insights queries, run queries for a shorter duration.
 
-  * [Read the Story](</resource/managing-retention-in-cloudwatch/>)
+  * [Read the Story](<https://www.finops.org/resource/managing-retention-in-cloudwatch/>)
   * [Related Material](<https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-understand-and-reduce-charges/>)
   * [Code Example](<https://wellarchitectedlabs.com/cost/300_labs/300_cur_queries/queries/management__governance/>)
 
@@ -112,7 +112,7 @@ To reduce ingestion costs, stop ingestion of unnecessary logs. To reduce storage
 
 Optimize the structure of queries and tables / databases to limit quantity of data scanned.
 
-  * [Read the Story](</resource/eliminating-waste-in-bigquery/>)
+  * [Read the Story](<https://www.finops.org/resource/eliminating-waste-in-bigquery/>)
 
 #### Dynamo DB Backups
 
@@ -120,7 +120,7 @@ Optimize the structure of queries and tables / databases to limit quantity of da
 
 Check how often you are running full DynamoDB backups; they could be running every 5 minutes with no retention policy. Over time these costs compound. Determine if the business requires this much backup data, if not one option is to switch to a solution of using point-in-time recovery for Dynamo.
 
-  * [Read the Story](</resource/dynamodb-backups-gone-wild/>)
+  * [Read the Story](<https://www.finops.org/resource/dynamodb-backups-gone-wild/>)
   * [Related Material](<https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html>)
 
 #### EBS - Abandoned Volumes
@@ -129,7 +129,7 @@ Check how often you are running full DynamoDB backups; they could be running eve
 
 Scripts can be implemented to scan and terminate unattached EBS volumes. Consider taking snapshots in higher environments before terminating the volumes. Many scripts can be found in github or elsewhere on the Internet.
 
-  * [Read the Story](</resource/the-case-of-too-many-ebs-volumes/>)
+  * [Read the Story](<https://www.finops.org/resource/the-case-of-too-many-ebs-volumes/>)
   * [Related Material](<https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/>)
 
 #### EBS - Migrate to Newer Types
@@ -146,7 +146,7 @@ We saved 20% on some of our EBS costs by migrating from the gp2 to the gp3 EBS v
 
 Provision to balance capacity and requests to prevent inadvertent auto scaling. Leverage [GKE metering](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-usage-metering) and dashboards to understand the profile of workloads and address under- or over-provisioning.
 
-  * [Read the Story](</resource/gke-metering/>)
+  * [Read the Story](<https://www.finops.org/resource/gke-metering/>)
   * [Related Material](<https://cloud.google.com/blog/products/containers-kubernetes/use-gke-usage-metering-to-combat-over-provisioning>)
 
 #### Hybrid Use Benefits
@@ -185,7 +185,7 @@ This type of waste can be identified through Trusted Advisor in the AWS console.
 
 Manually investigate the largest vendor spend. Create scripts that swaps out license sizing and the infrastructure underneath.
 
-  * [Read the Story](</resource/watch-your-licenses/>)
+  * [Read the Story](<https://www.finops.org/resource/watch-your-licenses/>)
   * [Code example](<https://github.com/awslabs/tag-policy-setup/tree/main/scp_policies>)
 
 #### Network Interface Cards (NICs)
@@ -202,7 +202,7 @@ Create a workflow to delete unused Network Interface Cards (NICs) from Azure VMs
 
 Manage object storage lifecycles to move data to nearlline or coldline when infequenlty accessed; remove obsolete versions / duplicates.
 
-  * [Read the Story](</resource/provisioning-storage-in-gcp/>)
+  * [Read the Story](<https://www.finops.org/resource/provisioning-storage-in-gcp/>)
 
 #### Optimizing AWS Athena Costs
 
@@ -210,7 +210,7 @@ Manage object storage lifecycles to move data to nearlline or coldline when infe
 
 One common optimization technique is to partition tables using relevant attributes, such as date or location, to reduce the amount of data scanned. For example, if a table contains daily sales data, partitioning the table by date allows queries to scan only the relevant partitions for a specific date range, rather than scanning the entire table. This can result in major cost savings, as the amount of data scanned is greatly reduced.
 
-  * [Read the Story](</resource/optimizing-aws-athena-costs/>)
+  * [Read the Story](<https://www.finops.org/resource/optimizing-aws-athena-costs/>)
   * [Related Material](<https://docs.aws.amazon.com/athena/latest/ug/ctas-partitioning-and-bucketing.html>)
 
 #### Provisioning Object Storage in AWS
@@ -219,7 +219,7 @@ One common optimization technique is to partition tables using relevant attribut
 
 When using AWS S3 for storage, it’s crucial to consider object versioning and lifecycle management to avoid unnecessary costs. AWS S3 allows for the creation of multiple versions of the same object, and each version will incur additional storage charges. Therefore, it’s important to determine how to manage their lifecycle through different storage classes, including Standard, Intelligent-Tiering, Infrequent Access, and Glacier.
 
-  * [Read the Story](</resource/provisioning-object-storage-in-aws/>)
+  * [Read the Story](<https://www.finops.org/resource/provisioning-object-storage-in-aws/>)
   * [Related Material](<https://docs.aws.amazon.com/AmazonS3/latest/userguide/view-object-properties.html>)
 
 #### Snapshot Lifecycle
@@ -228,7 +228,7 @@ When using AWS S3 for storage, it’s crucial to consider object versioning and 
 
 There are multiple ways to attack a lifecycle of snapshots in general. With EBS, you can use Amazon Data Lifecycle Manager to automate the retention of your snapshots. You can also use a myriad of 3rd party tools to help manage the data lifecycle of snapshots. I recommend first establishing a policy within your organization, communicate & collaborate on the policy, and enforce the policy with the ability to opt out.
 
-  * [Read the Story](</resource/managing-ebs-snapshots/>)
+  * [Read the Story](<https://www.finops.org/resource/managing-ebs-snapshots/>)
   * [Related Material](<https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html>)
 
 #### Start/Stop VMs v2
@@ -253,7 +253,7 @@ Azure portal -> Disks -> Filter where Owner = “-” to list all unattached acr
 
 Unattached EIP cost $0.005 an hour. Over time this can compound into a waste of money. Also if there is something causing these EIPs to be unattached this problem will grow.
 
-  * [Read the Story](</resource/cleaning-up-elastic-ips/>)
+  * [Read the Story](<https://www.finops.org/resource/cleaning-up-elastic-ips/>)
   * [Related Material](<https://aws.amazon.com/premiumsupport/knowledge-center/elastic-ip-charges/>)
   * [Code Example](<https://github.com/Road-To-FinOps-Deploy/aws_tf_eip_cleaner>)
 
@@ -373,4 +373,4 @@ VM’s can be sometimes chosen without proper alignment with the workload. This 
 
 ## Thank you to all our contributors
 
-[ ![Rich Hoyer](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Rich Hoyer SADA ](<https://www.linkedin.com/in/richhoyer/>) [ ![Steph Gooch](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Steph Gooch AWS ](<https://www.linkedin.com/in/awssteph/>) [ ![Eric Mulartrick](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Eric Mulartrick Boomi ](<https://www.linkedin.com/in/eric-mulartrick-mba-1a24744/>) [ ![Dennis Chang](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Dennis Chang Personal Project ](<https://www.linkedin.com/in/dennislchang/>) [ ![Anthony Bothe](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Anthony Bothe Procter & Gamble ](<https://www.linkedin.com/in/ajbothe/>) [ ![Scott Lapish](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Scott Lapish Telus ](<https://www.linkedin.com/in/scott-lapish-14751b1/>) [ ![Joe Daly](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Joe Daly FinOps Foundation ](<https://www.linkedin.com/in/joseph-daly-52789220/>) [ ![Mike Martin](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Mike Martin GLG ](<https://www.linkedin.com/in/michaelmartin1090/>) [ ![Pete Silva](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Pete Silva Yahoo ](<//www.linkedin.com/in/Pete-Silva-1392b92/>) [ ![Noel Crowley](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Noel Crowley Fidelity Investments ](<https://www.linkedin.com/in/noelcrowley/>) [ ![Bhups Hirani](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Bhups Hirani Kainos ](<https://www.linkedin.com/in/bhirani/>) [ ![Andy Foley](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Andy Foley Nationwide Building Society ](<https://www.linkedin.com/in/andyfoley1/>) [ ![Noah Abrahams](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Noah Abrahams Oracle ](<https://www.linkedin.com/in/noahabrahams/>)
+[ ![Rich Hoyer](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Rich Hoyer SADA ](<https://www.linkedin.com/in/richhoyer/>) [ ![Steph Gooch](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Steph Gooch AWS ](<https://www.linkedin.com/in/awssteph/>) [ ![Eric Mulartrick](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Eric Mulartrick Boomi ](<https://www.linkedin.com/in/eric-mulartrick-mba-1a24744/>) [ ![Dennis Chang](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Dennis Chang Personal Project ](<https://www.linkedin.com/in/dennislchang/>) [ ![Anthony Bothe](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Anthony Bothe Procter & Gamble ](<https://www.linkedin.com/in/ajbothe/>) [ ![Scott Lapish](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Scott Lapish Telus ](<https://www.linkedin.com/in/scott-lapish-14751b1/>) [ ![Joe Daly](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Joe Daly FinOps Foundation ](<https://www.linkedin.com/in/joseph-daly-52789220/>) [ ![Mike Martin](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Mike Martin GLG ](<https://www.linkedin.com/in/michaelmartin1090/>) [ ![Pete Silva](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Pete Silva Yahoo ](<https://www.finops.org//www.linkedin.com/in/Pete-Silva-1392b92/>) [ ![Noel Crowley](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Noel Crowley Fidelity Investments ](<https://www.linkedin.com/in/noelcrowley/>) [ ![Bhups Hirani](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Bhups Hirani Kainos ](<https://www.linkedin.com/in/bhirani/>) [ ![Andy Foley](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Andy Foley Nationwide Building Society ](<https://www.linkedin.com/in/andyfoley1/>) [ ![Noah Abrahams](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E) Noah Abrahams Oracle ](<https://www.linkedin.com/in/noahabrahams/>)

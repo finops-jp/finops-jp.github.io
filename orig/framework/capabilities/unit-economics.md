@@ -1,6 +1,6 @@
 # Unit Economics
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Quantify Business Value](<https://www.finops.org/framework/domains/quantify-business-value/>) / Unit Economics 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Quantify Business Value](<https://www.finops.org/framework/domains/quantify-business-value/>) / Unit Economics 
 
 ## On this page
 

@@ -1,5 +1,5 @@
 ---
-title: リーダーシップ
+title: "リーダーシップ"
 description: ""
 ---
 

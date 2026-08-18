@@ -151,11 +151,23 @@ def translate_content(content, glossary, api_key):
     }
 
     url = f"{GEMINI_API_URL}?key={api_key}"
-    response = requests.post(url, headers=headers, json=payload, timeout=120)
+    response = requests.post(url, headers=headers, json=payload, timeout=300)
     response.raise_for_status()
 
     result = response.json()
-    translated = result['candidates'][0]['content']['parts'][0]['text'].strip()
+    
+    # レスポンスのバリデーション
+    candidates = result.get('candidates', [])
+    if not candidates:
+        raise ValueError(f"No candidates in response: {result.get('promptFeedback', result)}")
+    
+    content = candidates[0].get('content', {})
+    parts = content.get('parts', [])
+    if not parts:
+        finish_reason = candidates[0].get('finishReason', 'unknown')
+        raise ValueError(f"No parts in response (finishReason: {finish_reason})")
+    
+    translated = parts[0].get('text', '').strip()
 
     # Markdownコードブロックで囲まれている場合は除去
     if translated.startswith('```markdown'):
@@ -185,7 +197,7 @@ def create_docs_file(key, translated_content, source_url, title):
         doc_title = title or key.split('/')[-1]
 
     frontmatter = f"""---
-title: {doc_title}
+title: "{doc_title}"
 ---
 
 [英語版]: {source_url}
@@ -289,21 +301,34 @@ def main():
     # 翻訳実行
     glossary = load_glossary()
     translated_count = 0
+    concurrency = 5  # 並列数
 
-    print(f"Translating up to {args.max_pages} pages...")
+    print(f"Translating up to {args.max_pages} pages (concurrency: {concurrency})...")
     print(f"Targets available: {len(targets)}")
     print()
 
-    for key in targets[:args.max_pages]:
+    import concurrent.futures
+    import threading
+
+    status_lock = threading.Lock()
+    targets_to_process = targets[:args.max_pages]
+
+    def translate_one(key):
         try:
             success = process_page(key, status, glossary, api_key)
             if success:
-                translated_count += 1
-            # レート制限回避
-            time.sleep(2)
+                with status_lock:
+                    save_status(status)
+            return success
         except Exception as e:
             print(f"  Error translating {key}: {e}")
-            continue
+            return False
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=concurrency) as executor:
+        futures = {executor.submit(translate_one, key): key for key in targets_to_process}
+        for future in concurrent.futures.as_completed(futures):
+            if future.result():
+                translated_count += 1
 
     # ステータス保存
     save_status(status)

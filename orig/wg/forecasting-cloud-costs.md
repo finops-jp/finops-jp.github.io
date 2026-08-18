@@ -17,7 +17,7 @@ Effective forecasting is not solely a financial exercise. It requires collaborat
 
 Fundamentally there is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.
 
-In this section we are going to analyze the challenge around [cloud forecasting](</framework/capabilities/forecasting>) to identify how we can overcome it and we will also provide examples of how companies of different types and [FinOps maturity levels](</framework/phases/>) tackle cloud forecasting.
+In this section we are going to analyze the challenge around [cloud forecasting](<https://www.finops.org/framework/capabilities/forecasting>) to identify how we can overcome it and we will also provide examples of how companies of different types and [FinOps maturity levels](<https://www.finops.org/framework/phases/>) tackle cloud forecasting.
 
 ### What are the challenges with cloud forecasting?
 
@@ -27,13 +27,13 @@ Cloud spend is variable which is inherently difficult to predict. Specifically e
 
 Forecasting cloud-provider consumption as product or service consumption requires specific data and tooling to be consistently available. Billing and reporting from cloud providers is difficult to understand and explain to traditional finance teams.
 
-Workloads need to be clearly defined whether through tagging or account structures so that cost can be [attributed back to them and their owners](</framework/capabilities/chargeback/>).
+Workloads need to be clearly defined whether through tagging or account structures so that cost can be [attributed back to them and their owners](<https://www.finops.org/framework/capabilities/chargeback/>).
 
 ## Breaking the Challenge into Addressable Parts
 
 ### Tagging and Cost Allocation
 
-[Tagging or labeling](</framework/capabilities/cost-allocation/>) is the foundation of telling apart workloads in the cloud, identifying ownership, and attributing costs to teams. Depending on the maturity of the organization, tagging may be manual, use automated tag hygiene monitoring, or integrated in CI/CD pipelines with tag-or-terminate policies in place.
+[Tagging or labeling](<https://www.finops.org/framework/capabilities/cost-allocation/>) is the foundation of telling apart workloads in the cloud, identifying ownership, and attributing costs to teams. Depending on the maturity of the organization, tagging may be manual, use automated tag hygiene monitoring, or integrated in CI/CD pipelines with tag-or-terminate policies in place.
 
 Even in a best case scenario where everything taggable has been tagged in the cloud, not all cloud resources support tagging. This means that untaggable costs, like network traffic, need to be apportioned to the workloads responsible for incurring their cost.
 
@@ -57,7 +57,7 @@ Depending on the maturity of an organization, specific prediction models will be
 
 ### Forecast accuracy
 
-Identifying workloads performing substantially over or under when comparing forecast to actuals. For driver based forecasting identifying why workloads scale differently from their drivers. Layering in [discounts](</framework/capabilities/manage-commitment-based-discounts/>), optimizations, and prepayments.
+Identifying workloads performing substantially over or under when comparing forecast to actuals. For driver based forecasting identifying why workloads scale differently from their drivers. Layering in [discounts](<https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/>), optimizations, and prepayments.
 
 Cloud spend materiality defines where the organization focuses their resources. Lack of cloud forecasting accuracy will not be addressed until it has become a larger problem and has executive attention and sponsorship.
 
@@ -77,7 +77,7 @@ Once a forecast is created FinOps can add value by configuring Budget alerts in 
 
 ### Cost Optimization
 
-You want to analyze your cloud cost and make sure people are [not wasting resources](</framework/capabilities/utilization-efficiency/>). It is best to look at your data and see if there are any improvements that can be made to your infrastructure. This helps in getting an accurate baseline to be able to forecast from.
+You want to analyze your cloud cost and make sure people are [not wasting resources](<https://www.finops.org/framework/capabilities/utilization-efficiency/>). It is best to look at your data and see if there are any improvements that can be made to your infrastructure. This helps in getting an accurate baseline to be able to forecast from.
 
 ### Training and improving maturity
 
@@ -87,7 +87,7 @@ FinOps & Technology training (e.g. cheaper services replacing more expensive one
 
 Here are common FinOps roles and their responsibilities and expectations as they relate to building accurate cloud forecasts.
 
-See also, [_Establishing a FinOps Decision & Accountability Structure_](</framework/capabilities/decision-accountability-structure>)
+See also, [_Establishing a FinOps Decision & Accountability Structure_](<https://www.finops.org/framework/capabilities/decision-accountability-structure>)
 
 ### Executives
 
@@ -199,9 +199,9 @@ Fully loaded costs are amortized, reflect the actual discounted rates a company 
 
 #### Cost allocation
 
-The process of splitting up a cloud bill and [associating the costs to each cost center](</framework/capabilities/cost-allocation/>). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.
+The process of splitting up a cloud bill and [associating the costs to each cost center](<https://www.finops.org/framework/capabilities/cost-allocation/>). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.
 
-See also, _[Shared Costs](</framework/capabilities/manage-shared-cloud-cost/>)_.
+See also, _[Shared Costs](<https://www.finops.org/framework/capabilities/manage-shared-cloud-cost/>)_.
 
 Last updated: March 13, 2026
 

@@ -44,13 +44,13 @@ Check out our [Adopting FinOps asset](<https://www.finops.org/wg/adopting-finops
 
 ### FinOps Principles
 
-[FinOps Principles](</framework/principles/>) create financial accountability through collaboration and drive business value for technology spend.
+[FinOps Principles](<https://www.finops.org/framework/principles/>) create financial accountability through collaboration and drive business value for technology spend.
 
 ### Stakeholder Personas
 
 While a central FinOps function may work to enable organizational change, FinOps is not done by a single person or team but rather changes the way that disparate engineering, finance, and business teams work together. Individuals at every level and in every area of an organization can have a different role to play in the FinOps practice: Executives, Engineers, FinOps Practitioners, Operations, Finance and Procurement.
 
-Read more about [FinOps Personas and Roles.](</framework/personas>)
+Read more about [FinOps Personas and Roles.](<https://www.finops.org/framework/personas>)
 
 ### Maturity Model
 

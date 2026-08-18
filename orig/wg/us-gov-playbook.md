@@ -6,7 +6,7 @@ The U.S. Public Sector FinOps Playbook provides guidance for Federal agencies to
 
 The Government Cloud Market was valued at 14.93 billion in 2019 and is expected to reach 41.86 billion by 2025. With this growing cloud spend, the need to manage, budget, forecast, and optimize grows larger. FinOps, or cloud financial management, enables organizations to get the maximum business value by helping engineering, finance, technology, and business teams collaborate on data-driven spending decisions.
 
-[This U.S. Public Sector FinOps playbook](</wp-content/uploads/2022/10/FinOps-Foundation_US-Gov-Playbook.pdf>) seeks to build upon the existing FinOps framework to assist federal agencies with their cloud spend. In our combined years of experience within various government agencies and/or cloud, we have noticed the attenuation that can occur when procuring and using cloud.
+[This U.S. Public Sector FinOps playbook](<https://www.finops.org/wp-content/uploads/2022/10/FinOps-Foundation_US-Gov-Playbook.pdf>) seeks to build upon the existing FinOps framework to assist federal agencies with their cloud spend. In our combined years of experience within various government agencies and/or cloud, we have noticed the attenuation that can occur when procuring and using cloud.
 
 ![](https://www.finops.org/wp-content/uploads/2022/10/us-gov-playbook.png)
 
@@ -18,7 +18,7 @@ Check back for more information on:
   * Acquisition of cloud for public sector
   * Operating FinOps in a classified / cross classification environment
 
-[Read the Playbook](</wp-content/uploads/2022/10/FinOps-Foundation_US-Gov-Playbook.pdf>)
+[Read the Playbook](<https://www.finops.org/wp-content/uploads/2022/10/FinOps-Foundation_US-Gov-Playbook.pdf>)
 
 ## Acknowledgements
 

@@ -232,9 +232,9 @@ This initial overview of usage optimization should guide you in developing a pro
 
 ### Related FinOps Resources and Framework Capabilities
 
-  * [Resource Utilization & Efficiency:](</framework/capabilities/utilization-efficiency/>) For compute resources, there may be times when it is deemed that for performance or availability gains, average utilization may need to decrease and the extra expense incurred is worth the value creation the resource provides. Or the opposite may be true and performance expectations can be lowered to improve cost. For these decisions to be made, resource utilization, efficiency and cost must be looked at together.
-  * [Cloud Usage Optimization](</framework/domains/cloud-usage-optimization/>)
-  * [Reducing Waste Opportunities](</wg/reducing-waste/>)
+  * [Resource Utilization & Efficiency:](<https://www.finops.org/framework/capabilities/utilization-efficiency/>) For compute resources, there may be times when it is deemed that for performance or availability gains, average utilization may need to decrease and the extra expense incurred is worth the value creation the resource provides. Or the opposite may be true and performance expectations can be lowered to improve cost. For these decisions to be made, resource utilization, efficiency and cost must be looked at together.
+  * [Cloud Usage Optimization](<https://www.finops.org/framework/domains/cloud-usage-optimization/>)
+  * [Reducing Waste Opportunities](<https://www.finops.org/wg/reducing-waste/>)
 
 ### Other FinOps.org or external resources
 

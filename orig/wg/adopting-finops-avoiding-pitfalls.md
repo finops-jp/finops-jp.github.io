@@ -15,7 +15,7 @@ FinOps practitioners must learn the crucial difference between Cost Management (
   * [Conclusion](<#conclusion>)
   * [Acknowledgments](<#acknowledgments>)
 
-This paper aims to be an evolving set of materials to provide practical guidance, education, and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management. See also the first part of this series, [Adopting FinOps: Getting Started](</wg/adopting-finops/>), which includes the Adopting FinOps Pitch Deck, an open slideshow that practitioners can use to start building their case for FinOps.
+This paper aims to be an evolving set of materials to provide practical guidance, education, and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management. See also the first part of this series, [Adopting FinOps: Getting Started](<https://www.finops.org/wg/adopting-finops/>), which includes the Adopting FinOps Pitch Deck, an open slideshow that practitioners can use to start building their case for FinOps.
 
 ### Framing the journey so far
 

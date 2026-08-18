@@ -6,13 +6,13 @@ The Internship Development Working Group curated this set of stories and program
 
 Learn about how the FinOps practitioners at Pearson created an internship project focused on account estimation.
 
-[Read the story](</assets/internship-project-new-account-estimation/>)
+[Read the story](<https://www.finops.org/assets/internship-project-new-account-estimation/>)
 
 #### Creating a High-Visibility FinOps Dashboard at SAP
 
 This internship example helped SAP create high-visibility FinOps dashboards at SAP to improve and strengthen the Data Analysis & Showback Capability.
 
-[Read the story](</assets/internship-project-creating-a-high-visibility-finops-dashboard-at-sap/>)
+[Read the story](<https://www.finops.org/assets/internship-project-creating-a-high-visibility-finops-dashboard-at-sap/>)
 
 ##### Related FinOps Capabilities
 

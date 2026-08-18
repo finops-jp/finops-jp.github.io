@@ -14,12 +14,16 @@
       "/assets/"
     ],
     "excludePatterns": [
-      "/introduction/$"
+      "/introduction/$",
+      "/framework/capabilities/$",
+      "/framework/domains/$",
+      "/framework/$",
+      "/assets/$"
     ]
   },
   "additionalUrls": [
     "/assets/terminology/"
   ],
   "outputDir": "orig",
-  "lastCrawl": "2026-08-17T12:44:21.731600"
+  "lastCrawl": "2026-08-17T16:58:48.140879"
 }

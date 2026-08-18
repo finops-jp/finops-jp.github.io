@@ -1,6 +1,6 @@
 # Quantify Business Value
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / Quantify Business Value 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / Quantify Business Value 
 
 In addition to understanding technology usage and cost, organizations must also develop an understanding of how that cost maps to the value for stakeholders.
 

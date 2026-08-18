@@ -27,7 +27,7 @@ ExecutivesBusiness/Product OwnerEngineers/OperationsFinance/Procurement
 
 CrawlWalkRun
 
-Check out our community documentation on [FinOps Personas](</framework/personas>) and [Maturity Model](</framework/maturity-model>) for more information.  
+Check out our community documentation on [FinOps Personas](<https://www.finops.org/framework/personas>) and [Maturity Model](<https://www.finops.org/framework/maturity-model>) for more information.  
 
 ### application
 

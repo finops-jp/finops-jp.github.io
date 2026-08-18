@@ -1,6 +1,6 @@
 # Planning & Estimating
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / [Quantify Business Value](<https://www.finops.org/framework/domains/quantify-business-value/>) / Planning & Estimating 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / [Quantify Business Value](<https://www.finops.org/framework/domains/quantify-business-value/>) / Planning & Estimating 
 
 ## On this page
 
@@ -88,7 +88,7 @@ Unfortunately, there is no one estimating method that fits all situations. Techn
   * Complex and large scale collection of build patterns and cloud use requires complex estimating
   * Estimates are extremely granular and include several types of shared cost elements, platform costs, support costs, sustainability and policy compliance elements
   * Estimates are created using a variety of pricing models, discount-adjusted, amortized cloud usage pricing
-  * Estimating scenarios support rolling, trend-based and driver-based [Forecasting](</framework/capabilities/forecasting/>) capability
+  * Estimating scenarios support rolling, trend-based and driver-based [Forecasting](<https://www.finops.org/framework/capabilities/forecasting/>) capability
   * Estimates are inclusive of optimization opportunities
   * Estimates aligned to the organization’s allocation constructs being used across the organization for reporting cloud costs
   * Granular estimating visibility (by business unit, cost center, team, product, service, etc …) in the context of organizational KPIs

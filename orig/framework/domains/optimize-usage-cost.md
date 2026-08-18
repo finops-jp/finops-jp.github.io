@@ -1,6 +1,6 @@
 # Optimize Usage & Cost
 
-[Framework](</framework/>) / [Domains](</framework/domains/>) / Optimize Usage & Cost 
+[Framework](<https://www.finops.org/framework/>) / [Domains](<https://www.finops.org/framework/domains/>) / Optimize Usage & Cost 
 
 Activities in this Domain enable value through optimization of technology use in any [FinOps Scopes](<https://www.finops.org/topic/scopes/>) by designing and building systems effectively, reducing waste and unnecessary usage over time, and optimizing rates paid for resources.
 

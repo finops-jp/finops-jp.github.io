@@ -29,8 +29,8 @@ If referencing multiple pieces or general concepts from the Framework you can al
 
 There are a number of community-created Working Group initiatives that contain information to reference. If you do so, examples attributions could be:
 
-  * [Cloud Cost Forecasting Playbook](</wg/cloud-cost-forecasting/>) by [FinOps Foundation](<https://finops.org/>)
-  * [Introduction to Cloud Unit Economics](</wg/introduction-cloud-unit-economics/>) by [FinOps Foundation](<https://finops.org/>)
+  * [Cloud Cost Forecasting Playbook](<https://www.finops.org/wg/cloud-cost-forecasting/>) by [FinOps Foundation](<https://finops.org/>)
+  * [Introduction to Cloud Unit Economics](<https://www.finops.org/wg/introduction-cloud-unit-economics/>) by [FinOps Foundation](<https://finops.org/>)
 
 Citing specific Capabilities from the FinOps Framework could look like:
 
